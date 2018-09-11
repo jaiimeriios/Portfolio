@@ -987,20 +987,18 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .display-1 {
    font-family: "montserrat-medium", sans-serif;
-   font-size: 7.8rem;
-   line-height: 1.25;
+   font-size: 4.1rem;
    color: #000000;
-   margin-top: 0;
+   margin: 1rem 0;
 }
 .display-1--light {
-   color: #FFFFFF;
+   color: #003d5f;
 }
 .display-2 {
-   font-family: "montserrat-medium", sans-serif;
-   font-size: 5.2rem;
-   line-height: 1.255;
-   color: #000000;
-   margin-top: 0;
+  font-family: "montserrat-medium", sans-serif;
+  font-size: 4.1rem;
+  color: #fff;
+  margin: 1rem 0;
 }
 .display-2--light {
    color: #FFFFFF;
@@ -1014,12 +1012,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
    line-height: 1.333;
    text-transform: uppercase;
    letter-spacing: .15rem;
-   color: #1282bd;
+   color: #1483bd;
    margin-top: 0;
    margin-bottom: 0;
 }
 .subhead--dark {
-   color: #abd0e4;
+   color: #1282bd;
 }
 
 /* -------------------------------------------------------------------
@@ -1027,7 +1025,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
    .display-1 {
-      font-size: 6.8rem;
+      font-size: 4rem;
    }
    .display-2 {
       font-size: 4rem;
@@ -1035,18 +1033,18 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 @media only screen and (max-width: 800px) {
    .display-1 {
-      font-size: 6.5rem;
+      font-size: 3.9rem;
    }
    .display-2 {
-      font-size: 3rem;
+      font-size: 3.9rem;
    }
 }
 @media only screen and (max-width: 600px) {
    .display-1 {
-      font-size: 5rem;
+      font-size: 3.9rem;
    }
    .display-2 {
-      font-size: 3.3rem;
+      font-size: 3.9rem;
    }
    .subhead {
       font-size: 1.5rem;
@@ -1054,10 +1052,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 @media only screen and (max-width: 400px) {
    .display-1 {
-      font-size: 4.2rem;
+      font-size: 3.8rem;
    }
    .display-2 {
-      font-size: 3rem;
+      font-size: 3.8rem;
    }
 }
 
@@ -1460,10 +1458,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
    left: 0;
    width: 100%;
    height: 100%;
-   opacity: .4;
-   background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-   background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-   background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+   opacity: .7;
+   background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.85) 100%);
+   background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.85) 100%);
+   background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.85) 100%);
    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
 }
 .s-home .overlay {
@@ -1473,7 +1471,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
    width: 100%;
    height: 100%;
    opacity: .75;
-   background-color: #003d5f;
+   background-color: rgba(0, 61, 95, 0.7);
 }
 .no-js .s-home {
    background: #000000;
@@ -1504,7 +1502,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
   letter-spacing: 0.15rem;
   position: relative;
   margin: 0;
-  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.75);;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.65);;
 }
 .home-content h1 {
   font-family: "montserrat-medium", sans-serif;
@@ -1836,9 +1834,8 @@ html.no-csstransitions .home-content__main {
  * about
  * ------------------------------------------------------------------- */
 .s-about {
-   padding-top: 16.2rem;
-   padding-bottom: 9rem;
-   background-color: #003d5f;
+   padding:10rem 0;
+   background-color: #fff;
    color: #010507;
    position: relative;
 }
@@ -2101,17 +2098,18 @@ html.no-csstransitions .home-content__main {
    padding: 0 0 15rem 0;
    min-height: 800px;
    position: relative;
-   background-image: url("../images/xv.png");
+   /* background-image: url("../images/"); */
 }
 .works-content {
    max-width: 1160px;
-   margin-top: -23rem;
+   margin-top: -20rem;
 }
 .s-works .intro-wrap {
-   padding: 15rem 0 25.2rem;
+   padding: 10rem 0 25rem 0;
    background-image: url('../images/abstract.png');
    background-position: 50% 0;
 }
+
 
 
 .zoomin {
@@ -2177,13 +2175,11 @@ html.no-csstransitions .home-content__main {
 #top-grid .portfolio-items {
   width: 49%;
   margin: 0 0 2rem 0;
-  min-height: 200px;
   background-color: red;
 }
 
 #bot-grid .portfolio-items {
-  width: 33%;
-  min-height: 180px;
+  width: 32%;
   background-color: blue;
 }
 
@@ -2223,7 +2219,7 @@ html.no-csstransitions .home-content__main {
    width: 30px;
    line-height: 30px;
    margin-left: -15px;
-   margin-top: -15px;
+   margin-top: -30px;
    position: absolute;
    left: 50%;
    top: 50%;
