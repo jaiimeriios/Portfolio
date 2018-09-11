@@ -1,3 +1,7 @@
+//  ===================================================================
+//  Particles JS
+//  -------------------------------------------------------------------
+
 (function() {
 
    var width, height, largeHeader, canvas, ctx, circles, target, animateHeader = true;
