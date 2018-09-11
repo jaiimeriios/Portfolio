@@ -2129,16 +2129,72 @@ html.no-csstransitions .home-content__main {
    position: relative;
    background-image: url("../images/xv.png");
 }
+.works-content {
+   max-width: 1160px;
+   margin-top: -23rem;
+}
 .s-works .intro-wrap {
    padding: 15rem 0 25.2rem;
    background-image: url('../images/abstract.png');
    background-position: 50% 0;
 }
-.works-content {
-   max-width: 1160px;
-   margin-top: -23rem;
-}
 
+
+
+
+
+ {
+   -webkit-animation: zoomin 120s infinite linear 1s;
+   animation: zoomin 120s infinite linear 1s;
+}
+@-moz-keyframes zoomin {
+  0% {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  100% {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes zoomin {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes zoomin {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  100% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
 /* -------------------------------------------------------------------
  * bricks/masonry
  * ------------------------------------------------------------------- */
