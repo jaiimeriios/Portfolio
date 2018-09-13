@@ -103,7 +103,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 	margin-bottom: 1.8rem;
 }
 @media only screen and (max-width: 600px) {
-h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+	h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 		margin-top: 5.1rem;
 	}
 }
