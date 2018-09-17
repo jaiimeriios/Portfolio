@@ -1002,19 +1002,16 @@ margin: 1rem 0;
 }
 .display-2--light {
 	color: #FFFFFF;
-}
-.subhead + .display-2 {
-	margin-top: .6rem;
+	text-shadow: 2px 2px 1px #03202f;
 }
 .subhead {
 	font-family: "montserrat-bold", sans-serif;
 	font-size: 1.7rem;
-	line-height: 1.333;
+	line-height: 1;
 	text-transform: uppercase;
-	letter-spacing: .15rem;
+	letter-spacing: .05rem;
 	color: #1483bd;
-	margin-top: 0;
-	margin-bottom: 0;
+	margin: 0;
 }
 .subhead--dark {
 	color: #1282bd;
@@ -1458,10 +1455,9 @@ margin: 1rem 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	opacity: .7;
-	background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.85) 100%);
-	background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.85) 100%);
-	background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.85) 100%);
+	background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+	background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+	background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
 	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
 }
 .s-home .overlay {
@@ -1470,12 +1466,12 @@ margin: 1rem 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	opacity: .75;
 	background-color: rgba(0, 61, 95, 0.7);
 }
 .no-js .s-home {
 	background: #000000;
 }
+ 
 
 /* -------------------------------------------------------------------
 * home content
@@ -1490,7 +1486,7 @@ margin: 1rem 0;
 	top: 0;
 }
 .home-content__main {
-	padding-top: 20rem;
+	padding-top: 18rem;
 	position: relative;
 	text-align: center;
 }
@@ -1506,8 +1502,8 @@ text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.65);;
 }
 .home-content h1 {
 font-family: "montserrat-medium", sans-serif;
-font-size: 12rem;
-margin: 1rem 0 2rem 0;
+font-size: 11rem;
+margin: 0 0 1rem 0;
 color: #FFFFFF;
 text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.75);
 }
@@ -1552,56 +1548,46 @@ margin: 20rem 0 0 0;
 	display: inline-block;
 }
 .home-content__scroll a::before {
-content: '\f107';
-color: #fff;
-font-size: 20px;
-text-shadow: 0 -2px 0 rgba(0, 0, 0, 0.9);
-font-family: FontAwesome;
-position: relative;
--moz-animation: scroll 1.5s infinite ease-in-out;
--webkit-animation: scroll 1.5s infinite ease-in-out;
-animation: scroll 2.2s infinite ease-in-out;
+	content: '\f107';
+	color: #fff;
+	font-size: 20px;
+	text-shadow: 0 -2px 0 rgba(0, 0, 0, 0.9);
+	font-family: FontAwesome;
+	position: relative;
+	-moz-animation: scroll 2.2 infinite ease-in-out;
+	-webkit-animation: scroll 2.2s infinite ease-in-out;
+	animation: scroll 2.2s infinite ease-in-out;
 }
-
 @-moz-keyframes scroll {
-0% {
-opacity: 1;
-top: 0;
-}
-100% {
-opacity: 0;
-top: 30px;
-}
+	0% {
+		opacity: 1;
+		top: 0;
+	}
+	100% {
+		opacity: 0;
+		top: 30px;
+	}
 }
 @-webkit-keyframes scroll {
-0% {
-opacity: 1;
-top: 0;
-}
-100% {
-opacity: 0;
-top: 30px;
-}
+	0% {
+		opacity: 1;
+		top: 0;
+	}
+	100% {
+		opacity: 0;
+		top: 30px;
+	}
 }
 @keyframes scroll {
-0% {
-opacity: 1;
-top: 0;
+	0% {
+		opacity: 1;
+		top: 0;
+	}
+	100% {
+		opacity: 0;
+		top: 30px;
+	}
 }
-100% {
-opacity: 0;
-top: 30px;
-}
-}
-
-
-
-
-
-
-
-
-
 
 /* animate .home-content__main ----------------------------------------- */
 html.cl-preload .home-content__main {
@@ -1678,7 +1664,7 @@ html.no-csstransitions .home-content__main {
 * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1500px) {
 	.home-content h1 {
-	font-size: 12rem;
+	font-size: 11rem;
 	text-shadow: 3px 3px 0 #072a3e;
 	}
 	.home-content__main {
@@ -1687,7 +1673,7 @@ html.no-csstransitions .home-content__main {
 }
 @media only screen and (max-width: 1200px) {
 	.home-content h1 {
-	font-size: 11rem;
+	font-size: 10.5rem;
 	}
 	.home-content h2 {
 	font-size: 2.5rem;
@@ -1700,6 +1686,7 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 1000px) {
 	.home-content h1 {
 	font-size: 10rem;
+	margin: 1rem 0 2rem 0;
 	}
 	.home-content h2 {
 	font-size: 2.2rem;
@@ -1752,13 +1739,11 @@ html.no-csstransitions .home-content__main {
 	.home-content__scroll {
 	right: 7.5rem;
 	}
-	.home-content__line {
-	right: 5.5rem;
-	}
 }
 @media only screen and (max-width: 600px) {
 	.home-content h1 {
 	font-size: 7rem;
+	margin: 2rem 0 3rem 0;
 	}
 	.home-content h2 {
 	font-size: 1.8rem;
@@ -1840,7 +1825,7 @@ html.no-csstransitions .home-content__main {
 	position: relative;
 }
 .s-about .section-header.has-bottom-sep::before {
-	background-color: rgba(255, 255, 255, 0.25);
+	background-color: rgba(0, 0, 0, 0.05);
 }
 .about-desc {
 	font-size: 2.4rem;
@@ -1884,15 +1869,6 @@ html.no-csstransitions .home-content__main {
 	line-height: 1.333;
 	position: relative;
 }
-.about__line {
-	display: block;
-	width: 2px;
-	height: 10.2rem;
-	background-color: #FFFFFF;
-	position: absolute;
-	right: 7.2rem;
-	top: 0;
-}
 
 /* -------------------------------------------------------------------
 * responsive: about
@@ -1931,11 +1907,7 @@ html.no-csstransitions .home-content__main {
 	margin-top: 1.2rem;
 	}
 }
-@media only screen and (max-width: 700px) {
-	.about__line {
-	right: 5.5rem;
-	}
-}
+
 @media only screen and (max-width: 600px) {
 	.s-about {
 	padding-top: 12rem;
@@ -1969,9 +1941,6 @@ html.no-csstransitions .home-content__main {
 	.stats__col:nth-child(n) {
 	border: none;
 	}
-	.about__line {
-	height: 7.2rem;
-	}
 }
 @media only screen and (max-width: 400px) {
 	.about-desc {
@@ -1986,11 +1955,10 @@ html.no-csstransitions .home-content__main {
 * services
 * ------------------------------------------------------------------- */
 .s-services {
-	padding-top: 16.2rem;
-	padding-bottom: 13.2rem;
-	background-color: #FFFFFF;
-	color: #757575;
-	position: relative;
+	padding: 10rem 0;
+    background-color: #fff;
+    color: #010507;
+    position: relative;
 }
 
 /* -------------------------------------------------------------------
@@ -2094,75 +2062,23 @@ html.no-csstransitions .home-content__main {
 * works
 * ------------------------------------------------------------------- */
 .s-works {
-	background: #FFFFFF;
 	padding: 0 0 15rem 0;
 	min-height: 800px;
 	position: relative;
+	background: #003d5f;
+	background: -moz-linear-gradient(top, #003d5f, #051d2b 100%);
+	background: -webkit-linear-gradient(top, #003d5f, #051d2b 100%);
+	background: linear-gradient(to bottom, #003d5f, #051d2b 100%)
 	/* background-image: url("../images/"); */
 }
 .works-content {
 	max-width: 1160px;
-	margin-top: -20rem;
+	margin-top: 0;
 }
 .s-works .intro-wrap {
-	padding: 10rem 0 25rem 0;
-	background-image: url('../images/abstract.png');
-	background-position: 50% 0;
-}
-
-
-
-.zoomin {
-	-webkit-animation: zoomin 120s infinite linear 1s;
-	animation: zoomin 120s infinite linear 1s;
-}
-@-moz-keyframes zoomin {
-0% {
--moz-transform: scale(1);
-transform: scale(1);
-}
-50% {
--moz-transform: scale(1.5);
-transform: scale(1.5);
-}
-100% {
--moz-transform: scale(1);
-transform: scale(1);
-}
-}
-@-webkit-keyframes zoomin {
-0% {
--webkit-transform: scale(1);
-transform: scale(1);
-}
-50% {
--webkit-transform: scale(1.5);
-transform: scale(1.5);
-}
-100% {
--webkit-transform: scale(1);
-transform: scale(1);
-}
-}
-@keyframes zoomin {
-0% {
--moz-transform: scale(1);
--ms-transform: scale(1);
--webkit-transform: scale(1);
-transform: scale(1);
-}
-50% {
--moz-transform: scale(1.5);
--ms-transform: scale(1.5);
--webkit-transform: scale(1.5);
-transform: scale(1.5);
-}
-100% {
--moz-transform: scale(1);
--ms-transform: scale(1);
--webkit-transform: scale(1);
-transform: scale(1);
-}
+	padding: 10rem 0 5rem 0;
+	/* background-image: url('../images/abstract.png');
+	background-position: 50% 0; */
 }
 
 /* -------------------------------------------------------------------
@@ -2715,23 +2631,18 @@ background-color: blue;
 * contact
 * ------------------------------------------------------------------- */
 .s-contact {
-	background-color: #151515;
-	background-image: url("");
-	background-repeat: no-repeat;
-	background-position: center, center;
-	padding-top: 15rem;
-	padding-bottom: 12rem;
-	color: rgba(255, 255, 255, 0.5);
+	padding: 10rem 0;
+	color: #fff;
 	position: relative;
+	background: #003d5f;
+	background: -moz-linear-gradient(top, #003d5f, #051d2b 100%);
+	background: -webkit-linear-gradient(top, #003d5f, #051d2b 100%);
+	background: linear-gradient(to bottom, #003d5f, #051d2b 100%)
 }
-.s-contact .overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
+.contact-primary {
 	width: 100%;
-	height: 100%;
-	opacity: .8;
-	background-color: #151515;
+	padding: 0 5rem;
+	margin-top: -1.5rem;
 }
 .s-contact .form-field {
 	position: relative;
@@ -2765,18 +2676,8 @@ background-color: blue;
 	border-bottom: 5px solid transparent;
 	border-right: 5px solid #003d5f;
 }
-.contact__line {
-	display: block;
-	width: 2px;
-	height: 20.4rem;
-	background-color: #003d5f;
-	position: absolute;
-	left: 50%;
-	top: -10.2rem;
-	margin-left: -1px;
-}
 .contact-content {
-	max-width: 1000px;
+	max-width: 750px;
 	background-color: rgba(0, 0, 0, 0.2);
 	color: rgba(255, 255, 255, 0.4);
 	padding-top: 6rem;
@@ -2849,58 +2750,6 @@ background-color: blue;
 .contact-content select.placeholder,
 .contact-content textarea.placeholder {
 	color: #4f4f4f !important;
-}
-.contact-primary, .contact-secondary {
-	float: left;
-	padding: 0 5rem;
-}
-.contact-primary {
-	width: 65%;
-}
-.contact-primary #contactForm {
-	margin-top: -1.5rem;
-}
-.contact-secondary {
-	width: 35%;
-}
-.contact-secondary::before {
-	content: "";
-	display: block;
-	width: 35%;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	background-color: #121212;
-}
-.contact-secondary .contact-info {
-	position: relative;
-}
-.contact-secondary .cinfo {
-	margin-bottom: 4.8rem;
-}
-.contact-social {
-	list-style: none;
-	display: block;
-	margin: 0 auto;
-	text-align: center;
-	font-size: 3rem;
-	clear: both;
-}
-.contact-social li {
-	margin: 0 0.6em;
-	padding-left: 0;
-	display: inline-block;
-}
-.contact-social li a {
-	color: white;
-}
-.contact-social li a:hover,
-.contact-social li a:focus {
-	color: #39b54a;
-}
-.contact-social li:last-child {
-	margin: 0;
 }
 .message-warning, .message-success {
 	display: none;
@@ -3008,12 +2857,12 @@ background-color: blue;
 * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
 	.contact-content {
-	max-width: 900px;
+	max-width: 700px;
 	}
 }
 @media only screen and (max-width: 1000px) {
 	.contact-content {
-	max-width: 700px;
+	max-width: 650px;
 	}
 	.contact-primary, .contact-secondary {
 	float: none;
@@ -3042,10 +2891,6 @@ background-color: blue;
 	.s-contact {
 	padding-top: 12rem;
 	padding-bottom: 0;
-	}
-	.contact__line {
-	height: 14.4rem;
-	top: -7.2rem;
 	}
 	.contact-content {
 	padding-bottom: 12rem;
@@ -3175,6 +3020,27 @@ footer .row {
 	padding-right: 6px;
 }
 
+
+.contact-footer {
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 3rem;
+	clear: both;
+}
+.contact-footer li {
+	margin: 0 0.6em;
+	padding-left: 0;
+	display: inline-block;
+}
+.contact-footer li a {
+	color: white;
+}
+.contact-footer li a:hover,
+.contact-footer li a:focus {
+	color: #39b54a;
+}
 /* ---------------------------------------------------------------
 * footer bottom
 * --------------------------------------------------------------- */
