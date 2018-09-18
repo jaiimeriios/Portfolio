@@ -2681,7 +2681,7 @@ background-color: blue;
 	padding: 0 2rem;
 	margin: 0;
 	color: #FFFFFF;
-	background: #003d5f;
+	background: #b53939;
 }
 .s-contact .form-field label::after {
 	content: "";
@@ -2691,7 +2691,7 @@ background-color: blue;
 	margin-top: -6px;
 	border-top: 5px solid transparent;
 	border-bottom: 5px solid transparent;
-	border-right: 5px solid #003d5f;
+	border-right: 5px solid #b53939;
 }
 .contact-content {
 	max-width: 750px;
@@ -2705,8 +2705,8 @@ background-color: blue;
 	position: relative;
 }
 .contact-content h3 {
-	margin-top: 0;
-	margin-bottom: 6.6rem;
+	margin: 0 0 5.5rem 0;
+	text-align: center;
 	color: #FFFFFF;
 }
 .contact-content h5 {
@@ -2776,6 +2776,7 @@ background-color: blue;
 	padding: 3rem;
 	margin-bottom: 3.6rem;
 	width: 100%;
+	text-align: center;
 }
 .message-warning {
 	color: #ff6163;
@@ -2934,7 +2935,19 @@ footer {
 	line-height: 2;
 	text-align: center;
 	color: #abd0e4;
+	position: relative;
+	overflow: hidden;
 }
+.footer-main {
+	text-align: left;
+}
+.footer-main .left {
+	padding-right: 40px;
+}
+.footer-main .right {
+	padding-left: 40px;
+}
+
 footer h4 {
 	color: #FFFFFF;
 	font-size: 1.6rem;
@@ -2950,94 +2963,8 @@ footer a:hover, footer a:focus, footer a:active {
 }
 footer .row {
 	max-width: 980px;
-}
-
-/* ---------------------------------------------------------------
-* footer main
-* --------------------------------------------------------------- */
-.footer-main {
-	text-align: left;
-}
-.footer-main .left {
-	padding-right: 40px;
-}
-.footer-main .right {
-	padding-left: 40px;
-}
-.footer-logo {
-	display: block;
-	margin: -.6rem 0 3.6rem 0;
-	padding: 0;
-	outline: 0;
-	border: none;
-	width: 85px;
-	height: 28px;
-	background: url("../images/logo-footer.png") no-repeat center;
-	background-size: 85px 28px;
-	font: 0/0 a;
-	text-shadow: none;
-	color: transparent;
-	-webkit-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-.footer-subscribe .subscribe-form {
-	margin: 0;
-	padding: 0;
 	position: relative;
 }
-.footer-subscribe #mc-form {
-	width: 100%;
-}
-.footer-subscribe #mc-form input[type="email"] {
-	width: 100%;
-	height: 5.4rem;
-	padding: 1.2rem 160px 1.2rem 60px;
-	background: url(../images/email-icon.png) 20px center no-repeat, rgba(0, 0, 0, 0.1);
-	background-size: 24px 16px, auto;
-	border: none;
-	margin-bottom: 1.8rem;
-	color: rgba(255, 255, 255, 0.5);
-}
-.footer-subscribe #mc-form input[type="email"]:focus {
-	color: #FFFFFF;
-}
-.footer-subscribe #mc-form input[type="email"]::-webkit-input-placeholder {
-	color: rgba(255, 255, 255, 0.2);
-}
-.footer-subscribe #mc-form input[type="email"]:-moz-placeholder {
-	color: rgba(255, 255, 255, 0.2);
-	/* Firefox 18- */
-}
-.footer-subscribe #mc-form input[type="email"]::-moz-placeholder {
-	color: rgba(255, 255, 255, 0.2);
-	/* Firefox 19+ */
-}
-.footer-subscribe #mc-form input[type="email"]:-ms-input-placeholder {
-	color: rgba(255, 255, 255, 0.2);
-}
-.footer-subscribe #mc-form input[type="email"].placeholder {
-	color: rgba(255, 255, 255, 0.2) !important;
-}
-.footer-subscribe #mc-form input[type=submit] {
-	position: absolute;
-	top: 0;
-	right: 0;
-	color: #FFFFFF;
-	background: #003d5f;
-	border-color: #003d5f;
-	padding: 0 20px;
-}
-.footer-subscribe #mc-form label {
-	color: #FFFFFF;
-	font-family: "montserrat-regular", sans-serif;
-	font-size: 1.3rem;
-	padding: 0 2rem;
-}
-.footer-subscribe #mc-form label i {
-	padding-right: 6px;
-}
-
-
 .contact-footer {
 	list-style: none;
 	display: block;
@@ -3058,6 +2985,7 @@ footer .row {
 .contact-footer li a:focus {
 	color: #39b54a;
 }
+
 /* ---------------------------------------------------------------
 * footer bottom
 * --------------------------------------------------------------- */
@@ -3079,6 +3007,69 @@ footer .row {
 	display: none;
 }
 
+
+
+
+
+
+
+.bot {
+	position: relative;
+	padding: 5rem 0;
+	overflow: hidden;
+}
+.zomin {
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+	background-position: center;
+	background-image: url(../images/abstract.png);
+	-webkit-animation: zoom 100s infinite ease-out both;
+	animation: zoom 100s ease-out infinite both;
+}
+
+@-webkit-keyframes zoom {
+	0% {
+	  -webkit-transform: scale(1) translateY(0);
+				 transform: scale(1) translateY(0);
+	  -webkit-transform-origin: 50% 16%;
+				 transform-origin: 50% 16%;
+	}
+	50% {
+	  -webkit-transform: scale(1.25) translateY(-15px);
+				 transform: scale(1.25) translateY(-15px);
+	  -webkit-transform-origin: top;
+				 transform-origin: top;
+	}
+	100% {
+		-webkit-transform: scale(1) translateY(0);
+				  transform: scale(1) translateY(0);
+		-webkit-transform-origin: top;
+				  transform-origin: top;
+	 }
+ }
+ @keyframes zoom {
+	0% {
+	  -webkit-transform: scale(1) translateY(0);
+				 transform: scale(1) translateY(0);
+	  -webkit-transform-origin: 50% 16%;
+				 transform-origin: 50% 16%;
+	}
+	50% {
+		-webkit-transform: scale(1.25) translateY(-15px);
+				  transform: scale(1.25) translateY(-15px);
+		-webkit-transform-origin: top;
+				  transform-origin: top;
+	 }
+	 100% {
+		 -webkit-transform: scale(1) translateY(0);
+					transform: scale(1) translateY(0);
+		 -webkit-transform-origin: top;
+					transform-origin: top;
+	  }
+ }
 /* -------------------------------------------------------------------
 * go to top
 * ------------------------------------------------------------------- */
