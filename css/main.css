@@ -3173,3 +3173,153 @@ footer .row {
 	padding-left: 0;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+/* ===================================================================
+* portfolio home navbar
+* ------------------------------------------------------------------- */
+#navbar {
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	text-align: center;
+	width: 100%;
+	display:block;
+	transition: top 0.3s;
+	background-color:rgba(3, 50, 76, 0.95);
+ }
+ #navbar span {
+	font-family: "montserrat-regular", sans-serif;
+	font-size: .85em;
+ }
+ #navbar a {
+	 display: inline-block;
+	 width: 100%;;
+	 font-family: "montserrat-light", sans-serif;
+	 font-size: 1em;
+	 padding: 1.6rem 5rem;
+	color: #f2f2f2;
+	text-decoration: none;
+ }
+
+ #navbar a:hover {
+	color: #39b54a;
+	background-color: #003d5f;
+ }
+
+
+/* ===================================================================
+* portfolio
+* ------------------------------------------------------------------- */
+#portfolio {
+	padding: 10rem 0;
+   background-color: #fff;
+   color: #010507;
+   position: relative;
+}
+
+/* -------------------------------------------------------------------
+* portfolio
+* ------------------------------------------------------------------- */
+.services-list {
+	margin-top: 6rem;
+}
+.services-list .service-item {
+	margin-bottom: .9rem;
+}
+.services-list .service-item h3 {
+	margin-top: 0;
+}
+.services-list .service-item:nth-child(2n+1) {
+	padding-right: 50px;
+}
+.services-list .service-item:nth-child(2n+2) {
+	padding-left: 50px;
+}
+.services-list .service-text {
+	margin-left: 7.8rem;
+}
+.services-list .service-icon {
+	float: left;
+	color: #003d5f;
+	font-size: 4.8rem;
+	margin-top: -.6rem;
+}
+
+/* -------------------------------------------------------------------
+* responsive: portfolio
+* ------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+	.services-list {
+		max-width: 1000px;
+	}
+	.services-list .service-item:nth-child(2n+1) {
+		padding-right: 30px;
+	}
+	.services-list .service-item:nth-child(2n+2) {
+	padding-left: 30px;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.services-list h3 {
+	font-size: 2.5rem;
+	}
+	.services-list .service-item:nth-child(2n+1) {
+	padding-right: 20px;
+	}
+	.services-list .service-item:nth-child(2n+2) {
+	padding-left: 20px;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.services-list {
+	margin-top: 4.2rem;
+	max-width: 500px;
+	text-align: center;
+	}
+	.services-list .service-item:nth-child(n) {
+	padding-right: 15px;
+	padding-left: 15px;
+	}
+	.services-list h3 {
+	font-size: 3rem;
+	}
+	.services-list .service-text {
+	margin-left: 0;
+	}
+	.services-list .service-icon {
+	font-size: 4.5rem;
+	float: none;
+	margin-top: 0;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.s-services {
+	padding-top: 12rem;
+	}
+	.services-list .service-item:nth-child(n) {
+	padding-right: 10px;
+	padding-left: 10px;
+	}
+	.services-list h3 {
+	font-size: 2.5rem;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.services-list .service-item:nth-child(n) {
+	padding-right: 0;
+	padding-left: 0;
+	}
+	.services-list h3 {
+	font-size: 2.5rem;
+	}
+}
