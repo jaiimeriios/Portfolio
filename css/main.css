@@ -1814,12 +1814,12 @@ html.no-csstransitions .home-content__main {
 * ------------------------------------------------------------------- */
 .s-about {
 	padding:10rem 0;
-	background-color: #fff;
+	background-color: #003d5f;
 	color: #010507;
 	position: relative;
 }
 .s-about .section-header.has-bottom-sep::before {
-	background-color: rgba(0, 0, 0, 0.05);
+	background-color: rgba(255, 255, 255, 0.08);
 }
 .about-desc {
 	font-size: 2.4rem;
@@ -2055,7 +2055,7 @@ html.no-csstransitions .home-content__main {
 * works
 * ------------------------------------------------------------------- */
 .s-works {
-	padding: 0 0 15rem 0;
+	padding: 10 0 15rem 0;
 	min-height: 800px;
 	position: relative;
 	background: #003d5f;
