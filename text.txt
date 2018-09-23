@@ -1,15 +1,22 @@
 I’m a Web Designer with a focus on UX Design and Fontend Development. I design, craft products and visual experiences based on a deep understanding of customer needs.
 
+Main area of my expertise is front end development and everything related with this side of web.
+
+
+
 Having gained experience working closely with teams to turn ideas into products, I’ve established a focus on a simple and refined process.
 
-Experienced with clients ranging from large corporations to solo entrepreneurs, including: Imprezzio, Telect, Xpensable, MarketVision, NormandyWMS and Arevo Health.
+
+
 
 Minimal principles are the basis to my work, with a well thought out theory behind them. The focus of my work varies between mediums ranging from; user experience and interfaces, web design and development, branding, typography and print.
 
 My belief and passion for feedback and discussions on design helps maintain multiple perspectives – seeing it as the key to working agile and efficiently – resulting in refined outcomes.
 
 
-Main area of my expertise is front end development and everything related with this side of web.   HTML,CSS, JS (ES5,ES6), building small & medium Web Apps, Angular , Vue.js, building custom plugins, features, animations and just coding layouts.
+
+
+HTML,CSS, JS (ES5,ES6), building small & medium Web Apps, Angular , Vue.js, building custom plugins, features, animations and just coding layouts.
 
 Often I work as a full-stack develeoper  – mainly in Lamp environment, PHP and open source CMS’s like (WordPress, Drupal, Magento, Typo 3 etc..) . I have also some experience with Node.js,  Mongo DB (Keystone.JS).
 

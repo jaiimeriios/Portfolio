@@ -1829,11 +1829,13 @@ html.no-csstransitions .home-content__main {
 }
 p.about {
 	font-family: "montserrat-extralight", sans-serif;
-	font-size: 1em;
+	font-size: 1.2em;
 	color: rgba(255, 255, 255, 0.85);
+	line-height: 1.4em;
+	text-shadow: 1px 1px 0 #03202f;
 }
 .service-about {
-	width: 70%;
+	max-width: 1000px;
 	margin: 4rem auto 0 auto;
 }
 p.about-service {
@@ -1869,8 +1871,6 @@ p.about-service {
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
-
-
 .stats h5 {
 	font-family: "montserrat-semibold", sans-serif;
 	margin-top: 1.8rem;
@@ -1916,6 +1916,14 @@ p.about-service {
 	.stats h5 {
 		margin-top: 1.2rem;
 	}
+	p.about {
+		margin: 0;
+	}
+	p.about-service {
+		text-align: center;
+		font-size: 1.3em;
+	}
+	
 }
 @media only screen and (max-width: 600px) {
 	.s-about {
