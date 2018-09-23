@@ -2055,7 +2055,7 @@ html.no-csstransitions .home-content__main {
 * works
 * ------------------------------------------------------------------- */
 .s-works {
-	padding: 10 0 15rem 0;
+	padding: 10rem 0 15rem 0;
 	min-height: 800px;
 	position: relative;
 	background: #003d5f;
@@ -2068,7 +2068,7 @@ html.no-csstransitions .home-content__main {
 	margin-top: 0;
 }
 .s-works .intro-wrap {
-	padding: 10rem 0 5rem 0;
+	padding: 2rem 0 5rem 0;
 }
 
 /* -------------------------------------------------------------------
@@ -2079,11 +2079,11 @@ html.no-csstransitions .home-content__main {
 	justify-content: space-between;
 }
 #top-grid .portfolio-items {
-	width: 49%;
-	margin: 0 0 2rem 0;
+	width: 49.5%;
+	margin: 0 0 1rem 0;
 }
 #bot-grid .portfolio-items {
-	width: 32%;
+	width: 32.7%;
 }
 .portfolio-item {
 	position: relative;
