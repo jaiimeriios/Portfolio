@@ -1525,9 +1525,9 @@ margin: 1rem 0;
 	text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.75);
 }
 .home-content h2 {
-	font-family: "lora-regular", sans-serif;
-	font-size: 2.6rem;
-	line-height: 3.6rem;
+	font-family: "montserrat-extralight", sans-serif;
+	font-size: 3rem;
+	line-height: 4.2rem;
 	color: #ffffff;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
@@ -1827,6 +1827,20 @@ html.no-csstransitions .home-content__main {
 	text-align: center;
 	max-width: 1024px;
 }
+p.about {
+	font-family: "montserrat-extralight", sans-serif;
+	font-size: 1em;
+	color: rgba(255, 255, 255, 0.85);
+}
+.service-about {
+	width: 70%;
+	margin: 4rem auto 0 auto;
+}
+p.about-service {
+	font-family: "montserrat-extralight", sans-serif;
+	font-size: 1.1em;
+	color: rgba(255, 255, 255, 0.85);
+}
 
 /* -------------------------------------------------------------------
 * about stats
@@ -1855,6 +1869,8 @@ html.no-csstransitions .home-content__main {
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
+
+
 .stats h5 {
 	font-family: "montserrat-semibold", sans-serif;
 	margin-top: 1.8rem;
@@ -1952,7 +1968,16 @@ html.no-csstransitions .home-content__main {
 	background-color: #fff;
 	color: #010507;
 	position: relative;
-	}
+}
+.services-help {
+	width: 94%;
+	margin: 2rem auto 0 auto;
+	max-width: 1140px;
+}
+.services-help h5 {
+	margin: 1rem 0 0 0;
+	font-size: 1.8rem;
+}
 
 /* -------------------------------------------------------------------
 * services list
@@ -1981,6 +2006,10 @@ html.no-csstransitions .home-content__main {
 	font-size: 4.8rem;
 	margin-top: -.6rem;
 }
+p.skills {
+	font-family: "montserrat-light", sans-serif;
+	font-size: 1.8rem;
+}
 
 /* -------------------------------------------------------------------
 * responsive: services
@@ -2008,6 +2037,12 @@ html.no-csstransitions .home-content__main {
 	}
 }
 @media only screen and (max-width: 800px) {
+	.services-help {
+		margin-top: 4.2rem;
+		max-width: 500px;
+		text-align: center;
+
+	}
 	.services-list {
 		margin-top: 4.2rem;
 		max-width: 500px;
@@ -2028,6 +2063,9 @@ html.no-csstransitions .home-content__main {
 		float: none;
 		margin-top: 0;
 	}
+
+
+
 }
 @media only screen and (max-width: 600px) {
 	.s-services {
