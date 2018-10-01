@@ -2114,6 +2114,7 @@ p.about {
 .self-txt{
 	width: 64%;
 	float: right;
+	padding: 2rem 0 0 2rem
 }
 img.self {
 	opacity: 0.25;
@@ -2176,6 +2177,7 @@ p.self {
 	.self-txt {
 		width: 94%;
 		float: none;
+		padding: 0;
 	}
 	p.self {
 		margin: 0;
