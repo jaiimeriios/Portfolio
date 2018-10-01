@@ -2036,10 +2036,6 @@ html.no-csstransitions .home-content__main {
 	}
 }
 
-
-
-
-
 /* ===================================================================
 * about
 * ------------------------------------------------------------------- */
@@ -2053,26 +2049,15 @@ html.no-csstransitions .home-content__main {
 	background-color: rgba(255, 255, 255, 0.08);
 }
 .about-desc {
-	font-size: 2.4rem;
-	line-height: 1.75;
-	text-align: center;
 	max-width: 1024px;
 }
 p.about {
 	font-family: "montserrat-extralight", sans-serif;
-	font-size: 1.2em;
+	font-size: 3rem;
+	text-align: center;
 	color: rgba(255, 255, 255, 0.85);
 	line-height: 1.4em;
 	text-shadow: 1px 1px 0 #03202f;
-}
-.service-about {
-	max-width: 1000px;
-	margin: 4rem auto 0 auto;
-}
-p.about-service {
-	font-family: "montserrat-extralight", sans-serif;
-	font-size: 1.1em;
-	color: rgba(255, 255, 255, 0.85);
 }
 
 /* -------------------------------------------------------------------
@@ -2247,7 +2232,7 @@ p.about-service {
 }
 p.skills {
 	font-family: "montserrat-light", sans-serif;
-	font-size: 1.8rem;
+	font-size: 2rem;
 }
 
 /* -------------------------------------------------------------------
@@ -2883,9 +2868,8 @@ footer .row {
 	height: 60px;
 	width: 60px;
 	line-height: 60px;
-	text-align: center;
 	background: #000;
-	color: rgba(255, 255, 255, 0.5);
+	color: #39b54a;
 	text-align: center;
 	text-transform: uppercase;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -3038,6 +3022,7 @@ footer .row {
 }
 .services-list .service-item h3 {
 	margin-top: 0;
+	color: #1483bd;
 }
 .services-list .service-item:nth-child(2n+1) {
 	padding-right: 50px;
