@@ -1047,29 +1047,29 @@ margin: 1rem 0;
 }
 @media only screen and (max-width: 800px) {
 	.display-1 {
-		font-size: 3.9rem;
+		font-size: 3.5rem;
 	}
 	.display-2 {
-		font-size: 3.9rem;
+		font-size: 3.5rem;
 	}
 }
 @media only screen and (max-width: 600px) {
 	.display-1 {
-		font-size: 3.9rem;
+		font-size: 3rem;
 	}
 	.display-2 {
-		font-size: 3.9rem;
+		font-size: 3rem;
 	}
 	.subhead {
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 	}
 }
 @media only screen and (max-width: 400px) {
 	.display-1 {
-		font-size: 3.8rem;
+		font-size: 2.5rem;
 	}
 	.display-2 {
-		font-size: 3.8rem;
+		font-size: 2.5rem;
 	}
 }
 
@@ -1489,7 +1489,6 @@ margin: 1rem 0;
 	background: #000000;
 }
  
-
 /* -------------------------------------------------------------------
 * home content
 * ------------------------------------------------------------------- */
@@ -1809,7 +1808,6 @@ html.no-csstransitions .home-content__main {
 }
 
 
-
 /* ===================================================================
 * Portfolio
 * ------------------------------------------------------------------- */
@@ -1829,7 +1827,6 @@ html.no-csstransitions .home-content__main {
 .s-works .intro-wrap {
 	padding: 2rem 0 5rem 0;
 }
-
 /* -------------------------------------------------------------------
 * portfolio grid
 ------------------------------------------------------------------- */
@@ -2097,22 +2094,64 @@ p.about {
 * ------------------------------------------------------------------- */
 .s-self {
 	padding:10rem 0;
-	background-color: green;
 	position: relative;
+	background: #003d5f;
+	background: -moz-linear-gradient(top, #051d2b, #003d5f 100%);
+	background: -webkit-linear-gradient(top, #051d2b, #003d5f 100%);
+	background: linear-gradient(to bottom, #051d2b, #003d5f 100%)
 }
 .s-self .section-header.has-bottom-sep::before {
 	background-color: rgba(255, 255, 255, 0.08);
 }
 .self-desc {
-	max-width: 1024px;
+	max-width: 1100px;
+	overflow: hidden;
+}
+.self-img {
+	width: 35%;
+	float: left;
+}
+.self-txt{
+	width: 64%;
+	float: right;
+}
+img.self {
+	opacity: 0.25;
+	border: solid 6px #051d2b;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+img.self:hover {
+	opacity: 0.55;
+	border: solid 6px #003d5f;
 }
 p.self {
 	font-family: "montserrat-extralight", sans-serif;
-	font-size: 3rem;
+	font-size: 2rem;
 	text-align: center;
 	color: rgba(255, 255, 255, 0.85);
 	line-height: 1.4em;
 	text-shadow: 1px 1px 0 #03202f;
+}
+.contact-self {
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 3rem;
+	clear: both;
+}
+.contact-self li {
+	margin: 0 0.6em;
+	padding-left: 0;
+	display: inline-block;
+}
+.contact-self li a {
+	color: white;
+}
+.contact-self li a:hover,
+.contact-self li a:focus {
+	color: #39b54a;
 }
 
 /* -------------------------------------------------------------------
@@ -2129,6 +2168,15 @@ p.self {
 		font-size: 2rem;
 		max-width: 750px;
 	}
+	.self-img {
+		width: 70%;
+		float: none;
+		margin: 0 auto;
+	}
+	.self-txt {
+		width: 94%;
+		float: none;
+	}
 	p.self {
 		margin: 0;
 	}	
@@ -2139,6 +2187,9 @@ p.self {
 	}
 	.self-desc {
 		font-size: 1.9rem;
+	}
+	.self-img {
+		width: 85%;
 	}
 }
 @media only screen and (max-width: 400px) {
