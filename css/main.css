@@ -2059,43 +2059,6 @@ p.about {
 	line-height: 1.4em;
 	text-shadow: 1px 1px 0 #03202f;
 }
-
-/* -------------------------------------------------------------------
-* about stats
-* ------------------------------------------------------------------- */
-.about-stats {
-	text-align: center;
-}
-.stats__col {
-	margin: 5.4rem 0;
-	padding: 0 2rem;
-	position: relative;
-	overflow: hidden;
-	white-space: nowrap;
-	border-right: 1px solid rgba(255, 255, 255, 0.25);
-}
-.stats__col:last-child {
-	border-right: none;
-}
-.stats__count {
-	font-family: "montserrat-bold", sans-serif;
-	font-size: 8.4rem;
-	line-height: 1;
-	color: #FFFFFF;
-	position: relative;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-}
-.stats h5 {
-	font-family: "montserrat-semibold", sans-serif;
-	margin-top: 1.8rem;
-	color: #000000;
-	font-size: 1.8rem;
-	line-height: 1.333;
-	position: relative;
-}
-
 /* -------------------------------------------------------------------
 * responsive: about
 * ------------------------------------------------------------------- */
@@ -2104,42 +2067,15 @@ p.about {
 		font-size: 2.2rem;
 		max-width: 940px;
 	}
-	.about-stats {
-		padding-top: 3rem;
-		padding-bottom: 3.9rem;
-	}
-	.about-stats {
-		max-width: 800px;
-	}
-	.stats__col {
-		margin: 1.5rem 0;
-	}
-	.stats__col:nth-child(n) {
-		border: none;
-	}
-	.stats__col:nth-child(2n+1) {
-		border-right: 1px solid rgba(255, 255, 255, 0.25);
-	}
 }
 @media only screen and (max-width: 800px) {
 	.about-desc {
 		font-size: 2rem;
 		max-width: 600px;
 	}
-	.stats__count {
-		font-size: 8rem;
-	}
-	.stats h5 {
-		margin-top: 1.2rem;
-	}
 	p.about {
 		margin: 0;
 	}
-	p.about-service {
-		text-align: center;
-		font-size: 1.3em;
-	}
-	
 }
 @media only screen and (max-width: 600px) {
 	.s-about {
@@ -2148,41 +2084,71 @@ p.about {
 	.about-desc {
 		font-size: 1.9rem;
 	}
-	.about-stats {
-		padding-top: 0;
-	}
-	.stats__col {
-		margin: 0;
-		padding-top: 3rem;
-		padding-bottom: 3rem;
-		position: relative;
-	}
-	.stats__col::after {
-		content: "";
-		display: block;
-		height: 1px;
-		width: 250px;
-		background-color: rgba(255, 255, 255, 0.25);
-		position: absolute;
-		bottom: 0;
-		left: 50%;
-		margin-left: -125px;
-		}
-	.stats__col:last-child::after {
-		display: none;
-	}
-	.stats__col:nth-child(n) {
-		border: none;
-	}
 }
 @media only screen and (max-width: 400px) {
 	.about-desc {
 		font-size: 1.8rem;
 	}
-	.stats__count {
-		font-size: 7.8rem;
+}
+
+
+/* ===================================================================
+* personal
+* ------------------------------------------------------------------- */
+.s-self {
+	padding:10rem 0;
+	background-color: green;
+	position: relative;
+}
+.s-self .section-header.has-bottom-sep::before {
+	background-color: rgba(255, 255, 255, 0.08);
+}
+.self-desc {
+	max-width: 1024px;
+}
+p.self {
+	font-family: "montserrat-extralight", sans-serif;
+	font-size: 3rem;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.85);
+	line-height: 1.4em;
+	text-shadow: 1px 1px 0 #03202f;
+}
+
+/* -------------------------------------------------------------------
+* responsive: personal
+* ------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+	.self-desc {
+		font-size: 2.2rem;
+		max-width: 960px;
 	}
 }
+@media only screen and (max-width: 800px) {
+	.self-desc {
+		font-size: 2rem;
+		max-width: 750px;
+	}
+	p.self {
+		margin: 0;
+	}	
+}
+@media only screen and (max-width: 600px) {
+	.s-self {
+		padding-top: 12rem;
+	}
+	.self-desc {
+		font-size: 1.9rem;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.self-desc {
+		font-size: 1.8rem;
+	}
+}
+
+
+
 
 /* ===================================================================
 * services
@@ -2596,7 +2562,6 @@ p.skills {
 .contact-content textarea:-moz-placeholder {
 	color: #4f4f4f;    /* Firefox 18- */
 }
-
 .contact-content input::-moz-placeholder,
 .contact-content select::-moz-placeholder,
 .contact-content textarea::-moz-placeholder {
@@ -2964,6 +2929,10 @@ footer .row {
 
 
 
+
+
+
+
 /* ===================================================================
 * portfolio home navbar
 * ------------------------------------------------------------------- */
@@ -3115,6 +3084,99 @@ footer .row {
 
 
 
+
+
+
+
+
+
+/* -------------------------------------------------------------------
+* stats
+* ------------------------------------------------------------------- */
+.about-stats {
+	text-align: center;
+}
+.stats__col {
+	margin: 5.4rem 0;
+	padding: 0 2rem;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	border-right: 1px solid rgba(255, 255, 255, 0.25);
+}
+.stats__col:last-child {
+	border-right: none;
+}
+.stats__count {
+	font-family: "montserrat-bold", sans-serif;
+	font-size: 8.4rem;
+	line-height: 1;
+	color: #FFFFFF;
+	position: relative;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.stats h5 {
+	font-family: "montserrat-semibold", sans-serif;
+	margin-top: 1.8rem;
+	color: #000000;
+	font-size: 1.8rem;
+	line-height: 1.333;
+	position: relative;
+}
+/* -------------------------------------------------------------------
+* responsive: stats
+* ------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+	.stats__col {
+		margin: 1.5rem 0;
+	}
+	.stats__col:nth-child(n) {
+		border: none;
+	}
+	.stats__col:nth-child(2n+1) {
+		border-right: 1px solid rgba(255, 255, 255, 0.25);
+	}
+}
+@media only screen and (max-width: 800px) {
+	.stats__count {
+		font-size: 8rem;
+	}
+	.stats h5 {
+		margin-top: 1.2rem;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.stats__col {
+		margin: 0;
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+		position: relative;
+	}
+	.stats__col::after {
+		content: "";
+		display: block;
+		height: 1px;
+		width: 250px;
+		background-color: rgba(255, 255, 255, 0.25);
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		margin-left: -125px;
+		}
+	.stats__col:last-child::after {
+		display: none;
+	}
+	.stats__col:nth-child(n) {
+		border: none;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.stats__count {
+		font-size: 7.8rem;
+	}
+}
 
 
 
