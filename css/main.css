@@ -70,6 +70,7 @@ body {
 	color: #757575;
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 }
 
 /* width */
@@ -2037,17 +2038,35 @@ html.no-csstransitions .home-content__main {
 * about
 * ------------------------------------------------------------------- */
 .s-about {
-	padding:10rem 0;
-	background-color: #003d5f;
+	padding:10rem 0 15rem 0;;
 	position: relative;
+	background-color: #003d5f;
 	background-image: url('../images/checkered-pattern.png');
 	background-attachment: fixed;
 }
 .s-about .section-header.has-bottom-sep::before {
 	background-color: rgba(255, 255, 255, 0.08);
 }
+.s-about .intro-wrap {
+	padding: 2rem 0 5rem 0;
+}
+/* 
+.bckgrnd {
+	width: 100%;
+	height: 100%;
+	animation: pulse 20s infinite;
+	overflow: hidden;
+}
+@keyframes pulse {
+	0% {background: #003d5f;}
+	50% {background: #05476b;}
+	100% {background: #003d5f;}
+}
+*/
 .about-desc {
 	max-width: 1100px;
+	position: relative;
+	z-index: 9;
 }
 p.about {
 	font-family: "montserrat-extralight", sans-serif;
@@ -2057,7 +2076,48 @@ p.about {
 	line-height: 1.4em;
 	text-shadow: 1px 1px 0 #03202f;
 }
-/* -------------------------------------------------------------------
+.elements {
+	width: 100%;
+	height: 10px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.square {
+	border: 12px dashed #043c5a;
+	border-radius: 55px;
+}
+.sq1 {
+	width: 600px;
+	height: 500px;
+	animation: move1 190s infinite;
+	animation-timing-function: linear;
+}
+.sq2 {
+	width: 125px;
+	height: 680px;
+	animation: move2 230s infinite;
+	animation-timing-function: linear;
+}
+.sq3 {
+	width: 600px;
+	height: 600px;
+	animation: move1 200s infinite;
+	animation-timing-function: linear;
+}
+ @keyframes move1 {
+	0% { transform: rotate(0deg); opacity: 0.6; }
+	50% { width: 800px; height:750px; }
+	100% { transform: rotate(999deg); opacity: 1; }
+ }
+ @keyframes move2 {
+	0% { transform: rotate(0deg); opacity: 0.6; }
+	50% { width: 90px; height: 650px; }
+	100% { transform: rotate(-999deg); opacity: 1; }
+ }
+
+ /* -------------------------------------------------------------------
 * responsive: about
 * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
@@ -2094,15 +2154,23 @@ p.about {
 * personal
 * ------------------------------------------------------------------- */
 .s-self {
-	padding:10rem 0;
+	padding:10rem 0 15rem 0;
 	position: relative;
-	background: #003d5f;
-	background: -moz-linear-gradient(top, #051d2b, #003d5f 100%);
-	background: -webkit-linear-gradient(top, #051d2b, #003d5f 100%);
-	background: linear-gradient(to bottom, #051d2b, #003d5f 100%)
+	background: linear-gradient(45deg, #003959, #0a5279);
+	background-size: 400% 400%;
+	animation: BackgroundGradient 20s ease infinite;
 }
+@keyframes BackgroundGradient {
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
+ }
+
 .s-self .section-header.has-bottom-sep::before {
 	background-color: rgba(255, 255, 255, 0.08);
+}
+.s-self .intro-wrap {
+	padding: 2rem 0 5rem 0;
 }
 .self-desc {
 	max-width: 1000px;
@@ -2133,7 +2201,7 @@ p.self:first-child {
 }
 p.self {
 	font-family: "montserrat-extralight", sans-serif;
-	font-size: 1.9rem;
+	font-size: 2rem;
 	text-align: right;
 	margin: 1rem 0 2rem 0;
 	line-height: 1.65em;
@@ -2145,8 +2213,9 @@ p.self {
 	list-style: none;
 	display: block;
 	margin: 0 auto;
+	padding: 5rem 0 0 0;
 	text-align: center;
-	font-size: 3rem;
+	font-size: 3.5rem;
 	clear: both;
 }
 .contact-self li {
@@ -2155,13 +2224,13 @@ p.self {
 	display: inline-block;
 }
 .contact-self li a {
-	color: white;
+	color: #058641;
+	text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.35);
 }
 .contact-self li a:hover,
 .contact-self li a:focus {
-	color: #39b54a;
+	color: #fff;
 }
-
 /* -------------------------------------------------------------------
 * responsive: personal
 * ------------------------------------------------------------------- */
@@ -2171,7 +2240,6 @@ p.self {
 		max-width: 960px;
 	}
 }
-
 @media only screen and (max-width: 900px) {
 	.self-desc {
 		font-size: 2rem;
@@ -2200,7 +2268,6 @@ p.self {
 		line-height: 1.5em;
 	}	
 }
-
 @media only screen and (max-width: 720px) {
 	p.self:first-child {
 		font-size: 2.4rem;
@@ -2224,8 +2291,6 @@ p.self {
 }
 
 
-
-
 /* ===================================================================
 * services
 * ------------------------------------------------------------------- */
@@ -2234,6 +2299,9 @@ p.self {
 	background-color: #fff;
 	color: #010507;
 	position: relative;
+}
+.s-services .intro-wrap {
+	padding: 2rem 0 5rem 0;
 }
 .services-help {
 	width: 94%;
