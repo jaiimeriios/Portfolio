@@ -1242,7 +1242,6 @@ margin: 1rem 0;
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 	-webkit-transform: translateZ(0);
-	-webkit-backface-visibility: hidden;
 	-webkit-transform: translateX(100%);
 	-ms-transform: translateX(100%);
 	transform: translateX(100%);
