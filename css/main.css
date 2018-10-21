@@ -110,7 +110,7 @@ a:hover, a:active {
 * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: "montserrat-medium", sans-serif;
-	color: #000000;
+	color: #000;
 	font-style: normal;
 	font-weight: normal;
 	text-rendering: optimizeLegibility;
