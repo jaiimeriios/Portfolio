@@ -1004,7 +1004,7 @@ Stats Tab
 * display headings
 * ------------------------------------------------------------------- */
 .display-1 {
-	font-family: "montserrat-medium", sans-serif;
+	font-family: "montserrat-light", sans-serif;
 	font-size: 4.1rem;
 	color: #000000;
 	margin: 1rem 0;
@@ -2205,7 +2205,7 @@ p.about {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(255, 255, 255, 0.85);
+	background-color: rgba(255, 255, 255, 0.9);
 }
 .s-services .intro-wrap {
 	padding: 2rem 0 5rem 0;
@@ -2255,12 +2255,12 @@ p.skills {
 	color: #000;
 	line-height: 3.3rem;
 }
-.services-list .service-item:nth-child(2n+1) {
+/* .services-list .service-item:nth-child(2n+1) {
 	padding-right: 50px;
 }
 .services-list .service-item:nth-child(2n+2) {
 	padding-left: 50px;
-} 
+}  */
 
 
 /* -------------------------------------------------------------------
