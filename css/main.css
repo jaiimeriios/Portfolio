@@ -1013,7 +1013,7 @@ Stats Tab
 	color: #003d5f;
 }
 .display-2 {
-font-family: "montserrat-medium", sans-serif;
+font-family: "montserrat-light", sans-serif;
 font-size: 4.1rem;
 color: #fff;
 margin: 1rem 0;
@@ -2182,6 +2182,159 @@ p.about {
 	}
 }
 
+
+/* ===================================================================
+* services
+* ------------------------------------------------------------------- */
+.s-services {
+	padding: 10rem 0;
+	background-color: #000;
+	position: relative;
+	background-image: url('../images/blanco.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+.s-services .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.85);
+}
+.s-services .intro-wrap {
+	padding: 2rem 0 5rem 0;
+}
+.services-help {
+	width: 94%;
+	margin: 2rem auto 0 auto;
+	max-width: 1140px;
+}
+.services-help h5 {
+	margin: 1rem 0 0 0;
+	font-size: 1.8rem;
+}
+p.services {
+	font-family: "montserrat-light", sans-serif;
+	font-size: 2.5rem;
+	text-align: center;
+	color: #000;
+	line-height: 1.4em;
+}
+/* -------------------------------------------------------------------
+* services list
+* ------------------------------------------------------------------- */
+.services-list {
+	margin-top: 8rem;
+}
+.services-list .service-item {
+	margin-bottom: 5rem;
+}
+.services-list .service-text {
+	margin: 0;
+}
+.services-list .service-icon {
+	float: left;
+	color: #1483bd;
+	font-size: 3.2rem;
+	margin: -1.2rem 1.5rem 0 0;
+}
+.services-list .service-item h3 {
+	margin-top: 0;
+	font-size: 2.75rem;
+	color: #003d5f;
+}
+p.skills {
+	font-family: "montserrat-light", sans-serif;
+	font-size: 2rem;
+	color: #000;
+	line-height: 3.3rem;
+}
+.services-list .service-item:nth-child(2n+1) {
+	padding-right: 50px;
+}
+.services-list .service-item:nth-child(2n+2) {
+	padding-left: 50px;
+} 
+
+
+/* -------------------------------------------------------------------
+* responsive: services
+* ------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+	.services-list {
+		max-width: 1000px;
+	}
+	.services-list .service-item:nth-child(2n+1) {
+		padding-right: 30px;
+	}
+	.services-list .service-item:nth-child(2n+2) {
+	padding-left: 30px;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.services-list h3 {
+		font-size: 2.5rem;
+	}
+	.services-list .service-item:nth-child(2n+1) {
+		padding-right: 20px;
+	}
+	.services-list .service-item:nth-child(2n+2) {
+		padding-left: 20px;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.services-help {
+		margin-top: 4.2rem;
+		max-width: 500px;
+		text-align: center;
+
+	}
+	.services-list {
+		margin-top: 4.2rem;
+		max-width: 500px;
+		text-align: center;
+	}
+	.services-list .service-item:nth-child(n) {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.services-list h3 {
+		font-size: 3rem;
+	}
+	.services-list .service-text {
+		margin-left: 0;
+	}
+	.services-list .service-icon {
+		font-size: 4.5rem;
+		float: none;
+		margin-top: 0;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.s-services {
+		padding-top: 12rem;
+	}
+	.services-list .service-item:nth-child(n) {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	.services-list h3 {
+		font-size: 2.5rem;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.services-list .service-item:nth-child(n) {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.services-list h3 {
+		font-size: 2.5rem;
+	}
+}
+
+
 /* ===================================================================
 * personal
 * ------------------------------------------------------------------- */
@@ -2320,335 +2473,6 @@ p.self {
 		font-size: 1.8rem;
 	}
 }
-
-
-/* ===================================================================
-* services
-* ------------------------------------------------------------------- */
-.s-services {
-	padding: 10rem 0;
-	background-color: #000;
-	position: relative;
-	background-image: url('../images/blanco.jpg');
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
-}
-.s-services .overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(255, 255, 255, 0.85);
-}
-.s-services .intro-wrap {
-	padding: 2rem 0 5rem 0;
-}
-.services-help {
-	width: 94%;
-	margin: 2rem auto 0 auto;
-	max-width: 1140px;
-}
-.services-help h5 {
-	margin: 1rem 0 0 0;
-	font-size: 1.8rem;
-}
-p.services {
-	font-family: "montserrat-extralight", sans-serif;
-	font-size: 2.5rem;
-	text-align: center;
-	color: rgba(0, 0, 0, 0.85);
-	line-height: 1.4em;
-}
-/* -------------------------------------------------------------------
-* services list
-* ------------------------------------------------------------------- */
-.services-list {
-	margin-top: 6rem;
-}
-.services-list .service-item {
-	margin-bottom: .9rem;
-}
-.services-list .service-item h3 {
-	margin-top: 0;
-}
-.services-list .service-item:nth-child(2n+1) {
-	padding-right: 50px;
-}
-.services-list .service-item:nth-child(2n+2) {
-	padding-left: 50px;
-}
-.services-list .service-text {
-	margin-left: 7.8rem;
-}
-.services-list .service-icon {
-	float: left;
-	color: #003d5f;
-	font-size: 4.8rem;
-	margin-top: -.6rem;
-}
-p.skills {
-	font-family: "montserrat-light", sans-serif;
-	font-size: 2rem;
-}
-
-/* -------------------------------------------------------------------
-* responsive: services
-* ------------------------------------------------------------------- */
-@media only screen and (max-width: 1200px) {
-	.services-list {
-		max-width: 1000px;
-	}
-	.services-list .service-item:nth-child(2n+1) {
-		padding-right: 30px;
-	}
-	.services-list .service-item:nth-child(2n+2) {
-	padding-left: 30px;
-	}
-}
-@media only screen and (max-width: 1000px) {
-	.services-list h3 {
-		font-size: 2.5rem;
-	}
-	.services-list .service-item:nth-child(2n+1) {
-		padding-right: 20px;
-	}
-	.services-list .service-item:nth-child(2n+2) {
-		padding-left: 20px;
-	}
-}
-@media only screen and (max-width: 800px) {
-	.services-help {
-		margin-top: 4.2rem;
-		max-width: 500px;
-		text-align: center;
-
-	}
-	.services-list {
-		margin-top: 4.2rem;
-		max-width: 500px;
-		text-align: center;
-	}
-	.services-list .service-item:nth-child(n) {
-		padding-right: 15px;
-		padding-left: 15px;
-	}
-	.services-list h3 {
-		font-size: 3rem;
-	}
-	.services-list .service-text {
-		margin-left: 0;
-	}
-	.services-list .service-icon {
-		font-size: 4.5rem;
-		float: none;
-		margin-top: 0;
-	}
-}
-@media only screen and (max-width: 600px) {
-	.s-services {
-		padding-top: 12rem;
-	}
-	.services-list .service-item:nth-child(n) {
-		padding-right: 10px;
-		padding-left: 10px;
-	}
-	.services-list h3 {
-		font-size: 2.5rem;
-	}
-}
-@media only screen and (max-width: 400px) {
-	.services-list .service-item:nth-child(n) {
-		padding-right: 0;
-		padding-left: 0;
-	}
-	.services-list h3 {
-		font-size: 2.5rem;
-	}
-}
-
-
-/* ===================================================================
-* clients
-* ------------------------------------------------------------------- */
-.s-clients {
-	padding-top: 16.2rem;
-	padding-bottom: 16.8rem;
-	background-color: #e6e6e6;
-	color: #757575;
-	position: relative;
-}
-
-/* -------------------------------------------------------------------
-* slider
-* ------------------------------------------------------------------- */
-.clients-outer {
-	margin-top: 3.6rem;
-	padding-bottom: 9rem;
-	text-align: center;
-	position: relative;
-}
-.clients__slide {
-	display: block;
-	opacity: .55;
-	padding: 1.5rem 2.8rem;
-	-webkit-transition: opacity 0.3s ease-in-out;
-	transition: opacity 0.3s ease-in-out;
-}
-.clients__slide:hover, .clients__slide:focus {
-	opacity: 1;
-}
-
-/* -------------------------------------------------------------------
-* testimonials
-* ------------------------------------------------------------------- */
-.clients-testimonials {
-	margin-top: 4.2rem;
-	padding-top: 7.2rem;
-	text-align: center;
-	position: relative;
-}
-.clients-testimonials::before {
-	content: "";
-	display: block;
-	height: 1px;
-	width: 550px;
-	background-color: rgba(0, 0, 0, 0.1);
-	text-align: center;
-	position: absolute;
-	top: 0;
-	left: 50%;
-	-webkit-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	transform: translateX(-50%);
-}
-.clients-testimonials .testimonials {
-	margin: 0 10%;
-}
-.clients-testimonials .testimonials p {
-	font-family: "lora-regular", serif;
-	font-size: 3rem;
-	line-height: 1.8;
-	color: #555555;
-	margin-bottom: 6rem;
-}
-.clients-testimonials .testimonials__slide {
-	padding: 0 0 3rem 0;
-}
-.clients-testimonials .testimonials__avatar {
-	height: 8.4rem;
-	width: 8.4rem;
-	border-radius: 50%;
-	margin: 0 auto 1.2rem auto;
-}
-.clients-testimonials .testimonials__name,
-.clients-testimonials .testimonials__pos {
-	display: block;
-}
-.clients-testimonials .testimonials__name {
-	font-family: "montserrat-semibold", sans-serif;
-	color: #000000;
-}
-.clients-testimonials .testimonials__pos {
-	font-family: "montserrat-light", sans-serif;
-	font-size: 1.4rem;
-}
-.clients-testimonials .testimonials .slick-arrow {
-	position: absolute;
-	top: 7.2rem;
-	width: 66px;
-	height: 66px;
-	margin: 0;
-	padding: 0;
-	background-color: transparent;
-	background-repeat: no-repeat;
-	background-size: 22px 15px;
-	background-position: center;
-	border: none;
-	cursor: pointer;
-	-webkit-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-	font: 0/0 a;
-	text-shadow: none;
-	color: transparent;
-	z-index: 2;
-}
-.clients-testimonials .testimonials .slick-prev {
-	left: -130px;
-	background-image: url("../images/left-arrow.png");
-}
-.clients-testimonials .testimonials .slick-next {
-	right: -130px;
-	background-image: url("../images/right-arrow.png");
-}
-.clients-testimonials .testimonials .slick-dots {
-	margin-top: -0.6px;
-}
-
-/* -------------------------------------------------------------------
-* responsive: clients
-* ------------------------------------------------------------------- */
-@media only screen and (max-width: 1200px) {
-	.clients-testimonials .testimonials {
-	margin: 0 12%;
-	}
-	.clients-testimonials .testimonials p {
-	font-size: 2.6rem;
-	}
-	.clients-testimonials .testimonials .slick-prev {
-	left: -100px;
-	}
-	.clients-testimonials .testimonials .slick-next {
-	right: -100px;
-	}
-}
-@media only screen and (max-width: 1000px) {
-	.clients-testimonials .testimonials p {
-	font-size: 2.2rem;
-	}
-}
-@media only screen and (max-width: 800px) {
-	.clients-testimonials::before {
-	width: 400px;
-	}
-	.clients-testimonials .testimonials {
-	margin: 0 2rem;
-	}
-	.clients-testimonials .testimonials .slick-arrow {
-	top: auto;
-	bottom: 3rem;
-	}
-	.clients-testimonials .testimonials .slick-prev {
-	left: 0;
-	}
-	.clients-testimonials .testimonials .slick-next {
-	right: 0;
-	}
-}
-@media only screen and (max-width: 600px) {
-	.s-clients {
-	padding-top: 12rem;
-	}
-	.clients-testimonials::before {
-	width: 250px;
-	}
-	.clients-testimonials .testimonials {
-	margin: 0;
-	}
-	.clients-testimonials .testimonials p {
-	font-size: 2rem;
-	}
-}
-@media only screen and (max-width: 400px) {
-	.clients-testimonials .testimonials p {
-	font-size: 1.9rem;
-	}
-}
-
-
-
-
 
 
 
@@ -3301,6 +3125,225 @@ footer .row {
 
 
 
+/* ===================================================================
+* clients
+* ------------------------------------------------------------------- */
+.s-clients {
+	padding-top: 16.2rem;
+	padding-bottom: 16.8rem;
+	background-color: #e6e6e6;
+	color: #757575;
+	position: relative;
+}
+
+/* -------------------------------------------------------------------
+* slider
+* ------------------------------------------------------------------- */
+.clients-outer {
+	margin-top: 3.6rem;
+	padding-bottom: 9rem;
+	text-align: center;
+	position: relative;
+}
+.clients__slide {
+	display: block;
+	opacity: .55;
+	padding: 1.5rem 2.8rem;
+	-webkit-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+}
+.clients__slide:hover, .clients__slide:focus {
+	opacity: 1;
+}
+
+/* -------------------------------------------------------------------
+* testimonials
+* ------------------------------------------------------------------- */
+.clients-testimonials {
+	margin-top: 4.2rem;
+	padding-top: 7.2rem;
+	text-align: center;
+	position: relative;
+}
+.clients-testimonials::before {
+	content: "";
+	display: block;
+	height: 1px;
+	width: 550px;
+	background-color: rgba(0, 0, 0, 0.1);
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.clients-testimonials .testimonials {
+	margin: 0 10%;
+}
+.clients-testimonials .testimonials p {
+	font-family: "lora-regular", serif;
+	font-size: 3rem;
+	line-height: 1.8;
+	color: #555555;
+	margin-bottom: 6rem;
+}
+.clients-testimonials .testimonials__slide {
+	padding: 0 0 3rem 0;
+}
+.clients-testimonials .testimonials__avatar {
+	height: 8.4rem;
+	width: 8.4rem;
+	border-radius: 50%;
+	margin: 0 auto 1.2rem auto;
+}
+.clients-testimonials .testimonials__name,
+.clients-testimonials .testimonials__pos {
+	display: block;
+}
+.clients-testimonials .testimonials__name {
+	font-family: "montserrat-semibold", sans-serif;
+	color: #000000;
+}
+.clients-testimonials .testimonials__pos {
+	font-family: "montserrat-light", sans-serif;
+	font-size: 1.4rem;
+}
+.clients-testimonials .testimonials .slick-arrow {
+	position: absolute;
+	top: 7.2rem;
+	width: 66px;
+	height: 66px;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: 22px 15px;
+	background-position: center;
+	border: none;
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	z-index: 2;
+}
+.clients-testimonials .testimonials .slick-prev {
+	left: -130px;
+	background-image: url("../images/left-arrow.png");
+}
+.clients-testimonials .testimonials .slick-next {
+	right: -130px;
+	background-image: url("../images/right-arrow.png");
+}
+.clients-testimonials .testimonials .slick-dots {
+	margin-top: -0.6px;
+}
+
+/* -------------------------------------------------------------------
+* responsive: clients
+* ------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+	.clients-testimonials .testimonials {
+	margin: 0 12%;
+	}
+	.clients-testimonials .testimonials p {
+	font-size: 2.6rem;
+	}
+	.clients-testimonials .testimonials .slick-prev {
+	left: -100px;
+	}
+	.clients-testimonials .testimonials .slick-next {
+	right: -100px;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.clients-testimonials .testimonials p {
+	font-size: 2.2rem;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.clients-testimonials::before {
+	width: 400px;
+	}
+	.clients-testimonials .testimonials {
+	margin: 0 2rem;
+	}
+	.clients-testimonials .testimonials .slick-arrow {
+	top: auto;
+	bottom: 3rem;
+	}
+	.clients-testimonials .testimonials .slick-prev {
+	left: 0;
+	}
+	.clients-testimonials .testimonials .slick-next {
+	right: 0;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.s-clients {
+	padding-top: 12rem;
+	}
+	.clients-testimonials::before {
+	width: 250px;
+	}
+	.clients-testimonials .testimonials {
+	margin: 0;
+	}
+	.clients-testimonials .testimonials p {
+	font-size: 2rem;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.clients-testimonials .testimonials p {
+	font-size: 1.9rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ===================================================================
@@ -3334,130 +3377,6 @@ footer .row {
 	color: #39b54a;
 	background-color: #003d5f;
  }
-
-
-/* ===================================================================
-* portfolio
-* ------------------------------------------------------------------- */
-#portfolio {
-	padding: 10rem 0;
-   background-color: #fff;
-   color: #010507;
-	position: relative;
-	background: #003d5f;
-	background: -moz-linear-gradient(top, #003d5f, #051d2b 100%);
-	background: -webkit-linear-gradient(top, #003d5f, #051d2b 100%);
-	background: linear-gradient(to bottom, #003d5f, #051d2b 100%)
-}
-
-/* -------------------------------------------------------------------
-* portfolio
-* ------------------------------------------------------------------- */
-.services-list {
-	margin-top: 6rem;
-}
-.services-list .service-item {
-	margin-bottom: .9rem;
-}
-.services-list .service-item h3 {
-	margin-top: 0;
-	color: #1483bd;
-}
-.services-list .service-item:nth-child(2n+1) {
-	padding-right: 50px;
-}
-.services-list .service-item:nth-child(2n+2) {
-	padding-left: 50px;
-}
-.services-list .service-text {
-	margin-left: 7.8rem;
-}
-.services-list .service-icon {
-	float: left;
-	color: #003d5f;
-	font-size: 4.8rem;
-	margin-top: -.6rem;
-}
-
-/* -------------------------------------------------------------------
-* responsive: portfolio
-* ------------------------------------------------------------------- */
-@media only screen and (max-width: 1200px) {
-	.services-list {
-		max-width: 1000px;
-	}
-	.services-list .service-item:nth-child(2n+1) {
-		padding-right: 30px;
-	}
-	.services-list .service-item:nth-child(2n+2) {
-	padding-left: 30px;
-	}
-}
-@media only screen and (max-width: 1000px) {
-	.services-list h3 {
-	font-size: 2.5rem;
-	}
-	.services-list .service-item:nth-child(2n+1) {
-	padding-right: 20px;
-	}
-	.services-list .service-item:nth-child(2n+2) {
-	padding-left: 20px;
-	}
-}
-@media only screen and (max-width: 800px) {
-	.services-list {
-	margin-top: 4.2rem;
-	max-width: 500px;
-	text-align: center;
-	}
-	.services-list .service-item:nth-child(n) {
-	padding-right: 15px;
-	padding-left: 15px;
-	}
-	.services-list h3 {
-	font-size: 3rem;
-	}
-	.services-list .service-text {
-	margin-left: 0;
-	}
-	.services-list .service-icon {
-	font-size: 4.5rem;
-	float: none;
-	margin-top: 0;
-	}
-}
-@media only screen and (max-width: 600px) {
-	.s-services {
-	padding-top: 12rem;
-	}
-	.services-list .service-item:nth-child(n) {
-	padding-right: 10px;
-	padding-left: 10px;
-	}
-	.services-list h3 {
-	font-size: 2.5rem;
-	}
-}
-@media only screen and (max-width: 400px) {
-	.services-list .service-item:nth-child(n) {
-	padding-right: 0;
-	padding-left: 0;
-	}
-	.services-list h3 {
-	font-size: 2.5rem;
-	}
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* -------------------------------------------------------------------
@@ -3547,16 +3466,6 @@ footer .row {
 		font-size: 7.8rem;
 	}
 }
-
-
-
-
-
-
-
-
-
-
 
 
 

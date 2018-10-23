@@ -430,8 +430,8 @@
         
         var pxShow  = 500,         // height on which the button will show
         fadeInTime  = 400,         // how slow/fast you want the button to show
-        fadeOutTime = 600,         // how slow/fast you want the button to hide
-        scrollSpeed = 400,         // how slow/fast you want the button to scroll to top. can be a value, 'slow', 'normal' or 'fast'
+        fadeOutTime = 400,         // how slow/fast you want the button to hide
+        scrollSpeed = 300,         // how slow/fast you want the button to scroll to top. can be a value, 'slow', 'normal' or 'fast'
         goTopButton = $(".go-top")
         
         // Show or hide the sticky footer button
