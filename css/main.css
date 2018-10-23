@@ -1472,9 +1472,9 @@ margin: 1rem 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-	background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-	background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+	background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.85) 100%);
+	background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.85) 100%);
+	background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.85) 100%);
 	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
 }
 .s-home .overlay {
@@ -1483,7 +1483,7 @@ margin: 1rem 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 61, 95, 0.7);
+	background-color: rgba(4, 49, 74, 0.8);
 }
 .no-js .s-home {
 	background: #000000;
@@ -2327,9 +2327,20 @@ p.self {
 * ------------------------------------------------------------------- */
 .s-services {
 	padding: 10rem 0;
-	background-color: #fff;
-	color: #010507;
+	background-color: #000;
 	position: relative;
+	background-image: url('../images/blanco.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+.s-services .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.85);
 }
 .s-services .intro-wrap {
 	padding: 2rem 0 5rem 0;
@@ -2343,7 +2354,13 @@ p.self {
 	margin: 1rem 0 0 0;
 	font-size: 1.8rem;
 }
-
+p.services {
+	font-family: "montserrat-extralight", sans-serif;
+	font-size: 2.5rem;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.85);
+	line-height: 1.4em;
+}
 /* -------------------------------------------------------------------
 * services list
 * ------------------------------------------------------------------- */
