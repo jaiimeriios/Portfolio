@@ -2365,15 +2365,20 @@ p.skills {
 	overflow: hidden;
 }
 .self-img {
-	width: 28%;
-	float: right;
-	margin: 0 8rem 0 0;
+	width: 300px;
+    height: 300px;
+    float: left;
+    margin: 2rem 0 0 0;	
+    border-radius: 50% 50%;
+    overflow: hidden;
 }
 .self-txt{
 	width: 60%;
 	float: left;
 }
 img.self {
+	width: 100%;
+	margin: -15px 0 0 0;
 	opacity: 0.25;
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
@@ -2477,6 +2482,52 @@ p.self {
 		font-size: 1.8rem;
 	}
 }
+
+/* ===================================================================
+* resume
+* ------------------------------------------------------------------- */
+.s-resume {
+	padding: 0;
+    background-color: #fff;
+}
+.s-resume .section-header.has-bottom-sep::before {
+	background-color: rgba(255, 255, 255, 0.08);
+}
+.s-resume .intro-wrap {
+	position: relative;
+    margin: -10rem auto 0 auto;
+    width: 90%;
+    max-width: 900px;
+	padding: 6rem 0;
+	border: solid 1px #ccc;
+	background-color: #fff;
+	box-shadow: 2px 25px 45px 5px rgba(0,0,0,0.2);
+}
+
+/* -------------------------------------------------------------------
+* responsive: resume
+* ------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+	.self-desc {
+		font-size: 2.2rem;
+		max-width: 960px;
+	}
+}
+@media only screen and (max-width: 900px) {
+
+}
+@media only screen and (max-width: 720px) {
+	
+}
+@media only screen and (max-width: 600px) {
+	.s-resume {
+		padding-top: 12rem;
+	}
+}
+@media only screen and (max-width: 400px) {
+
+}
+
 
 
 
