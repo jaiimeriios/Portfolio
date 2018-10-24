@@ -1521,7 +1521,7 @@ margin: 1rem 0;
 	font-size: 11rem;
 	margin: 0 0 4rem 0;
 	color: #FFFFFF;
-	text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.75);
+	text-shadow: 4px 4px 2px rgba(3, 27, 41, 0.75);
 }
 .home-content h2 {
 	font-family: "montserrat-extralight", sans-serif;
@@ -2230,30 +2230,35 @@ p.services {
 * services list
 * ------------------------------------------------------------------- */
 .services-list {
+	position: relative;
 	margin-top: 8rem;
+	background-color: white;
+	padding: 3rem 0;
+	box-shadow: 2px 25px 45px 5px rgba(0,0,0,0.05)
 }
 .services-list .service-item {
-	margin-bottom: 5rem;
-}
-.services-list .service-text {
-	margin: 0;
+	margin-bottom: 6rem;
 }
 .services-list .service-icon {
 	float: left;
 	color: #1483bd;
-	font-size: 3.2rem;
-	margin: -1.2rem 1.5rem 0 0;
+	font-size: 2.5rem;
+	margin: -0.75rem 2rem 0 0;
 }
 .services-list .service-item h3 {
-	margin-top: 0;
-	font-size: 2.75rem;
+	margin: 0 0 1rem 0;
+	font-size: 2rem;
 	color: #003d5f;
 }
-p.skills {
+.services-list .service-text {
+	margin: 0;
+}
+.services-list p.skills {
 	font-family: "montserrat-light", sans-serif;
-	font-size: 2rem;
+	font-size: 1.65rem;
 	color: #000;
-	line-height: 3.3rem;
+	margin: 0 0 0 4.65rem;
+	line-height: 2.5rem;
 }
 /* .services-list .service-item:nth-child(2n+1) {
 	padding-right: 50px;
@@ -2289,16 +2294,14 @@ p.skills {
 	}
 }
 @media only screen and (max-width: 800px) {
-	.services-help {
-		margin-top: 4.2rem;
-		max-width: 500px;
-		text-align: center;
-
-	}
 	.services-list {
 		margin-top: 4.2rem;
-		max-width: 500px;
+		width: 96%;
+		max-width: 650px;
 		text-align: center;
+	}
+	.services-list p.skills {
+		margin: 0%
 	}
 	.services-list .service-item:nth-child(n) {
 		padding-right: 15px;
@@ -2343,11 +2346,11 @@ p.skills {
 * personal
 * ------------------------------------------------------------------- */
 .s-self {
-	padding:10rem 0 15rem 0;
+	padding:10rem 0 20rem 0;
 	position: relative;
-	background: linear-gradient(45deg, #003d5f, #063652);
+	background: linear-gradient(45deg, #003d5f, #0d699c);
 	background-size: 400% 400%;
-	animation: BackgroundGradient 12s ease infinite;
+	animation: BackgroundGradient 6s ease infinite;
 }
 @keyframes BackgroundGradient {
 	0% {background-position: 0% 50%;}
@@ -2365,65 +2368,45 @@ p.skills {
 	overflow: hidden;
 }
 .self-img {
-	width: 300px;
-    height: 300px;
-    float: left;
-    margin: 2rem 0 0 0;	
-    border-radius: 50% 50%;
-    overflow: hidden;
-}
-.self-txt{
-	width: 60%;
 	float: left;
+	margin: 0;	
+	width: 30%;
+	max-width: 300px;
+	height: 300px;
+	border-radius: 50% 50%;
+	overflow: hidden;
 }
 img.self {
 	width: 100%;
-	margin: -15px 0 0 0;
-	opacity: 0.25;
+	margin: -8px 0 0 0;
+	opacity: 0.35;
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
 img.self:hover {
 	opacity: 0.45;
 }
-p.self:first-child {
+.self-txt{
+	width: 70%;
+	float: left;
+}
+/* p.self:first-child {
 	font-family: "montserrat-regular", sans-serif;
 	font-size: 2rem;
 	letter-spacing: 0.35px;
 	color: #1482bc;
-}
+} */
 p.self {
 	font-family: "montserrat-extralight", sans-serif;
 	font-size: 2rem;
-	text-align: right;
-	margin: 1rem 0 2rem 0;
-	line-height: 1.65em;
+	text-align: left;
+	margin: 2.5rem 0 2rem 5rem;
+	line-height: 3.75rem;
 	letter-spacing: 0.2px;
-	color: rgba(255, 255, 255, 0.85);
+	color: rgba(255, 255, 255, 0.9);
 	text-shadow: 1px 1px 0 #03202f;
 }
-.contact-self {
-	list-style: none;
-	display: block;
-	margin: 0 auto;
-	padding: 5rem 0 0 0;
-	text-align: center;
-	font-size: 3.5rem;
-	clear: both;
-}
-.contact-self li {
-	margin: 0 0.6em;
-	padding-left: 0;
-	display: inline-block;
-}
-.contact-self li a {
-	color: #058641;
-	text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.35);
-}
-.contact-self li a:hover,
-.contact-self li a:focus {
-	color: #fff;
-}
+
 /* -------------------------------------------------------------------
 * responsive: personal
 * ------------------------------------------------------------------- */
@@ -2495,13 +2478,34 @@ p.self {
 }
 .s-resume .intro-wrap {
 	position: relative;
-    margin: -10rem auto 0 auto;
-    width: 90%;
-    max-width: 900px;
+	margin: -10rem auto 0 auto;
+	width: 94%;
+	max-width: 1200px;
 	padding: 6rem 0;
-	border: solid 1px #ccc;
 	background-color: #fff;
 	box-shadow: 2px 25px 45px 5px rgba(0,0,0,0.2);
+}
+.contact-self {
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+	padding: 5rem 0 0 0;
+	text-align: center;
+	font-size: 3.5rem;
+	clear: both;
+}
+.contact-self li {
+	margin: 0 0.6em;
+	padding-left: 0;
+	display: inline-block;
+}
+.contact-self li a {
+	color: #058641;
+	text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.35);
+}
+.contact-self li a:hover,
+.contact-self li a:focus {
+	color: #fff;
 }
 
 /* -------------------------------------------------------------------
@@ -2549,7 +2553,7 @@ p.self {
 	position: relative;
 	z-index: 9;
 }
-.animateme {
+/* .animateme {
 	overflow: hidden;
 	z-index: -1;
 }
@@ -2675,7 +2679,7 @@ p.self {
   border-radius:50em;
   background:transparent;
   border: 4px solid rgba(255, 255, 255, 0.05)
-}
+} */
 @keyframes square {
 	0% {
 		transform: translateY(0);
