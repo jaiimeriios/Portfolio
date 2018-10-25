@@ -2576,18 +2576,26 @@ p.self {
 	text-transform: uppercase;
 	letter-spacing: .16rem;
 }
-.frm-lft{
+.frm-lft {
 	float: left;
-	width: 48%;
+	width: 46%;
 	margin: 0;
 }
-.frm-rgt{
+.frm-rgt {
 	float: left;
-	width: 48%;
-	margin: 0 0 0 2%;
+	width: 46%;
+	margin: 0 0 0 8%;
+}
+.frm-lft .form-field {
+	margin: 0 0 3rem 0;
+}
+.frm-rgt textarea#contactMessage {
+	padding: 1rem 0 0 2rem;
+    min-height: 18.75rem;
 }
 .form-field {
 	position: relative;
+	clear: both;
 }
 .form-field:after {
 	content: "";
@@ -2628,13 +2636,14 @@ p.self {
 .contact-content textarea,
 .contact-content select {
 	font-family: "montserrat-light", sans-serif;
-	font-size: 1.5rem;
+	font-size: 1.65rem;
+	letter-spacing: 0.075rem;
 	line-height: 2rem;
 	color:#1483bd;
-	max-width: 100%;
-	margin-bottom: 1rem;
 	display: block;
+	max-width: 100%;
 	height: 0;
+	margin-bottom: 1rem;
 	padding: 2rem 0rem 1.5rem 1rem;
 	border: 0;
 	outline: none;
@@ -2657,7 +2666,7 @@ p.self {
 }
 .contact-content button,
 .contact-content .btn {
-	margin-top: 3.6rem;
+	margin-top: 4.5rem;
 }
 .contact-content input::-webkit-input-placeholder,
 .contact-content select::-webkit-input-placeholder,
@@ -2806,16 +2815,36 @@ p.self {
 		width: 100%;
 		margin: 0;
 	}
+	.frm-lft .form-field {
+		margin: 0 0 1rem 0;
+	}
+	.frm-rgt textarea#contactMessage {
+		padding: 2rem 0rem 1rem 1rem;
+		min-height: 20rem;
+	}
+	.contact-content input[type="email"],
+	.contact-content input[type="number"],
+	.contact-content input[type="search"],
+	.contact-content input[type="text"],
+	.contact-content input[type="tel"],
+	.contact-content input[type="url"],
+	.contact-content input[type="password"],
+	.contact-content textarea,
+	.contact-content select {
+		font-size: 2rem;
+		line-height: 2.35rem;
+		padding: 2rem 1rem;
+	}
 	.contact-primary, .contact-secondary {
-	float: none;
-	width: 100%;
+		float: none;
+		width: 100%;
 	}
 	.contact-primary #contactForm {
-	margin-top: -1.5rem;
-	margin-bottom: 7.2rem;
+		margin-top: -1.5rem;
+		margin-bottom: 7.2rem;
 	}
 	.contact-secondary .hide-on-fullwidth {
-	display: none;
+		display: none;
 	}
 	.contact-secondary::before {
 	display: none;
