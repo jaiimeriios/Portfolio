@@ -950,11 +950,11 @@ Stats Tab
 	vertical-align: middle;
 }
 .line-scale-pulse-out > div {
-	background-color: #003d5f;
+	background-color: #1483bd;
 	width: 4px;
-	height: 35px;
-	border-radius: 2px;
-	margin: 2px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0px 3px;
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 	display: inline-block;
@@ -2220,10 +2220,11 @@ p.about {
 }
 p.services {
 	font-family: "montserrat-light", sans-serif;
-	font-size: 2.5rem;
 	text-align: center;
 	color: #000;
-	line-height: 1.4em;
+	font-size: 2.2rem;
+	line-height: 1.75em;
+	margin: 0;
 }
 /* -------------------------------------------------------------------
 * services list
@@ -2642,7 +2643,7 @@ p.self {
 	border: 0;
 	outline: none;
 	background: transparent;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+	border-bottom: 1px solid rgba(20, 131, 189, 0.45);
 	transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
 }
@@ -2656,7 +2657,7 @@ p.self {
 .contact-content textarea:focus,
 .contact-content select:focus {
 	color: #FFFFFF;
-	border-bottom: 1px solid #003d5f;
+	border-bottom: 1px solid #1483bd;
 }
 .contact-content button,
 .contact-content .btn {
@@ -2665,27 +2666,27 @@ p.self {
 .contact-content input::-webkit-input-placeholder,
 .contact-content select::-webkit-input-placeholder,
 .contact-content textarea::-webkit-input-placeholder {
-	color: rgba(255, 255, 255, 0.55);
+	color: rgba(255, 255, 255, 0.75);
 }
 .contact-content input:-moz-placeholder,
 .contact-content select:-moz-placeholder,
 .contact-content textarea:-moz-placeholder {
-	color: #4f4f4f;    /* Firefox 18- */
+	color: rgba(255, 255, 255, 0.75);   /* Firefox 18- */
 }
 .contact-content input::-moz-placeholder,
 .contact-content select::-moz-placeholder,
 .contact-content textarea::-moz-placeholder {
-	color: #4f4f4f;    /* Firefox 19+ */
+	color: rgba(255, 255, 255, 0.75);   /* Firefox 19+ */
 }
 .contact-content input:-ms-input-placeholder,
 .contact-content select:-ms-input-placeholder,
 .contact-content textarea:-ms-input-placeholder {
-	color: #4f4f4f;
+	color: rgba(255, 255, 255, 0.75);
 }
 .contact-content input.placeholder,
 .contact-content select.placeholder,
 .contact-content textarea.placeholder {
-	color: #4f4f4f !important;
+	color: rgba(255, 255, 255, 0.75);!important;
 }
 .message-warning, .message-success {
 	display: none;
