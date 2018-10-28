@@ -978,11 +978,11 @@ Stats Tab
 	}
 	50% {
 		-webkit-transform: scaley(0.4);
-	transform: scaley(0.4);
+		transform: scaley(0.4);
 	}
 	100% {
 		-webkit-transform: scaley(1);
-	transform: scaley(1);
+		transform: scaley(1);
 	}
 }
 @keyframes line-scale-pulse-out {
@@ -992,11 +992,11 @@ Stats Tab
 	}
 	50% {
 		-webkit-transform: scaley(0.4);
-	transform: scaley(0.4);
+		transform: scaley(0.4);
 	}
 	100% {
 		-webkit-transform: scaley(1);
-	transform: scaley(1);
+		transform: scaley(1);
 	}
 }
 
@@ -2628,13 +2628,13 @@ p.self {
 .contact-content input[type="tel"],
 .contact-content input[type="url"],
 .contact-content input[type="password"],
-.contact-content textarea,
+.contact-content textarea, 
 .contact-content select {
 	font-family: "montserrat-light", sans-serif;
 	font-size: 1.65rem;
 	letter-spacing: 0.075rem;
 	line-height: 2rem;
-	color:#1483bd;
+	color:#08aaff;
 	display: block;
 	max-width: 100%;
 	height: 0;
