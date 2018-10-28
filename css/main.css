@@ -2686,9 +2686,10 @@ p.self {
 .contact-content input.placeholder,
 .contact-content select.placeholder,
 .contact-content textarea.placeholder {
-	color: rgba(255, 255, 255, 0.75);!important;
+	color: rgba(255, 255, 255, 0.75);
 }
-.message-warning, .message-success {
+.message-warning,
+.message-success {
 	display: none;
 	background: #111111;
 	font-size: 1.5rem;
@@ -2704,7 +2705,8 @@ p.self {
 .message-success {
 	color: #003d5f;
 }
-.message-warning i, .message-success i {
+.message-warning i,
+.message-success i {
 	margin-right: 10px;
 	font-size: 1.2rem;
 }
