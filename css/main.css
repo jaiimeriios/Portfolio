@@ -1256,14 +1256,14 @@ Stats Tab
 	color: #ffffff;
 }
 .header-nav h3 {
-	font-family: "montserrat-semibold", sans-serif;
-	font-size: 11px;
+	font-family: "montserrat-regular", sans-serif;
+	font-size: 1.15rem;
 	line-height: 1.5;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
 	margin-bottom: 4.8rem;
 	margin-top: .9rem;
-	color: #ffffff;
+	color: #fff;
 }
 .header-nav p {
 	margin-bottom: 2.7rem;
@@ -1275,15 +1275,16 @@ Stats Tab
 	visibility: hidden;
 }
 .header-nav__list {
-	font-family: "montserrat-regular", sans-serif;
-	font-size: 1.8rem;
-	margin: 3.6rem 0 3rem 0;
-	padding: 0 0 1.8rem 0;
+	font-family: "montserrat-light", sans-serif;
+	font-size: 2rem;
+	margin: 5rem 0;
+	padding: 0;
+	letter-spacing: 0.15rem;
 	list-style: none;
 }
 .header-nav__list li {
 	padding-left: 0;
-	line-height: 4.5rem;
+	line-height: 5rem;
 }
 .header-nav__list a,
 .header-nav__list a:visited {
@@ -1296,16 +1297,16 @@ Stats Tab
 	font-size: 3rem;
 }
 .header-nav__social li {
-	margin-right: 15px;
+	margin-right: 2rem;
 	padding-left: 0;
 	display: inline-block;
 }
 .header-nav__social li a {
-	color: rgba(255, 255, 255, 0.75);
+	color: #39b54a;
 }
 .header-nav__social li a:hover,
 .header-nav__social li a:focus {
-	color: #39b54a;
+	color: #fff;
 }
 .header-nav__social li:last-child {
 	margin: 0;
@@ -1329,12 +1330,12 @@ Stats Tab
 	content: "";
 	display: block;
 	height: 2px;
-	width: 12px;
-	background-color: #FFFFFF;
+	width: 15px;
+	background-color: #39b54a;
 	position: absolute;
 	top: 50%;
 	left: 9px;
-	margin-top: -1px;
+	margin-top: -2px;
 }
 .header-nav__close span::before {
 	-webkit-transform: rotate(-45deg);
@@ -1374,7 +1375,7 @@ Stats Tab
 * ------------------------------------------------------------------- */
 .header-menu-toggle {
 	position: fixed;
-	right: 40px;
+	right: 35px;
 	top: 24px;
 	height: 42px;
 	width: 43px;
@@ -1521,7 +1522,7 @@ Stats Tab
 	font-size: 11rem;
 	margin: 0 0 4rem 0;
 	color: #FFFFFF;
-	text-shadow: -0.5rem 0.45rem 0.1rem rgba(0, 0, 0, 0.75)
+	text-shadow: -0.5rem 0.45rem 0.1rem rgba(0, 0, 0, 0.4)
 }
 .home-content h2 {
 	font-family: "montserrat-extralight", sans-serif;
@@ -1843,7 +1844,7 @@ html.no-csstransitions .home-content__main {
 .portfolio-item {
 	position: relative;
 	overflow: hidden;
-	border-radius: 4px;
+	border-radius: 2px;
 }
 .portfolio-item__thumb img {
 	vertical-align: bottom;
@@ -2234,6 +2235,7 @@ p.services {
 	margin-top: 8rem;
 	background-color: white;
 	padding: 3rem 0;
+	border-radius: 2px;
 	box-shadow: 2px 25px 45px 5px rgba(0,0,0,0.05)
 }
 .services-list .service-item {
@@ -2483,6 +2485,7 @@ p.self {
 	max-width: 1200px;
 	padding: 6rem 0;
 	background-color: #fff;
+	border-radius: 2px;
 	box-shadow: 2px 25px 45px 5px rgba(0,0,0,0.2);
 }
 .contact-self {
@@ -2549,14 +2552,15 @@ p.self {
 	z-index: 9;
 }
 .contact-content {
+	position: relative;
 	max-width: 1200px;
+	z-index: 9;
+	border-radius: 2px;
 	background-color: rgba(0, 0, 0, 0.4);
-	color: rgba(255, 255, 255, 0.4);
 	font-family: "montserrat-light", sans-serif;
 	font-size: 1.5rem;
 	line-height: 2;
-	position: relative;
-	z-index: 9;
+	color: rgba(255, 255, 255, 0.4);
 }
 .contact-primary {
 	width: 100%;
@@ -2962,7 +2966,7 @@ footer .row {
 .go-top {
 	position: fixed;
 	bottom: 30px;
-	right: 30px;
+	right: 35px;
 	z-index: 600;
 	display: none;
 }
