@@ -51,14 +51,11 @@
         var menuTrigger = $('.header-menu-toggle');
 
         $WIN.on('scroll', function() {
-
             if ($WIN.scrollTop() > 150) {
                 menuTrigger.addClass('opaque');
-            }
-            else {
+            } else {
                 menuTrigger.removeClass('opaque');
             }
-
         });
     };
 
@@ -379,7 +376,6 @@
    /* Animate On Scroll
     * ------------------------------------------------------ */
     var clAOS = function() {
-        
         AOS.init( {
             offset: 200,
             duration: 600,
@@ -388,7 +384,6 @@
             once: true,
             disable: 'mobile'
         });
-
     };
 
 
@@ -425,7 +420,7 @@
     };
 
 
-   /* Back to Top ------------------------------------------------------ */
+   /* Back to Top -------------------------------------------------------- */
     var clBackToTop = function() {
         
         var pxShow  = 500,         // height on which the button will show
@@ -442,6 +437,45 @@
                 goTopButton.fadeOut(fadeOutTime);
             }
         });
+    };
+
+
+    /* Clean URL -------------------------------------------------------- */
+    var clCleanURL = function() {
+        // smoothscrolling without markup changes - handle links with @href started with '#' only
+	    $(document).on('click', 'a[href^="#"]', function(e) {
+            // target element id
+            var id = $(this).attr('href');
+            // target element
+            var $id = $(id);
+            if ($id.length === 0) {
+                return;
+            }
+            // prevent standard hash navigation (avoid blinking in IE)
+            e.preventDefault();
+            // top position relative to the document
+            var pos = $id.offset().top;
+            // animated top scrolling
+            $('body, html').animate({scrollTop: pos});
+	    });
+    };
+
+    /* Show Nav on Scroll up --------------------------------------------- */
+    var clShowNav = function() {
+
+        var prevScrollpos = window.pageYOffset;
+                
+        window.onscroll = function() {
+
+            var currentScrollPos = window.pageYOffset;
+
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0px";
+            } else {
+                document.getElementById("navbar").style.top = "-100px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
     };
 
 
@@ -462,7 +496,8 @@
         clAOS();
         clAjaxChimp();
         clBackToTop();
-
+        clCleanURL();
+        clShowNav();
     })();
         
 })(jQuery);

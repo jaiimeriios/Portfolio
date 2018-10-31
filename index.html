@@ -14,7 +14,6 @@
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 		<script src="js/modernizr.js"></script>
-		<script src="js/pace.min.js"></script>
 </head>
 <body id="top">
 
@@ -105,12 +104,12 @@
 				<div class="portfolio-items" data-aos="fade-up" data-aos-delay='150'>
 					<div class="portfolio-item">
 						<div class="portfolio-item__thumb">
-							<a href="portfolio/template.html">
+							<a href="portfolio/taxconnections.html">
 								<img src="images/portfolio/taxconnections.jpg" alt="TaxConnections" />
 							</a>
 						</div>
 						<div class="portfolio-item__text">
-							<a href="portfolio/template.html">
+							<a href="portfolio/taxconnections.html">
 								<h3 class="portfolio-item__title">TaxConnections</h3>
 								<p class="portfolio-item__cat">View detail</p>
 							</a>
@@ -120,12 +119,12 @@
 				<div class="portfolio-items" data-aos="fade-up" data-aos-delay='50'>
 					<div class="portfolio-item">
 						<div class="portfolio-item__thumb">
-							<a href="portfolio/template.html">
+							<a href="portfolio/admin-panel.html">
 								<img src="images/portfolio/taxconnections-admin.jpg" alt="Taxconnections Admin" />
 							</a>
 						</div>
 						<div class="portfolio-item__text">
-							<a href="portfolio/template.html">
+							<a href="portfolio/admin-panel.html">
 								<h3 class="portfolio-item__title">Admin Panel for TaxConnections</h3>
 								<p class="portfolio-item__cat">View detail</p>
 							</a>
@@ -137,12 +136,12 @@
 				<div class="portfolio-items" data-aos="fade-up" data-aos-delay='50'>
 					<div class="portfolio-item">
 						<div class="portfolio-item__thumb">
-							<a href="portfolio/event/">
+							<a href="portfolio/event.html">
 								<img src="images/portfolio/tres.jpg" alt="Event Free Theme" />
 							</a>
 						</div>
 						<div class="portfolio-item__text">
-							<a href="portfolio/event/">
+							<a href="portfolio/event-demo/">
 								<h3 class="portfolio-item__title">Event - Bootstrap Theme</h3>
 								<p class="portfolio-item__cat">View detail</p>
 							</a>
@@ -152,12 +151,12 @@
 				<div class="portfolio-items" data-aos="fade-up" data-aos-delay='150'>
 					<div class="portfolio-item">
 						<div class="portfolio-item__thumb">
-							<a href="portfolio/merced/">
+							<a href="portfolio/merced.html">
 								<img src="images/portfolio/merced.jpg" alt="Merced Free Theme" />
 							</a>
 						</div>
 						<div class="portfolio-item__text">
-							<a href="portfolio/merced/">
+							<a href="portfolio/merced.html">
 								<h3 class="portfolio-item__title">Merced - Bootstrap Theme</h3>
 								<p class="portfolio-item__cat">View detail</p>
 							</a>
@@ -167,12 +166,12 @@
 				<div class="portfolio-items" data-aos="fade-up" data-aos-delay='200'>
 					<div class="portfolio-item">
 						<div class="portfolio-item__thumb">
-							<a href="portfolio/template.html">
+							<a href="portfolio/bagtoss.html">
 								<img src="images/portfolio/bagtoss.jpg" alt="bagtoss" />
 							</a>
 						</div>
 						<div class="portfolio-item__text">
-							<a href="portfolio/template.html">
+							<a href="portfolio/bagtoss.html">
 								<h3 class="portfolio-item__title">BagToss Cornhole Shop</h3>
 								<p class="portfolio-item__cat">View detail</p>
 							</a>
@@ -427,7 +426,7 @@
 			</li>
 		</ul>
 	</div>
-	<div class="row footer-bottom" data-aos="fade-up">
+	<div class="row footer-bottom">
 		<div class="col-twelve">
 			<div class="copyright">
 				<span>© Jaime Alejandro Rios 2018</span>
@@ -457,7 +456,8 @@
 
 
 
-<div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+	<!--
+	<div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
 		<div class="col-block stats__col ">
 			<div class="stats__count">127</div>
 			<h5>Awards Received</h5>
@@ -475,16 +475,13 @@
 			<h5>Happy Clients</h5>
 		</div>
 	</div>
+	-->
 
-<!-- 
+	<!-- 
 	<section class="bot">
 		<div class="zomin"></div>
 	</section>
- -->
-
-
-
-
+ 	-->
 
 
 <!-- Scripts ============================================================= -->
@@ -492,25 +489,6 @@
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
 <script src="js/particles.js"></script>
-<script>
-	// smoothscrolling without markup changes
-	// handle links with @href started with '#' only
-	$(document).on('click', 'a[href^="#"]', function(e) {
-		// target element id
-		var id = $(this).attr('href');
-		// target element
-		var $id = $(id);
-		if ($id.length === 0) {
-			return;
-		}
-		// prevent standard hash navigation (avoid blinking in IE)
-		e.preventDefault();
-		// top position relative to the document
-		var pos = $id.offset().top;
-		// animated top scrolling
-		$('body, html').animate({scrollTop: pos});
-	});
-</script>
 
 </body>
 </html>
