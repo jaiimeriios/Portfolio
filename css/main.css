@@ -3347,8 +3347,21 @@ footer .row {
 .portfolio-project {
 	height: 80%;
 }
-
-
+h1.project-title, h2.project-title{
+	max-width: 760px;
+	margin: 0 auto 4rem auto;
+	text-align: left;
+}
+h1.project-title {
+	font-family: "montserrat-light", sans-serif;
+	font-size: 5rem;
+	text-align: left;
+}
+h2.project-title {
+	font-family: "montserrat-extralight", sans-serif;
+	font-size: 2.25rem;
+	text-transform: none;
+}
 /* about ----------------------------------------------------------------- */
 
 /* ===================================================================
@@ -3357,18 +3370,21 @@ footer .row {
 .p-about {
 	padding:10rem 0;
 	position: relative;
-	margin: -10rem auto 0 auto;
-	background-color: #fff;
+	margin: -20rem auto 0 auto;
+	background-color: #fafafa;
+	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
 }
 .p-about .section-header{
-	position: relative;
+	/* position: relative;
 	margin: -15rem auto 0 auto;
 	width: 94%;
 	max-width: 1200px;
 	padding: 6rem 0;
 	background-color: #fff;
 	border-radius: 2px;
-	box-shadow: 2px 25px 45px 5px rgba(0,0,0,0.2);
+	box-shadow: 2px 25px 45px 5px rgba(0,0,0,0.2); */
 }
 .p-about .section-header.has-bottom-sep::before {
 	background-color: rgba(0, 0, 0, 0.08);
@@ -3378,13 +3394,15 @@ footer .row {
 	position: relative;
 	z-index: 9;
 }
-p.about {
+p.project-description {
 	font-family: "montserrat-extralight", sans-serif;
-	font-size: 3rem;
+	font-size: 2.1rem;
 	text-align: left;
-	color: rgba(255, 255, 255, 0.85);
-	line-height: 1.4em;
-	text-shadow: 1px 1px 0 #03202f;
+	color: rgba(0, 0, 0, 0.85);
+	line-height: 1.65em;
+	text-shadow: none;
+	max-width: 760px;
+	margin: 0 auto;
 }
 
 
