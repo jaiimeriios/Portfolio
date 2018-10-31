@@ -3350,6 +3350,85 @@ footer .row {
 
 
 /* about ----------------------------------------------------------------- */
+
+/* ===================================================================
+* about
+* ------------------------------------------------------------------- */
+.p-about {
+	padding:10rem 0;
+	position: relative;
+	margin: -10rem auto 0 auto;
+	background-color: #fff;
+}
+.p-about .section-header{
+	position: relative;
+	margin: -15rem auto 0 auto;
+	width: 94%;
+	max-width: 1200px;
+	padding: 6rem 0;
+	background-color: #fff;
+	border-radius: 2px;
+	box-shadow: 2px 25px 45px 5px rgba(0,0,0,0.2);
+}
+.p-about .section-header.has-bottom-sep::before {
+	background-color: rgba(0, 0, 0, 0.08);
+}
+.about-desc {
+	max-width: 1100px;
+	position: relative;
+	z-index: 9;
+}
+p.about {
+	font-family: "montserrat-extralight", sans-serif;
+	font-size: 3rem;
+	text-align: left;
+	color: rgba(255, 255, 255, 0.85);
+	line-height: 1.4em;
+	text-shadow: 1px 1px 0 #03202f;
+}
+
+
+ /* -------------------------------------------------------------------
+* responsive: about
+* ------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+	.about-desc {
+		font-size: 2.2rem;
+		max-width: 940px;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.about-desc {
+		font-size: 2rem;
+		max-width: 600px;
+	}
+	p.about {
+		margin: 0;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.s-about {
+		padding-top: 12rem;
+	}
+	.about-desc {
+		font-size: 1.9rem;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.about-desc {
+		font-size: 1.8rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
 .s-about {
 	padding:10rem 0 15rem 0;;
 	position: relative;
