@@ -1023,7 +1023,7 @@ Stats Tab
 }
 .display-2--light {
 	color: #FFFFFF;
-	text-shadow: 2px 2px 1px #03202f;
+	text-shadow: 2px 2px 1px #04334c;
 }
 .subhead {
 	font-family: "montserrat-bold", sans-serif;
@@ -3027,53 +3027,185 @@ footer .row {
 
 
 
-/* -------------------------------------------------------------------
-* slick slider
-* ------------------------------------------------------------------- */
-.slick-slider .slick-slide {
-	outline: none;
-}
-.slick-slider .slick-dots {
-	display: block;
-	list-style: none;
-	width: 100%;
-	padding: 0;
-	margin: 3rem 0 0 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Portfolio Projects ==================================================== */
+
+
+/* navbar ---------------------------------------------------------------- */
+#navbar {
+	position: fixed;
+	top: 0;
+	z-index: 999;
 	text-align: center;
-	position: absolute;
-	top: 100%;
-	left: 0;
+	width: 100%;
+	display:block;
+	transition: top 0.3s;
+	background-color:rgba(3, 50, 76, 0.95);
+ }
+#navbar span {
+	font-family: "montserrat-regular", sans-serif;
+	font-size: .85em;
 }
-.slick-slider .slick-dots li {
+#navbar a {
 	display: inline-block;
-	width: 27px;
-	height: 27px;
-	margin: 0;
-	padding: 9px;
-	cursor: pointer;
+	width: 100%;;
+	font-family: "montserrat-light", sans-serif;
+	font-size: 1em;
+	padding: 1.6rem 5rem;
+	color: #f2f2f2;
+	text-decoration: none;
 }
-.slick-slider .slick-dots li button {
-	display: block;
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	background: #959595;
-	border: none;
-	line-height: 10px;
-	padding: 0;
-	margin: 0;
-	cursor: pointer;
-	font: 0/0 a;
+#navbar a:hover {
+	color: #39b54a;
+	background-color: #003d5f;
+}
+/* navbar responsive ---------------------------- */
+@media only screen and (max-width: 400px) {
+	#navbar a {
+		font-size: 0.9em;
+		padding: 2rem 0;
+	}
+}
+
+/* hero ------------------------------------------------------------------ */
+.portfolio-project {
+	height: 80%;
+}
+h1.project-title, h2.project-title{
+	max-width: 760px;
+	margin: 0 auto 4rem auto;
+	text-align: left;
+}
+h1.project-title {
+	font-family: "montserrat-light", sans-serif;
+	font-size: 5rem;
+	text-align: left;
+}
+h2.project-title {
+	font-family: "montserrat-extralight", sans-serif;
+	font-size: 2.25rem;
+	text-transform: none;
+}
+
+/* project about --------------------------------------------------------- */
+.p-about {
+	padding:10rem 0;
+	position: relative;
+	margin: -20rem auto 0 auto;
+	background-color: #fafafa;
+	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+}
+/*
+.p-about .section-header{
+	position: relative;
+	margin: -15rem auto 0 auto;
+	width: 94%;
+	max-width: 1200px;
+	padding: 6rem 0;
+	background-color: #fff;
+	border-radius: 2px;
+	box-shadow: 2px 25px 45px 5px rgba(0,0,0,0.2);
+}
+*/
+.p-about .section-header.has-bottom-sep::before {
+	background-color: rgba(0, 0, 0, 0.08);
+}
+.about-desc {
+	max-width: 1100px;
+	position: relative;
+	z-index: 9;
+}
+p.project-about {
+	font-family: "montserrat-light", sans-serif;
+	font-size: 2rem;
+	text-align: left;
+	color: rgba(0, 0, 0, 0.85);
+	line-height: 1.75em;
 	text-shadow: none;
-	color: transparent;
+	max-width: 760px;
+	margin: 0 auto;
 }
-.slick-slider .slick-dots li button:hover,
-.slick-slider .slick-dots li button:focus {
-	outline: none;
+/* about responsive ----------------------------- */
+@media only screen and (max-width: 1200px) {
+	.about-desc {
+		font-size: 2.2rem;
+		max-width: 940px;
+	}
 }
-.slick-slider .slick-dots li.slick-active button,
-.slick-slider .slick-dots li:hover button {
-	background: #003d5f;
+@media only screen and (max-width: 800px) {
+	.about-desc {
+		font-size: 2rem;
+		max-width: 600px;
+	}
+	p.about {
+		margin: 0;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.p-about {
+		padding-top: 12rem;
+	}
+	.about-desc {
+		font-size: 1.9rem;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.about-desc {
+		font-size: 1.8rem;
+	}
 }
 
 
@@ -3082,20 +3214,39 @@ footer .row {
 
 
 
-/* ===================================================================
-* clients
-* ------------------------------------------------------------------- */
+
+
+/* project description --------------------------------------------------- */
+.p-decription {
+	padding:10rem 0;
+	position: relative;
+	margin: 0 auto;
+	background-color: #f6f6f6;
+	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+}
+/*
+
+
+
+
+
+
+
+
+
+
+/* projects slider ------------------------------------------------------- */
 .s-clients {
-	padding-top: 16.2rem;
-	padding-bottom: 16.8rem;
-	background-color: #e6e6e6;
+	padding: 10rem 0;
+	background-color: #fafafa;
 	color: #757575;
 	position: relative;
+	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
 }
-
-/* -------------------------------------------------------------------
-* slider
-* ------------------------------------------------------------------- */
 .clients-outer {
 	margin-top: 3.6rem;
 	padding-bottom: 9rem;
@@ -3112,10 +3263,7 @@ footer .row {
 .clients__slide:hover, .clients__slide:focus {
 	opacity: 1;
 }
-
-/* -------------------------------------------------------------------
-* testimonials
-* ------------------------------------------------------------------- */
+/* testimonials ---------------------------------------------------------- */
 .clients-testimonials {
 	margin-top: 4.2rem;
 	padding-top: 7.2rem;
@@ -3140,7 +3288,6 @@ footer .row {
 	margin: 0 10%;
 }
 .clients-testimonials .testimonials p {
-	font-family: "lora-regular", serif;
 	font-size: 3rem;
 	line-height: 1.8;
 	color: #555555;
@@ -3198,244 +3345,108 @@ footer .row {
 .clients-testimonials .testimonials .slick-dots {
 	margin-top: -0.6px;
 }
-
-/* -------------------------------------------------------------------
-* responsive: clients
-* ------------------------------------------------------------------- */
+/* clients responsive --------------------------- */
 @media only screen and (max-width: 1200px) {
 	.clients-testimonials .testimonials {
-	margin: 0 12%;
+		margin: 0 12%;
 	}
 	.clients-testimonials .testimonials p {
-	font-size: 2.6rem;
+		font-size: 2.6rem;
 	}
 	.clients-testimonials .testimonials .slick-prev {
-	left: -100px;
+		left: -100px;
 	}
 	.clients-testimonials .testimonials .slick-next {
-	right: -100px;
+		right: -100px;
 	}
 }
 @media only screen and (max-width: 1000px) {
 	.clients-testimonials .testimonials p {
-	font-size: 2.2rem;
+		font-size: 2.2rem;
 	}
 }
 @media only screen and (max-width: 800px) {
 	.clients-testimonials::before {
-	width: 400px;
+		width: 400px;
 	}
 	.clients-testimonials .testimonials {
-	margin: 0 2rem;
+		margin: 0 2rem;
 	}
 	.clients-testimonials .testimonials .slick-arrow {
-	top: auto;
-	bottom: 3rem;
+		top: auto;
+		bottom: 3rem;
 	}
 	.clients-testimonials .testimonials .slick-prev {
-	left: 0;
+		left: 0;
 	}
 	.clients-testimonials .testimonials .slick-next {
-	right: 0;
+		right: 0;
 	}
 }
 @media only screen and (max-width: 600px) {
 	.s-clients {
-	padding-top: 12rem;
+		padding-top: 12rem;
 	}
 	.clients-testimonials::before {
-	width: 250px;
+		width: 250px;
 	}
 	.clients-testimonials .testimonials {
-	margin: 0;
+		margin: 0;
 	}
 	.clients-testimonials .testimonials p {
-	font-size: 2rem;
+		font-size: 2rem;
 	}
 }
 @media only screen and (max-width: 400px) {
 	.clients-testimonials .testimonials p {
-	font-size: 1.9rem;
+		font-size: 1.9rem;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Portfolio Project ===================================================== */
-
-
-/* navbar ---------------------------------------------------------------- */
-#navbar {
-	position: fixed;
-	top: 0;
-	z-index: 999;
+/* slider ---------------------------------------------------------------- */
+.slick-slider .slick-slide {
+	outline: none;
+}
+.slick-slider .slick-dots {
+	display: block;
+	list-style: none;
+	width: 100%;
+	padding: 0;
+	margin: 3rem 0 0 0;
 	text-align: center;
-	width: 100%;
-	display:block;
-	transition: top 0.3s;
-	background-color:rgba(3, 50, 76, 0.95);
- }
-#navbar span {
-	font-family: "montserrat-regular", sans-serif;
-	font-size: .85em;
+	position: absolute;
+	top: 100%;
+	left: 0;
 }
-#navbar a {
+.slick-slider .slick-dots li {
 	display: inline-block;
-	width: 100%;;
-	font-family: "montserrat-light", sans-serif;
-	font-size: 1em;
-	padding: 1.6rem 5rem;
-	color: #f2f2f2;
-	text-decoration: none;
+	width: 20px;
+	height: 20px;
+	margin: 0;
+	padding: 15px;
+	cursor: pointer;
 }
-#navbar a:hover {
-	color: #39b54a;
-	background-color: #003d5f;
-}
-/* navbar responsive */
-@media only screen and (max-width: 400px) {
-	#navbar a {
-		font-size: 0.9em;
-		padding: 2rem 0;
-	}
-}
-
-
-/* hero ------------------------------------------------------------------ */
-.portfolio-project {
-	height: 80%;
-}
-h1.project-title, h2.project-title{
-	max-width: 760px;
-	margin: 0 auto 4rem auto;
-	text-align: left;
-}
-h1.project-title {
-	font-family: "montserrat-light", sans-serif;
-	font-size: 5rem;
-	text-align: left;
-}
-h2.project-title {
-	font-family: "montserrat-extralight", sans-serif;
-	font-size: 2.25rem;
-	text-transform: none;
-}
-/* about ----------------------------------------------------------------- */
-
-/* ===================================================================
-* about
-* ------------------------------------------------------------------- */
-.p-about {
-	padding:10rem 0;
-	position: relative;
-	margin: -20rem auto 0 auto;
-	background-color: #fafafa;
-	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
-	-webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
-	-moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
-}
-.p-about .section-header{
-	/* position: relative;
-	margin: -15rem auto 0 auto;
-	width: 94%;
-	max-width: 1200px;
-	padding: 6rem 0;
-	background-color: #fff;
-	border-radius: 2px;
-	box-shadow: 2px 25px 45px 5px rgba(0,0,0,0.2); */
-}
-.p-about .section-header.has-bottom-sep::before {
-	background-color: rgba(0, 0, 0, 0.08);
-}
-.about-desc {
-	max-width: 1100px;
-	position: relative;
-	z-index: 9;
-}
-p.project-description {
-	font-family: "montserrat-extralight", sans-serif;
-	font-size: 2.1rem;
-	text-align: left;
-	color: rgba(0, 0, 0, 0.85);
-	line-height: 1.65em;
+.slick-slider .slick-dots li button {
+	display: block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #999;
+	border: none;
+	line-height: 10px;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+	font: 0/0 a;
 	text-shadow: none;
-	max-width: 760px;
-	margin: 0 auto;
+	color: transparent;
 }
-
-
- /* -------------------------------------------------------------------
-* responsive: about
-* ------------------------------------------------------------------- */
-@media only screen and (max-width: 1200px) {
-	.about-desc {
-		font-size: 2.2rem;
-		max-width: 940px;
-	}
+.slick-slider .slick-dots li button:hover,
+.slick-slider .slick-dots li button:focus {
+	outline: none;
 }
-@media only screen and (max-width: 800px) {
-	.about-desc {
-		font-size: 2rem;
-		max-width: 600px;
-	}
-	p.about {
-		margin: 0;
-	}
-}
-@media only screen and (max-width: 600px) {
-	.s-about {
-		padding-top: 12rem;
-	}
-	.about-desc {
-		font-size: 1.9rem;
-	}
-}
-@media only screen and (max-width: 400px) {
-	.about-desc {
-		font-size: 1.8rem;
-	}
+.slick-slider .slick-dots li.slick-active button,
+.slick-slider .slick-dots li:hover button {
+	background: #126e89;
 }
 
 
@@ -3447,158 +3458,7 @@ p.project-description {
 
 
 
-.s-about {
-	padding:10rem 0 15rem 0;;
-	position: relative;
-	/* background-color: #003d5f;
-	background-image: url('../images/checkered-pattern.png'); */
-	background-attachment: fixed;
-}
-.s-about .section-header.has-bottom-sep::before {
-	background-color: rgba(255, 255, 255, 0.08);
-}
-.s-about .intro-wrap {
-	padding: 2rem 0 5rem 0;
-}
-.about-desc {
-	max-width: 1100px;
-	position: relative;
-	z-index: 9;
-}
-p.about {
-	font-family: "montserrat-extralight", sans-serif;
-	font-size: 3rem;
-	text-align: left;
-	color: rgba(255, 255, 255, 0.85);
-	line-height: 1.4em;
-	text-shadow: 1px 1px 0 #03202f;
-}
-.mosaic {
-	position: relative;
-	width: 100%;
-	align-items: center;
-	box-sizing: border-box;
- }
- .mosaic_background {
-	top: 0; left: 0;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	background:linear-gradient(#044b73, #02334f);
-	overflow: hidden;
-	z-index: -1;
- }
- .mosaic_background:after {
-	content:'';
-	position: absolute;
-	width: 600%;
-	height: 600%;
-	top: -250%;
-	right: -250%;
-	opacity: 0.5;
-	background: url("../images/dark-mosaic.png");
-	animation-name: rotate;
-	animation-duration: 200s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
- }
- @keyframes rotate {
-	0% { transform: rotateZ(0deg); }
-	50% { opacity: 0.85;}
-	100% { transform: rotateZ(360deg); }
- }
- @-moz-keyframes rotate {
-	0% { transform: rotateZ(0deg); }
-	50% { opacity: 0.85;}
-	100% { transform: rotateZ(360deg); }
- }
- @-webkit-keyframes rotate {
-	0% { transform: rotateZ(0deg); }
-	50% { opacity: 0.85;}
-	100% {transform: rotateZ(360deg); }
- }
-
-
- /* -------------------------------------------------------------------
-* responsive: about
-* ------------------------------------------------------------------- */
-@media only screen and (max-width: 1200px) {
-	.about-desc {
-		font-size: 2.2rem;
-		max-width: 940px;
-	}
-}
-@media only screen and (max-width: 800px) {
-	.about-desc {
-		font-size: 2rem;
-		max-width: 600px;
-	}
-	p.about {
-		margin: 0;
-	}
-}
-@media only screen and (max-width: 600px) {
-	.s-about {
-		padding-top: 12rem;
-	}
-	.about-desc {
-		font-size: 1.9rem;
-	}
-}
-@media only screen and (max-width: 400px) {
-	.about-desc {
-		font-size: 1.8rem;
-	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* OTROS */
 
 
 
