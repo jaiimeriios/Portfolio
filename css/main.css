@@ -3175,7 +3175,7 @@ p.project-about {
 	color: rgba(0, 0, 0, 0.85);
 	line-height: 1.75em;
 	text-shadow: none;
-	max-width: 760px;
+	max-width: 750px;
 	margin: 0 auto;
 }
 /* about responsive ----------------------------- */
@@ -3226,12 +3226,23 @@ p.project-about {
 	-webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
 }
-/*
-
-
-
-
-
+p.project-desc {
+	font-family: "montserrat-light", sans-serif;
+	font-size: 1.85rem;
+	text-align: left;
+	color: rgba(0, 0, 0, 0.85);
+	line-height: 1.75em;
+	text-shadow: none;
+	max-width: 750px;
+	margin: 2rem auto 4rem auto;
+}
+img.img-desc {
+	width: 94%;
+	max-width: 800px;
+	height: auto;
+	margin: 2rem auto;
+	display: block;
+}
 
 
 
