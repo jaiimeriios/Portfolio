@@ -42,6 +42,10 @@
 .portfolio-project {
 	height: 80%;
 }
+.home-content__main {
+    padding-top: 15rem;
+    max-width: 700px;
+}
 h1.project-title, h2.project-title{
 	max-width: 760px;
 	margin: 0 auto 4rem auto;
@@ -49,12 +53,12 @@ h1.project-title, h2.project-title{
 }
 h1.project-title {
 	font-family: "montserrat-light", sans-serif;
-	font-size: 5rem;
+	font-size: 4.5rem;
 	text-align: left;
 }
 h2.project-title {
 	font-family: "montserrat-extralight", sans-serif;
-	font-size: 2.25rem;
+	font-size: 2.2rem;
 	text-transform: none;
 }
 
@@ -95,9 +99,30 @@ p.project-about {
 	color: rgba(0, 0, 0, 0.85);
 	line-height: 1.75em;
 	text-shadow: none;
-	max-width: 750px;
+	max-width: 700px;
 	margin: 0 auto;
 }
+ul.project-about {
+    display: flex;
+    flex-wrap: wrap;
+	max-width: 700px;
+    margin: 4rem auto 0 auto;
+    list-style-type: none;
+}
+ul.project-about li {
+    font-family: "montserrat-light", sans-serif;
+    font-size: 2rem;
+    line-height: 5rem;
+    color: rgba(0, 0, 0, 0.85);
+    margin: 0 2.5rem 0 0;
+}
+ul.project-about li i {
+    color: #1483bd;
+    font-size: 1rem;
+    vertical-align: text-top;
+    margin: 4px 4px 0 0;
+}
+
 /* about responsive ----------------------------- */
 @media only screen and (max-width: 1200px) {
 	.about-desc {
@@ -128,14 +153,6 @@ p.project-about {
 	}
 }
 
-
-
-
-
-
-
-
-
 /* project description --------------------------------------------------- */
 .p-decription {
 	padding:10rem 0;
@@ -153,7 +170,7 @@ p.project-desc {
 	color: rgba(0, 0, 0, 0.85);
 	line-height: 1.75em;
 	text-shadow: none;
-	max-width: 750px;
+	max-width: 700px;
 	margin: 2rem auto 4rem auto;
 }
 img.img-desc {
@@ -163,10 +180,15 @@ img.img-desc {
 	margin: 2rem auto;
 	display: block;
 }
-
-
-
-
+/* description responsive ----------------------- */
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 800px) {
+}
+@media only screen and (max-width: 600px) {
+}
+@media only screen and (max-width: 400px) {
+}
 
 /* projects slider ------------------------------------------------------- */
 .s-clients {
