@@ -1417,7 +1417,7 @@ Stats Tab
 .s-home {
 	width: 100%;
 	height: 100%;
-	min-height: 786px;
+	/* min-height: 786px; */
 	background-color: transparent;
 	position: relative;
 	display: table;
@@ -1491,7 +1491,7 @@ Stats Tab
 	text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.75);
 }
 .home-content__scroll {
-margin: 20rem 0 0 0;
+	margin: 10rem 0 0 0;
 }
 .home-content__scroll a {
 	position: relative;
