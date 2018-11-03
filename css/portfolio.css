@@ -40,7 +40,7 @@
 
 /* hero ------------------------------------------------------------------ */
 .portfolio-project {
-	height: 80%;
+    margin-bottom: -20vh;
 }
 .home-content__main {
     padding-top: 15rem;
@@ -66,11 +66,11 @@ h2.project-title {
 .p-about {
 	padding:10rem 0;
 	position: relative;
-	margin: -20rem auto 0 auto;
+	margin:  0 auto;
 	background-color: #fafafa;
-	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
-	-webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
-	-moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.75);
 }
 /*
 .p-about .section-header{
