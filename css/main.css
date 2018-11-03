@@ -1202,8 +1202,11 @@ Stats Tab
 	transform: translateX(100%);
 	visibility: hidden;
 }
-.header-nav a, .header-nav a:visited {
+.header-nav a {
 	color: rgba(255, 255, 255, 0.5);
+}
+.header-nav a:visited {
+	color: #2bad3d;
 }
 .header-nav a:hover,
 .header-nav a:focus,
