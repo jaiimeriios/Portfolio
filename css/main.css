@@ -1027,7 +1027,7 @@ Stats Tab
 	text-shadow: 2px 2px 1px #04334c;
 }
 .subhead {
-	font-family: "montserrat-bold", sans-serif;
+	font-family: "montserrat-regular", sans-serif;
 	font-size: 1.7rem;
 	line-height: 1;
 	text-transform: uppercase;
@@ -1467,9 +1467,9 @@ Stats Tab
 	text-align: center;
 }
 .home-content h3 {
-	font-family: "montserrat-bold", sans-serif;
+	font-family: "montserrat-light", sans-serif;
 	font-size: 1.55rem;
-	color: #ffffff;
+	color: #1483bd;
 	text-transform: uppercase;
 	letter-spacing: 0.15rem;
 	position: relative;
@@ -2278,7 +2278,7 @@ p.services {
 	.services-list .service-icon {
 		font-size: 4.5rem;
 		float: none;
-		margin-top: 0;
+		margin: 0 0 1rem 0;
 	}
 }
 @media only screen and (max-width: 600px) {
