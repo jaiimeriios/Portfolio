@@ -62,7 +62,7 @@ html, body {
 }
 body {
 	background: #111111;
-	font-family: "lora-regular", serif;
+	font-family: "montserrat-regular", sans-serif;
 	font-size: 1.7rem;
 	font-style: normal;
 	font-weight: normal;
@@ -189,10 +189,11 @@ em, i, strong, b {
 	font-weight: normal;
 }
 em, i {
-	font-family: "lora-italic", serif;
+	font-family: "montserrat-light", sans-serif;
+	font-style: italic;
 }
 strong, b {
-	font-family: "lora-bold", serif;
+	font-family: "montserrat-bold", sans-serif
 }
 small {
 	font-size: 1.2rem;
@@ -236,7 +237,7 @@ blockquote cite a, blockquote cite a:visited {
 	border: none;
 }
 abbr {
-	font-family: "lora-bold", serif;
+	font-family: "montserrat-bold", sans-serif;
 	font-variant: small-caps;
 	text-transform: lowercase;
 	letter-spacing: .05rem;
@@ -371,7 +372,7 @@ table {
 	border-width: 0;
 	width: 100%;
 	max-width: 100%;
-	font-family: "lora-regular", serif;
+	font-family: "montserrat-regular", sans-serif;
 }
 th, td {
 	padding: 1.5rem 3rem;
