@@ -2258,9 +2258,12 @@ p.services {
 @media only screen and (max-width: 800px) {
 	.services-list {
 		margin-top: 4.2rem;
-		width: 96%;
+		width: 94%;
 		max-width: 650px;
 		text-align: center;
+	}
+	.services-list .service-item {
+		width: 48%;
 	}
 	.services-list p.skills {
 		margin: 0%
@@ -2288,6 +2291,10 @@ p.services {
 	.services-list .service-item:nth-child(n) {
 		padding-right: 10px;
 		padding-left: 10px;
+	}
+	.services-list .service-item {
+		width: 98%;
+		margin: 0 auto 6rem auto;
 	}
 	.services-list h3 {
 		font-size: 2.5rem;
