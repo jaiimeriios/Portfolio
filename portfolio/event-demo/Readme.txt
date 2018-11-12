@@ -14,9 +14,10 @@ Contact: jaimerios1989@gmail.com
 Credits: -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 Demo Images
+Unsplash - https://unsplash.com
 
 Fonts
-Font Awesome by Dave Gandy - http://fortawesome.github.io/Font-Awesome/
+Font Awesome - http://fortawesome.github.io/Font-Awesome/
 Google Fonts - http://www.google.com/fonts
 
 Resources
