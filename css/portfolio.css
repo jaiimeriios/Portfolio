@@ -55,10 +55,9 @@ h1.project-title {
     text-shadow: -0.45rem 0.35rem 0.1rem rgba(0, 0, 0, 0.4);
 }
 
-
 /* project about --------------------------------------------------------- */
 .p-about {
-	padding:6rem 0;
+	padding:8rem 0;
 	position: relative;
 	margin:  0 auto;
 	background-color: #fafafa;
@@ -100,7 +99,7 @@ ul.project-about {
     display: flex;
     flex-wrap: wrap;
 	max-width: 700px;
-    margin: 0 auto;
+    margin: 4rem auto 0 auto;
     list-style-type: none;
     justify-content: space-between;
 }
@@ -197,7 +196,7 @@ h3.project-desc {
     letter-spacing: .05rem;
     color: #1483bd;
     max-width: 700px;
-    margin: 4rem auto;
+    margin: 2rem auto 0 auto;
 }
 p.project-desc {
 	font-family: "montserrat-light", sans-serif;
@@ -213,7 +212,7 @@ img.img-desc {
 	width: 100%;
 	max-width: 800px;
 	height: auto;
-	margin: 2rem auto;
+	margin: 4rem auto;
 	display: block;
 }
 /* description responsive ----------------------- */
