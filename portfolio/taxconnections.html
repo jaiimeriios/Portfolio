@@ -11,177 +11,184 @@
 		<link rel="stylesheet" href="../css/base.css">
 		<link rel="stylesheet" href="../css/vendor.css">
 		<link rel="stylesheet" href="../css/main.css">
+		<link rel="stylesheet" href="../css/portfolio.css">
 		<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="../images/favicon.ico" type="image/x-icon">
 		<script src="../js/modernizr.js"></script>
 </head>
 <body id="top">
 
-<div id="navbar">
-	<a href="../index.html#works">
+<!-- top navbar ========================================================== -->
+<div id="navbar" >
+	<a href="../index.html" data-aos="fade-down" data-aos-delay='2500' data-aos-duration='1000'>
 		<span><</span>
 		Go Back To Portfolio
 	</a>
 </div>
 
-<!-- hero ================================================================== -->
-<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="../images/rio.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
-
+<!-- hero ================================================================ -->
+<section id="home" class="portfolio-project s-home target-section" data-parallax="scroll" data-image-src="../images/rio.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 	<div class="overlay"></div>
 	<div class="shadow-overlay"></div>
-	<canvas id="canvas"></canvas>
+	<!-- <canvas id="canvas"></canvas> -->
 
 	<div class="home-content">
 		<div class="row home-content__main">
-			<h3>Hello, My Name Is</h3>
-				<h1>TaxConnections</h1>
-				<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
 
-		<div class="home-content__scroll">
-				<a href="#about" class="scroll-link">
+			<h1 class="project-title">TaxConnections</h1>
+
+			<div class="home-content__scroll">
+				<a href="#p-about" class="scroll-link">
 					<span> &#8203; </span>
 				</a>
-		</div>
-
-	</div> <!-- end home-content -->
-</section> <!-- end s-home -->
-
-
-<!-- about ================================================================= -->
-<section id='about' class="s-about">
-	<div class="row section-header has-bottom-sep light-sep" data-aos="fade-down">
-		<div class="col-full">
-				<h3 class="subhead subhead--dark">I Like To Keep It Simple</h3>
-				<h1 class="display-1 display-1--light">I design things that people use</h1>
+			</div>
 
 		</div>
 	</div>
 
+</section>
+
+<!-- about =============================================================== -->
+<section id='p-about' class="p-about">
 	<div class="row about-desc" data-aos="fade-up">
 		<div class="col-full">
-				<p>I focus on user-friendly interfaces, functionality, content and conveying the message.</p>
-				<p>I design functional, creative, and detailed websites by exposing the simplicity and the latest web standards/trends as the main principles.</p>
+
+			<p class="project-about">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veritatis illum eius magni repellat totam tenetur consequuntur! Molestias eius tenetur, earum eligendi assumenda ad doloribus provident amet dicta possimus.
+			</p>
+			<ul class="project-about">
+				<li data-aos="fade-up" data-aos-delay='50'>
+					<i class="fa fa-circle-o" aria-hidden="true"></i>
+					Web Design
+				</li>
+				<li data-aos="fade-up" data-aos-delay='100'>
+					<i class="fa fa-circle-o" aria-hidden="true"></i>
+					Front-end
+				</li>
+				<li data-aos="fade-up" data-aos-delay='150'>
+					<i class="fa fa-circle-o" aria-hidden="true"></i>
+					UX Design
+				</li>
+				<li data-aos="fade-up" data-aos-delay='200'>
+					<i class="fa fa-circle-o" aria-hidden="true"></i>
+					Back-end
+				</li>
+			</ul>
+
 		</div>
 	</div>
-
-</section><!-- end s-about -->
-
-
-<a class="projectos"projectos href="merced-demo/">demo</a>
-<a class="projectos"projectos href="merced-template.rar" download>download theme</a>
+</section><!-- end p-about -->
 
 
-<!-- portfolio
-================================================== -->
-<section id="portfolio" class="portfolio">
-    <div class="row section-header has-bottom-sep" data-aos="fade-up">
-        <div class="col-full">
-            <h3 class="subhead subhead--dark">Description of thing here</h3>
-            <h1 class="display-1 display-1--light">Name of Project</h1>
-        </div>
-    </div>
+<!-- project ============================================================= -->
+<section id="p-decription" class="p-decription">
+	<div class="row about-desc" data-aos="fade-down">
 
+		<ul class="project-btns">
+			<li data-aos="fade-up" data-aos-delay='100'>
+				<a href="https://www.taxconnections.com/" target="_blank">
+					<i class="icon-earth" aria-hidden="true"></i>
+					View Live
+				</a>
+			</li>
+		</ul>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veritatis illum eius magni repellat totam tenetur consequuntur!</p>
+
+		<img class="img-desc" alt="taxconnections index page" src="../images/projects/taxconnections-index.jpg"  >
+		
+		<h3 class="project-desc">Lorem Ipsum dolor Sit Amer</h3>
+		<p class="project-desc">
+			I was greatly appreciative of the opportunity to work with my client to help build them a solid brand and web presence. We enjoyed working together during the creative process and we’re all very happy with the result. I hope their investment brings them long-term gains in the years to come.
+		</p>
+		
+	</div>
+	<!-- site features -->
+	<div class="row services-list block-1-3 block-tab-full"data-aos="fade-down">
+		<div class="col-block service-item" data-aos="fade-up" data-aos-delay='500'>
+			<div class="service-icon">
+				<i class="icon-earth"></i>
+			</div>
+			<div class="service-text">
+				<h3 class="h2">Web Design</h3>
+				<p class="skills">
+					Turning complex problems into simple, beautiful and intuitive designs
+				</p>
+			</div>
+		</div>
+		<div class="col-block service-item" data-aos="fade-up" data-aos-delay='650'>
+			<div class="service-icon">
+				<i class="fa fa-sitemap" aria-hidden="true"></i>
+			</div>
+			<div class="service-text">
+				<h3 class="h2">UX Design</h3>
+				<p class="skills">
+					Thoughtful &amp; memorable experiences, products and services that play meaningful roles in people’s lives & business success.
+				</p>
+			</div>
+		</div>
+		<div class="col-block service-item" data-aos="fade-up" data-aos-delay='700'>
+			<div class="service-icon">
+				<i class="fa fa-code"></i>
+			</div>
+			<div class="service-text">
+				<h3 class="h2">Web Development</h3>
+				<p class="skills">
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum consectetur placeat quas beatae suscipit.
+				</p>
+			</div>
+		</div>
+		<div class="col-block service-item" data-aos="fade-up" data-aos-delay='100'>
+			<div class="service-icon">
+				<i class="fa fa-desktop"></i>
+			</div>
+			<div class="service-text">
+				<h3 class="h2">UI Design</h3>
+				<p class="skills">
+					User friendly, intuitive interfaces allowing users to focus on the task and not the tool.
+				</p>
+			</div>
+		</div>
+		<div class="col-block service-item" data-aos="fade-up" data-aos-delay='150'>
+			<div class="service-icon">
+				<i class="fa fa-file-code-o"></i>
+			</div>
+			<div class="service-text">
+				<h3 class="h2"> Algo Aqui</h3>
+				<p class="skills">
+					Designing for the web is a lifestyle. As technology changes so does the challenge.
+				</p>
+			</div>
+		</div>
+		<div class="col-block service-item" data-aos="fade-up" data-aos-delay='200'>
+			<div class="service-icon">
+				<i class="fa fa-diamond"></i>
+			</div>
+			<div class="service-text">
+				<h3 class="h2">Great Design</h3>
+				<p class="skills">
+					I’m obsessed with current trends and always strive to create “what’s next in design” to get brands noticed and push them forward.</p>
+			</div>
+		</div>
+
+	</div>
 </section>
 
 
 
 
+<!-- other projects  -->
+
+<!-- footer -->
 
 
 
 
-<!-- toolkit ============================================================ -->
-<section id="clients" class="s-clients">
-	<div class="row section-header has-bottom-sep" data-aos="fade-down">
-		<div class="col-full">
-			<h3 class="subhead subhead--dark">Toolkit</h3>
-			<h1 class="display-1 display-1--light">adsfadsfa</h1>
-		</div>
-	</div>
 
-	<div class="row clients-outer" data-aos="fade-up">
-		<div class="col-full">
-			<div class="clients">
-				<a href="#" title="" class="clients__slide">
-					<img src="images/clients/apple.png" />
-				</a>
-				<a href="#" title="" class="clients__slide">
-					<img src="images/clients/atom.png" />
-				</a>
-				<a href="#" title="" class="clients__slide">
-					<img src="images/clients/blackberry.png" />
-				</a>
-				<a href="#" title="" class="clients__slide">
-					<img src="images/clients/dropbox.png" />
-				</a>
-				<a href="#" title="" class="clients__slide">
-					<img src="images/clients/envato.png" />
-				</a>
-				<a href="#" title="" class="clients__slide">
-					<img src="images/clients/firefox.png" />
-				</a>
-				<a href="#" title="" class="clients__slide">
-					<img src="images/clients/joomla.png" />
-				</a>
-				<a href="#" title="" class="clients__slide">
-					<img src="images/clients/magento.png" />
-				</a>
-			</div>
-		</div>
-	</div> 
-</section> <!-- end of toolkit -->
 
-<!-- footer ============================================================ -->
-<footer>
-	<div class="intro-wrap">
-		<div class="row section-header has-bottom-sep light-sep" data-aos="fade-down">
-			<div class="col-full">
-				<h3 class="subhead">footer</h3>
-				<h1 class="display-2 display-2--light">bottom part</h1>
-			</div>
-		</div>
-	</div>
-	<div class="row footer-main" data-aos="fade-up">
-		<div class="col-twelve tab-full left footer-desc">
-			Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Quaerat voluptas autem necessitatibus vitae aut.
-		</div>
-		<ul class="contact-footer">
-			<li>
-				<a href="https://www.linkedin.com/in/jaiimeriios/">
-					<i class="fa fa-linkedin" aria-hidden="true"></i>
-				</a>
-			</li>
-			<li>
-				<a href="https://github.com/jaiimeriios">
-					<i class="fa fa-github" aria-hidden="true"></i>
-				</a>
-			</li>
-			<li>
-				<a href="https://codepen.io/jaiimeriios/">
-					<i class="fa fa-codepen" aria-hidden="true"></i>
-				</a>
-			</li>
-		</ul>
-	</div>
-	<div class="row footer-bottom" data-aos="fade-up">
-		<div class="col-twelve">
-			<div class="copyright">
-				<span>© Jaime Alejandro Rios 2018</span>
-			</div>
-			<div class="go-top">
-				<a title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
-			</div>
-		</div>
-	</div>
-</footer>
 
-<!-- preloader ============================================================ -->
+
+<!-- preloader =========================================================== -->
 <div id="preloader">
 	<div id="loader">
 		<div class="line-scale-pulse-out">
@@ -192,43 +199,11 @@
 	</div>
 </div>
 
-<!-- JavaScript =============================================================== -->
+<!-- JavaScript ========================================================== -->
 <script src="../js/jquery-3.2.1.min.js"></script>
 <script src="../js/plugins.js"></script>
 <script src="../js/main.js"></script>
-
-	<script>
-		// smoothscrolling without markup changes
-		// handle links with @href started with '#' only
-		$(document).on('click', 'a[href^="#"]', function(e) {
-			// target element id
-			var id = $(this).attr('href');
-			// target element
-			var $id = $(id);
-			if ($id.length === 0) {
-					return;
-			}
-			// prevent standard hash navigation (avoid blinking in IE)
-			e.preventDefault();
-			// top position relative to the document
-			var pos = $id.offset().top;
-			// animated top scrolling
-			$('body, html').animate({scrollTop: pos});
-		});
-
-
-		// Show Nav on Scroll up
-		var prevScrollpos = window.pageYOffset;
-		window.onscroll = function() {
-			var currentScrollPos = window.pageYOffset;
-			if (prevScrollpos > currentScrollPos) {
-				document.getElementById("navbar").style.top = "0";
-			} else {
-				document.getElementById("navbar").style.top = "-100px";
-			}
-			prevScrollpos = currentScrollPos;
-		}
-	</script>
+<script src="../js/particles.js"></script>
 
 </body>
 </html>
