@@ -109,19 +109,19 @@ ul.project-about {
 	max-width: 700px;
     margin: 4rem auto 0 auto;
     list-style-type: none;
+    justify-content: space-between;
 }
 ul.project-about li {
     font-family: "montserrat-light", sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 5rem;
     color: rgba(0, 0, 0, 0.85);
-    margin: 0 2.5rem 0 0;
 }
 ul.project-about li i {
     color: #1483bd;
     font-size: 1rem;
     vertical-align: text-top;
-    margin: 4px 4px 0 0;
+    margin: 3px 2px 0 0;
 }
 
 /* about responsive ----------------------------- */
@@ -156,13 +156,45 @@ ul.project-about li i {
 
 /* project description --------------------------------------------------- */
 .p-decription {
-	padding:10rem 0;
+	padding:6rem 0;
 	position: relative;
 	margin: 0 auto;
 	background-color: #f6f6f6;
 	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
 	-webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+}
+ul.project-btns {
+    display: flex;
+    flex-wrap: wrap;
+	max-width: 700px;
+    margin: 0 auto 6rem auto;
+    list-style-type: none;
+    justify-content: space-between;
+}
+ul.project-btns li {
+font-family: "montserrat-light", sans-serif;
+    font-size: 1.8rem;
+    line-height: 8rem;
+}
+ul.project-btns li a {
+    color: #39b54a;
+}
+ul.project-btns li a:hover {
+    color: #33a242;
+}
+ul.project-btns li i {
+    font-size: 2rem;
+    vertical-align: text-top;
+    margin: -2px 0 0 0;
+}
+ul.project-btns li.dwnld a {
+    background-color: #39b54a;
+    color: #fff;
+    padding: 1rem 1.5rem;
+}
+ul.project-btns li.dwnld a:hover {
+    background-color: #33a242;
 }
 p.project-desc {
 	font-family: "montserrat-light", sans-serif;
@@ -172,10 +204,10 @@ p.project-desc {
 	line-height: 1.75em;
 	text-shadow: none;
 	max-width: 700px;
-	margin: 2rem auto 4rem auto;
+	margin: 4rem auto;
 }
 img.img-desc {
-	width: 94%;
+	width: 100%;
 	max-width: 800px;
 	height: auto;
 	margin: 2rem auto;
