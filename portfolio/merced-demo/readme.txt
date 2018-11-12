@@ -1,11 +1,11 @@
 Merced free bootstrap template
 
-Merced is a one page multiuse template based on Bootstrap 3 Framework.
+Merced is a one page multiuse template based on the Bootstrap 3 Framework.
 You can use it for whatever you want.
 
 If you like the template, please spread the word.
 
-theme version: 1.0
+Theme version: 1.0
 Release Date: 29 feb 2016
 Author: jaime alejandro rios(http://jaiimeriios.com/)
 Contact: jaimerios1989@gmail.com
