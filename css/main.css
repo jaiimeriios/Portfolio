@@ -1490,7 +1490,7 @@ Stats Tab
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
 	position: relative;
-	margin: 0 10rem;
+	margin: 0 0 0 0.5rem;
 	text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.75);
 }
 .home-content__scroll {
