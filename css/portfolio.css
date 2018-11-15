@@ -165,7 +165,7 @@ ul.project-btns {
     justify-content: space-between;
 }
 ul.project-btns li {
-font-family: "montserrat-light", sans-serif;
+	font-family: "montserrat-light", sans-serif;
     font-size: 1.8rem;
     line-height: 8rem;
 }
@@ -214,6 +214,21 @@ img.img-desc {
 	height: auto;
 	margin: 4rem auto;
 	display: block;
+}
+ul.project-features-list {
+    list-style-type: none;
+    margin: 3rem auto 0 auto;
+    max-width: 700px;
+    font-family: "montserrat-light", sans-serif;
+    font-size: 1.8rem;
+    line-height: 3.5rem;
+    color: rgba(0, 0, 0, 0.85);
+}
+ul.project-features-list li i {
+    color: #1483bd;
+    font-size: 1rem;
+    vertical-align: text-top;
+    margin: 2px 5px 0 2px;
 }
 /* description responsive ----------------------- */
 @media only screen and (max-width: 1200px) {
