@@ -1,20 +1,4 @@
 /*
-   ..eeeee..
- e8"   8   "8e
-d8     8     8b
-8!   .dWb.   !8
-Y8 .e* 8 *e. 8P
- *8*   8    *8*
-   **eeeee**
-
-     .-------.    ______
-    /   o   /|   /\     \
-   /_______/o|  /o \  o  \
-   | o     | | /   o\_____\
-   |   o   |o/ \o   /o    /
-   |     o |/   \ o/  o  /
-   '-------'     \/____o/
-
 
 Admin
 
@@ -105,20 +89,7 @@ ___///_//_| |_\\__\\\__________|____|
 
 
 
-resume
-     _.-^^---....,,--       
- _--                  --_  
-<                        >)
-|                         | 
- \._                   _./  
-    ```--. . , ; .--'''       
-          | |   |             
-       .-=||  | |=-.   
-       `-=#$%&%$#=-'   
-          | ;  :|     
- _____.,-#%&$@%#&#~,._____
-
-
+Resume
            .-._   _ _ _ _ _ _ _ _
 .-''-.__.-'00  '-' ' ' ' ' ' ' ' '-.
 '.___ '    .   .--_'-' '-' '-' _'-' '._
@@ -131,7 +102,7 @@ resume
 
 
 
-
+portfolio
                                           $" *.
               d$$$$$$$P"                  $    J
                   ^$.                     4r   "
@@ -152,43 +123,8 @@ $       $$$$$       $    $  $  $     L       *$$$"      4
 
 
 
-         ;               ,           
-         ,;                 '.         
-        ;:                   :;        
-       ::                     ::       
-       ::                     ::       
-       ':                     :        
-        :.                    :        
-     ;' ::                   ::  '     
-    .'  ';                   ;'  '.    
-   ::    :;                 ;:    ::   
-   ;      :;.             ,;:     ::   
-   :;      :;:           ,;"      ::   
-   ::.      ':;  ..,.;  ;:'     ,.;:   
-    "'"...   '::,::::: ;:   .;.;""'    
-        '"""....;:::::;,;.;"""         
-    .:::.....'"':::::::'",...;::::;.   
-   ;:' '""'"";.,;:::::;.'""""""  ':;   
-  ::'         ;::;:::;::..         :;  
- ::         ,;:::::::::::;:..       :: 
- ;'     ,;;:;::::::::::::::;";..    ':.
-::     ;:"  ::::::"""'::::::  ":     ::
- :.    ::   ::::::;  :::::::   :     ; 
-  ;    ::   :::::::  :::::::   :    ;  
-   '   ::   ::::::....:::::'  ,:   '   
-    '  ::    :::::::::::::"   ::       
-       ::     ':::::::::"'    ::       
-       ':       """""""'      ::       
-        ::                   ;:        
-        ':;                 ;:"        
-          ';              ,;'          
-            "'           '"            
-              '
 
-
-
-
-              
+index
                             .-==========
                          .-' O    =====
                         /___       ===
@@ -214,25 +150,34 @@ _____________________________)    (_____________________________
 Portfolio Projects 
 
 
+     .-------.    ______
+    /   o   /|   /\     \
+   /_______/o|  /o \  o  \
+   | o     | | /   o\_____\
+   |   o   |o/ \o   /o    /
+   |     o |/   \ o/  o  /
+   '-------'     \/____o/
 
-   - imports
-   - normalize
-   - basic/base setup styles
-      - Media
-      - Typography resets
-      - links
-      - inputs
-   - grid
-      - medium size devices
-      - tablets
-      - mobile devices
-      - small mobile devices
+= imports
+= normalize
+= basic/base setup styles
+   - Media
+   - Typography resets
+   - links
+   - inputs
+= grid
+   - column blocks
+   - column width classes
+   - medium size devices
+   - tablets
+   - mobile devices
+   - small mobile devices
    - block grids
-      - medium size devices
-      - tablets
-      - mobile devices
-      - small mobile devices
-   - MISC
+   - medium size devices
+   - tablets
+   - mobile devices
+   - small mobile devices
+= MISC
 */
 
 /* ==============================================
@@ -448,20 +393,12 @@ body,input, button {
    -moz-osx-font-smoothing: grayscale;
    -webkit-font-smoothing: antialiased;
 }
-
-
-
-
-/* media */
+/* media ------------------------------------- */
 img, video {
    max-width: 100%;
    height: auto;
 }
-
-
-
-
-/* Typography resets */
+/* Typography resets ------------------------- */
 div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,
 pre,form, p, blockquote, th, td {
    margin: 0;
@@ -493,8 +430,7 @@ ol, ul {
 li {
    display: block;
 }
-
-/* links */
+/* links ------------------------------------- */
 a {
    text-decoration: none;
    line-height: inherit;
@@ -502,11 +438,7 @@ a {
 a img {
    border: none;
 }
-
-
-
-
-/* inputs */
+/* inputs ------------------------------------ */
 fieldset {
    margin: 0;
    padding: 0;
@@ -525,9 +457,6 @@ textarea {
    -o-appearance: none;
    appearance: none;
 }
-
-
-
 
 /* ==============================================
 	grids
@@ -549,8 +478,7 @@ textarea {
    margin-left: -20px;
    margin-right: -20px;
 }
-
-/* column blocks -------------------------------------- */
+/* column blocks ----------------------------- */
 [class*="col-"] {
    float: left;
    padding: 0 20px;
@@ -558,7 +486,7 @@ textarea {
 [class*="col-"]+[class*="col-"].end {
    float: right;
 }
-/* column width classes ------------------------------- */
+/* column width classes ---------------------- */
 .col-one {
    width: 8.33333%;
 }
@@ -595,11 +523,7 @@ textarea {
 .col-twelve, .col-full {
    width: 100%;
 }
-
-
-
-
-/* medium size devices */
+/* medium size devices ----------------------- */
 @media only screen and (max-width: 1200px) {
    .row .row {
       margin-left: -15px;
@@ -645,8 +569,7 @@ textarea {
       width: 100%;
    }
 }
-
-/* tablets*/
+/* tablets ----------------------------------- */
 @media only screen and (max-width: 800px) {
    .row {
       width: 90%;
@@ -670,8 +593,7 @@ textarea {
       width: 100%;
    }
 }
-
-/* mobile devices */
+/* mobile devices ---------------------------- */
 @media only screen and (max-width: 600px) {
    .row {
       width: auto;
@@ -704,10 +626,7 @@ textarea {
       width: 100%;
    }
 }
-
-
-
-/* small mobile devices*/
+/* small mobile devices ---------------------- */
 @media only screen and (max-width: 400px) {
    .row .row {
       padding-left: 0;
@@ -727,8 +646,7 @@ textarea {
       float: none;
    }
 }
-
-/* block grids */
+/* block grids ------------------------------- */
 [class*="block-"]:after {
    content: "";
    display: table;
@@ -756,10 +674,7 @@ textarea {
 .block-1-2 .col-block:nth-child(2n+1) {
    clear: both;
 }
-
-
-
-/*  medium size devices*/
+/*  medium size devices ---------------------- */
 @media only screen and (max-width: 1200px) {
    .block-m-1-6 .col-block {
       width: 16.66667%;
@@ -791,11 +706,7 @@ textarea {
       clear: both;
    }
 }
-
-
-
-
-/* tablets */
+/* tablets ----------------------------------- */
 @media only screen and (max-width: 800px) {
    .block-tab-1-6 .col-block {
       width: 16.66667%;
@@ -827,11 +738,7 @@ textarea {
       clear: both;
    }
 }
-
-
-
-
-/*  mobile devices*/
+/*  mobile devices --------------------------- */
 @media only screen and (max-width: 600px) {
    .block-mob-1-6 .col-block {
       width: 16.66667%;
@@ -863,8 +770,7 @@ textarea {
       clear: both;
    }
 }
-
-/*  small mobile devices */
+/*  small mobile devices --------------------- */
 @media only screen and (max-width: 400px) {
    .stack .col-block {
       width: 100% !important;
