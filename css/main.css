@@ -46,9 +46,10 @@
 	- go to top
 */
 
-/* ===================================================================
-*  base style
-* ------------------------------------------------------------------- */
+/* ==============================================
+	base style
+   ----------------------------------------------
+*/
 html {
 	font-size: 10px;
 }
@@ -90,9 +91,7 @@ body {
 	background: #33a242; 
 }
 
-/* -------------------------------------------------------------------
-* links
-* ------------------------------------------------------------------- */
+/* links ------------------------------------- */
 a {
 	color: #39b54a;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -105,9 +104,10 @@ a:hover, a:active {
 	outline: 0;
 }
 
-/* ===================================================================
-*  typography & general theme styles
-* ------------------------------------------------------------------- */
+/* ==============================================
+	typography & general theme styles
+   ----------------------------------------------
+*/
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: "montserrat-medium", sans-serif;
 	color: #000;
@@ -289,10 +289,7 @@ hr {
 	margin: 2.4rem 0 1.5rem;
 	height: 0;
 }
-
-/* -------------------------------------------------------------------
-* Lists
-* ------------------------------------------------------------------- */
+/* Lists ------------------------------------- */
 ol {
 	list-style: decimal;
 }
@@ -336,10 +333,7 @@ dt {
 dd {
 	margin: 0 0 0 2rem;
 }
-
-/* -------------------------------------------------------------------
-* video container
-* ------------------------------------------------------------------- */
+/* video container---------------------------- */
 .video-container {
 	position: relative;
 	padding-bottom: 56.25%;
@@ -354,20 +348,14 @@ dd {
 	width: 100%;
 	height: 100%;
 }
-
-/* -------------------------------------------------------------------
-* floated image
-* ------------------------------------------------------------------- */
+/* floated image ----------------------------- */
 img.pull-right {
 	margin: 1.5rem 0 0 3rem;
 }
 img.pull-left {
 	margin: 1.5rem 3rem 0 0;
 }
-
-/* -------------------------------------------------------------------
-* tables
-* ------------------------------------------------------------------- */
+/* tables------------------------------------- */
 table {
 	border-width: 0;
 	width: 100%;
@@ -396,10 +384,7 @@ th:last-child, td:last-child {
 	overflow-x: auto;
 	-webkit-overflow-scrolling: touch;
 }
-
-/* -------------------------------------------------------------------
-* spacing
-* ------------------------------------------------------------------- */
+/* spacing ----------------------------------- */
 button, .btn {
 	margin-bottom: 1.2rem;
 }
@@ -410,10 +395,7 @@ input, textarea, select, pre, blockquote, figure, table,
 p, ul, ol, dl, form, .video-container, .cl-custom-select {
 	margin-bottom: 3rem;
 }
-
-/* ===================================================================
-* forms
-* ------------------------------------------------------------------- */
+/* forms ------------------------------------- */
 fieldset {
 	border: none;
 }
@@ -485,8 +467,7 @@ select {
 	-webkit-transition: all 0.15s ease-in-out;
 	transition: all 0.15s ease-in-out;
 }
-
-/* IE9 and below */
+/* IE9 and below ----------------------------- */
 .oldie .cl-custom-select::after {
 	display: none;
 }
@@ -530,10 +511,7 @@ label > input[type="radio"] {
 	position: relative;
 	top: .15rem;
 }
-
-/* -------------------------------------------------------------------
-* style placeholder
-* ------------------------------------------------------------------- */
+/* style placeholder ------------------------- */
 ::-webkit-input-placeholder {
 	color: #828282;
 }
@@ -551,10 +529,7 @@ label > input[type="radio"] {
 .placeholder {
 	color: #828282 !important;
 }
-
-/* -------------------------------------------------------------------
-* autocomplete styles in chrome
-* ------------------------------------------------------------------- */
+/* autocomplete styles chrome ---------------- */
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus input:-webkit-autofill,
@@ -566,10 +541,7 @@ select:-webkit-autofill:focus {
 	-webkit-text-fill-color: #003d5f;
 	transition: background-color 5000s ease-in-out 0s;
 }
-
-/* ===================================================================
-* buttons
-* ------------------------------------------------------------------- */
+/* buttons ----------------------------------- */
 .btn,
 button,
 input[type="submit"],
@@ -607,8 +579,7 @@ input[type="button"]:focus {
 	color: #000000;
 	outline: 0;
 }
-
-/* button primary ------------------------------------------------- */
+/* button primary ---------------------------- */
 .btn.btn--primary,
 button.btn--primary,
 input[type="submit"].btn--primary,
@@ -631,8 +602,7 @@ input[type="button"].btn--primary:focus {
 	background: #33a242;
 	border-color: #33a242;
 }
-
-/* button modifiers ------------------------------------------------- */
+/* button modifiers -------------------------- */
 .btn.full-width, button.full-width {
 	width: 100%;
 	margin-right: 0;
@@ -664,13 +634,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	padding: 0;
 }
 
-/* ===================================================================
-* additional components
-* ------------------------------------------------------------------- */
+/* ==============================================
+	additional components
+   ----------------------------------------------
+*/
 
-/* -------------------------------------------------------------------
-* alert box
-* ------------------------------------------------------------------- */
+/* alert box --------------------------------- */
 .alert-box {
 	padding: 2.1rem 4rem 2.1rem 3rem;
 	position: relative;
@@ -705,12 +674,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	background-color: #fff099;
 	color: #bba31b;
 }
-
-/* -------------------------------------------------------------------
-* additional typo styles
-* ------------------------------------------------------------------- */
-
-/* drop cap ----------------------------------------------- */
+/* drop cap ---------------------------------- */
 .drop-cap:first-letter {
 	float: left;
 	margin: 0;
@@ -723,80 +687,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	background: transparent;
 	color: #000000;
 }
-
-/* line definition style ----------------------------------------------- */
-.lining dt, .lining dd {
-	display: inline;
-	margin: 0;
-}
-
-.lining dt + dt:before, .lining dd + dt:before {
-	content: "\A";
-	white-space: pre;
-}
-.lining dd + dd:before {
-	content: ", ";
-}
-.lining dd + dd:before {
-	content: ", ";
-}
-.lining dd:before {
-	content: ": ";
-	margin-left: -0.2em;
-}
-
-/* dictionary definition style ----------------------------------------- */
-.dictionary-style dt {
-	display: inline;
-	counter-reset: definitions;
-}
-.dictionary-style dt + dt:before {
-	content: ", ";
-	margin-left: -0.2em;
-}
-.dictionary-style dd {
-	display: block;
-	counter-increment: definitions;
-}
-.dictionary-style dd:before {
-	content: counter(definitions, decimal) ". ";
-}
-
-/* Pull Quotes ---------------------------------------------------------- */
-.pull-quote {
-	position: relative;
-	padding: 2.1rem 3rem 2.1rem 0px;
-}
-.pull-quote:before, .pull-quote:after {
-	height: 1em;
-	position: absolute;
-	font-size: 10rem;
-	font-family: Arial, Sans-Serif;
-	color: rgba(0, 0, 0, 0.25);
-}
-.pull-quote:before {
-	content: "\201C";
-	top: -3.6rem;
-	left: 0;
-}
-.pull-quote:after {
-	content: '\201D';
-	bottom: 3.6rem;
-	right: 0;
-}
-.pull-quote blockquote {
-	margin: 0;
-}
-.pull-quote blockquote:before {
-	content: none;
-}
-
-/*
-Stats Tab
-	<ul class="stats-tabs">
-	<li><a href="#">[value]<em>[name]</em></a></li>
-	</ul>
---------------------------------------------------------------------- */
+/* Stats Tab --------------------------------- */
 .stats-tabs {
 	padding: 0;
 	margin: 3rem 0;
@@ -830,85 +721,7 @@ Stats Tab
 	font-family: "montserrat-regular", sans-serif;
 	color: #828282;
 }
-
-/* -------------------------------------------------------------------
-* skillbars
-* ------------------------------------------------------------------- */
-.skill-bars {
-	list-style: none;
-	margin: 6rem 0 3rem;
-}
-.skill-bars li {
-	height: .6rem;
-	background: #c9c9c9;
-	width: 100%;
-	margin-bottom: 6.9rem;
-	padding: 0;
-	position: relative;
-}
-.skill-bars li strong {
-	position: absolute;
-	left: 0;
-	top: -3rem;
-	font-family: "montserrat-bold", sans-serif;
-	color: #000000;
-	text-transform: uppercase;
-	letter-spacing: .2rem;
-	font-size: 1.4rem;
-	line-height: 2.4rem;
-}
-.skill-bars li .progress {
-	background: #000000;
-	position: relative;
-	height: 100%;
-}
-.skill-bars li .progress span {
-	position: absolute;
-	right: 0;
-	top: -3.6rem;
-	display: block;
-	font-family: "montserrat-regular", sans-serif;
-	color: #FFFFFF;
-	font-size: 1.1rem;
-	line-height: 1;
-	background: #000000;
-	padding: .6rem .6rem;
-	border-radius: 3px;
-}
-.skill-bars li .progress span::after {
-	position: absolute;
-	left: 50%;
-	bottom: -5px;
-	margin-left: -5px;
-	border-right: 5px solid transparent;
-	border-left: 5px solid transparent;
-	border-top: 5px solid #000000;
-	content: "";
-}
-.skill-bars li .percent5  { width: 5%; }
-.skill-bars li .percent10 { width: 10%; }
-.skill-bars li .percent15 { width: 15%; }
-.skill-bars li .percent20 { width: 20%; }
-.skill-bars li .percent25 { width: 25%; }
-.skill-bars li .percent30 { width: 30%; }
-.skill-bars li .percent35 { width: 35%; }
-.skill-bars li .percent40 { width: 40%; }
-.skill-bars li .percent45 { width: 45%; }
-.skill-bars li .percent50 { width: 50%; }
-.skill-bars li .percent55 { width: 55%; }
-.skill-bars li .percent60 { width: 60%; }
-.skill-bars li .percent65 { width: 65%; }
-.skill-bars li .percent70 { width: 70%; }
-.skill-bars li .percent75 { width: 75%; }
-.skill-bars li .percent80 { width: 80%; }
-.skill-bars li .percent85 { width: 85%; }
-.skill-bars li .percent90 { width: 90%; }
-.skill-bars li .percent95 { width: 95%; }
-.skill-bars li .percent100 { width: 100%; }
-
-/* ===================================================================
-* reusable and common theme styles
-* ------------------------------------------------------------------- */
+/* reusable and common styles ---------------- */
 .wide {
 	max-width: 1400px;
 }
@@ -916,23 +729,12 @@ Stats Tab
 	max-width: 800px;
 }
 
+/* ==============================================
+	site styles
+   ----------------------------------------------
+*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ===================================================================
-*  preloader
-* ------------------------------------------------------------------- */
+/* preloader --------------------------------- */
 #preloader {
 	position: fixed;
 	top: 0;
@@ -945,7 +747,8 @@ Stats Tab
 	width: 100%;
 	display: table;
 }
-.no-js #preloader, .oldie #preloader {
+.no-js #preloader,
+.oldie #preloader {
 	display: none;
 }
 #loader {
@@ -1003,8 +806,7 @@ Stats Tab
 		transform: scaley(1);
 	}
 }
-
-/* animate .home-content__main ----------------------------------------- */
+/* animate home-content__main ---------------- */
 html.cl-preload .home-content__main {
 	opacity: 0;
 }
@@ -1016,10 +818,7 @@ html.cl-loaded .home-content__main {
 html.no-csstransitions .home-content__main {
 	opacity: 1;
 }
-
-/* -------------------------------------------------------------------
-* home animations
-* ------------------------------------------------------------------- */
+/* home animations --------------------------- */
 /* fade in */
 @-webkit-keyframes fadeIn {
 	from {
@@ -1072,9 +871,7 @@ html.no-csstransitions .home-content__main {
 		transform: translate3d(0, -150%, 0);
 	}
 }
-/* -------------------------------------------------------------------
-* display headings
-* ------------------------------------------------------------------- */
+/* display headings -------------------------- */
 .display-1 {
 	font-family: "montserrat-light", sans-serif;
 	font-size: 4.1rem;
@@ -1092,7 +889,7 @@ html.no-csstransitions .home-content__main {
 }
 .display-2--light {
 	color: #FFFFFF;
-	text-shadow: 2px 2px 1px #04334c;
+	text-shadow: 2px 2px 1px #031823;
 }
 .subhead {
 	font-family: "montserrat-regular", sans-serif;
@@ -1101,15 +898,13 @@ html.no-csstransitions .home-content__main {
 	text-transform: uppercase;
 	letter-spacing: .05rem;
 	color: #1483bd;
+	text-shadow: 1px 1px #033854;
 	margin: 0;
 }
 .subhead--dark {
 	color: #1282bd;
 }
-
-/* -------------------------------------------------------------------
-* responsive: display headings
-* ------------------------------------------------------------------- */
+/* responsive: display headings -------------- */
 @media only screen and (max-width: 1200px) {
 	.display-1 {
 		font-size: 4rem;
@@ -1145,9 +940,10 @@ html.no-csstransitions .home-content__main {
 		font-size: 2.5rem;
 	}
 }
-/* -------------------------------------------------------------------
-* section header
-* ------------------------------------------------------------------- */
+/* ==============================================
+	section header
+   ----------------------------------------------
+*/
 .section-header {
 	text-align: center;
 	position: relative;
@@ -1174,10 +970,7 @@ html.no-csstransitions .home-content__main {
 .section-header.has-bottom-sep.light-sep::before {
 	background-color: rgba(255, 255, 255, 0.05);
 }
-
-/* -------------------------------------------------------------------
-* responsive: section-header
-* ------------------------------------------------------------------- */
+/* responsive: section-header ---------------- */
 @media only screen and (max-width: 1200px) {
 	.section-header {
 	max-width: 800px;
@@ -1205,10 +998,10 @@ html.no-csstransitions .home-content__main {
 	}
 }
 
-
-/* ===================================================================
-* header styles
-* ------------------------------------------------------------------- */
+/* ==============================================
+	header
+   ----------------------------------------------
+*/
 .s-header {
 	width: 100%;
 	height: 96px;
@@ -1217,10 +1010,7 @@ html.no-csstransitions .home-content__main {
 	top: 0;
 	z-index: 500;
 }
-
-/* -------------------------------------------------------------------
-* header logo
-* ------------------------------------------------------------------- */
+/* header logo ------------------------------- */
 .header-logo {
 	display: inline-block;
 	position: absolute;
@@ -1243,10 +1033,7 @@ html.no-csstransitions .home-content__main {
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-
-/* -------------------------------------------------------------------
-* main navigation
-* ------------------------------------------------------------------- */
+/* main navigation --------------------------- */
 .header-nav {
 	background: rgba(0, 0, 0, 0.98);
 	color: rgba(255, 255, 255, 0.85);
@@ -1373,8 +1160,7 @@ html.no-csstransitions .home-content__main {
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
-
-/* menu is open ----------------------------------------------- */
+/* menu is open ------------------------------ */
 .menu-is-open .header-nav {
 	-webkit-transform: translateX(0);
 	-ms-transform: translateX(0);
@@ -1395,10 +1181,7 @@ html.no-csstransitions .home-content__main {
 	transition-delay: 0.3s;
 	left: 0;
 }
-
-/* -------------------------------------------------------------------
-* mobile menu toggle
-* ------------------------------------------------------------------- */
+/* mobile menu toggle ------------------------ */
 .header-menu-toggle {
 	position: fixed;
 	right: 35px;
@@ -1461,10 +1244,7 @@ html.no-csstransitions .home-content__main {
 .header-menu-icon::after {
 	bottom: -9px;
 }
-
-/* -------------------------------------------------------------------
-* responsive: header
-* ------------------------------------------------------------------- */
+/*  responsive: header ----------------------- */
 @media only screen and (max-width: 600px) {
 	.s-header {
 		height: 90px;
@@ -1481,10 +1261,10 @@ html.no-csstransitions .home-content__main {
 		display: none;
 	}
 }
-
-/* ===================================================================
-* home
-* ------------------------------------------------------------------- */
+/* ==============================================
+	home
+   ----------------------------------------------
+*/
 .s-home {
 	width: 100%;
 	height: 100%;
@@ -1515,10 +1295,7 @@ html.no-csstransitions .home-content__main {
 .no-js .s-home {
 	background: #000000;
 }
- 
-/* -------------------------------------------------------------------
-* home content
-* ------------------------------------------------------------------- */
+/* home content ------------------------------ */
 .home-content {
 	display: table-cell;
 	width: 100%;
@@ -1609,11 +1386,7 @@ html.no-csstransitions .home-content__main {
 		top: 30px;
 	}
 }
-
-
-/* -------------------------------------------------------------------
-* responsive: home
-* ------------------------------------------------------------------- */
+/* responsive: home -------------------------- */
 @media only screen and (max-width: 1500px) {
 	.home-content h1 {
 		font-size: 9rem;
@@ -1746,11 +1519,10 @@ html.no-csstransitions .home-content__main {
 		width: auto;
 	}
 }
-
-
-/* ===================================================================
-* Portfolio
-* ------------------------------------------------------------------- */
+/* ==============================================
+	work
+   ----------------------------------------------
+*/
 .s-works {
 	padding: 10rem 0 15rem 0;
 	min-height: 800px;
@@ -1758,7 +1530,8 @@ html.no-csstransitions .home-content__main {
 	background: #003d5f;
 	background: -moz-linear-gradient(top, #003d5f, #051d2b 100%);
 	background: -webkit-linear-gradient(top, #003d5f, #051d2b 100%);
-	background: linear-gradient(to bottom, #003d5f, #051d2b 100%)
+	background: linear-gradient(to bottom, #003d5f, #051d2b 100%);
+	box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.6);
 }
 .works-content {
 	max-width: 1300px;
@@ -1767,9 +1540,7 @@ html.no-csstransitions .home-content__main {
 .s-works .intro-wrap {
 	padding: 2rem 0 5rem 0;
 }
-/* -------------------------------------------------------------------
-* portfolio grid
-------------------------------------------------------------------- */
+/* work grid --------------------------------- */
 #top-grid, #bot-grid {
 	display: flex;
 	justify-content: space-between;
@@ -1905,8 +1676,7 @@ html.no-csstransitions .home-content__main {
 	background-color: #FFFFFF;
 	color: #000000;
 }
-
-/* on hover ----------------------------------------------- */
+/* on hover ---------------------------------- */
 .portfolio-item:hover {
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.65);
 }
@@ -1934,10 +1704,7 @@ html.no-csstransitions .home-content__main {
 	-ms-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 }
-
-/* -------------------------------------------------------------------
-* responsive
-* ------------------------------------------------------------------- */
+/*  responsive: work ------------------------- */
 @media only screen and (max-width: 950px) {
 	.portfolio-item__title, .portfolio-item__cat {
 	font-size: 1.3rem;
@@ -1978,9 +1745,10 @@ html.no-csstransitions .home-content__main {
 	}
 }
 
-/* ===================================================================
-* about
-* ------------------------------------------------------------------- */
+/* ==============================================
+	about
+   ----------------------------------------------
+*/
 .s-about {
 	padding:10rem 0 15rem 0;;
 	position: relative;
@@ -2051,7 +1819,6 @@ p.about {
 	50% { opacity: 0.85;}
 	100% {transform: rotateZ(360deg); }
  }
-
 /*
 .elements {
 	width: 100%;
@@ -2094,10 +1861,7 @@ p.about {
 	100% { transform: rotate(-999deg); opacity: 1; }
  }
 */
-
- /* -------------------------------------------------------------------
-* responsive: about
-* ------------------------------------------------------------------- */
+ /* responsive: about ------------------------ */
 @media only screen and (max-width: 1200px) {
 	.about-desc {
 		font-size: 2.2rem;
@@ -2127,10 +1891,10 @@ p.about {
 	}
 }
 
-
-/* ===================================================================
-* services
-* ------------------------------------------------------------------- */
+/* ==============================================
+	services
+   ----------------------------------------------
+*/
 .s-services {
 	padding: 10rem 0;
 	background-color: #000;
@@ -2169,9 +1933,7 @@ p.services {
 	line-height: 1.75em;
 	margin: 0;
 }
-/* -------------------------------------------------------------------
-* services list
-* ------------------------------------------------------------------- */
+/* services list ----------------------------- */
 .services-list {
 	position: relative;
 	margin-top: 8rem;
@@ -2210,11 +1972,7 @@ p.services {
 .services-list .service-item:nth-child(2n+2) {
 	padding-left: 50px;
 }  */
-
-
-/* -------------------------------------------------------------------
-* responsive: services
-* ------------------------------------------------------------------- */
+/* responsive: services ---------------------- */
 @media only screen and (max-width: 1200px) {
 	.services-list {
 		max-width: 1000px;
@@ -2292,10 +2050,10 @@ p.services {
 	}
 }
 
-
-/* ===================================================================
-* personal
-* ------------------------------------------------------------------- */
+/* ==============================================
+	personal
+   ----------------------------------------------
+*/
 .s-self {
 	padding:10rem 0 20rem 0;
 	position: relative;
@@ -2358,10 +2116,7 @@ p.self {
 	color: rgba(255, 255, 255, 0.9);
 	text-shadow: 1px 1px 0 #03202f;
 }
-
-/* -------------------------------------------------------------------
-* responsive: personal
-* ------------------------------------------------------------------- */
+/* responsive: personal ---------------------- */
 @media only screen and (max-width: 1200px) {
 	.self-desc {
 		font-size: 2.2rem;
@@ -2418,9 +2173,10 @@ p.self {
 	}
 }
 
-/* ===================================================================
-* resume
-* ------------------------------------------------------------------- */
+/* ==============================================
+	resume
+   ----------------------------------------------
+*/
 .s-resume {
 	padding: 0;
     background-color: #fff;
@@ -2460,10 +2216,7 @@ p.self {
 .contact-self li a:focus {
 	color: #fff;
 }
-
-/* -------------------------------------------------------------------
-* responsive: resume
-* ------------------------------------------------------------------- */
+/* responsive: resume ------------------------ */
 @media only screen and (max-width: 1200px) {
 	.self-desc {
 		font-size: 2.2rem;
@@ -2473,8 +2226,8 @@ p.self {
 @media only screen and (max-width: 900px) {
 
 }
-@media only screen and (max-width: 720px) {
-	
+@media only screen and (max-width: 720px) {	
+
 }
 @media only screen and (max-width: 600px) {
 	.s-resume {
@@ -2484,9 +2237,10 @@ p.self {
 @media only screen and (max-width: 400px) {
 }
 
-/* ===================================================================
-* contact
-* ------------------------------------------------------------------- */
+/* ==============================================
+	contact
+   ----------------------------------------------
+*/
 .s-contact {
 	padding: 10rem 0;
 	color: #fff;
@@ -2664,7 +2418,7 @@ p.self {
 	margin-right: 10px;
 	font-size: 1.2rem;
 }
-/* form loader ----------------------------------------------- */
+/* form loader ------------------------------- */
 .submit-loader {
 	display: none;
 	position: relative;
@@ -2690,10 +2444,7 @@ p.self {
 .oldie .submit-loader .text-loader {
 	display: block;
 }
-
-/* ---------------------------------------------------------------
-* loader animation
-* --------------------------------------------------------------- */
+/* loader animation -------------------------- */
 .s-loader {
 	margin: 1.2rem auto 3rem;
 	width: 70px;
@@ -2744,9 +2495,7 @@ p.self {
 		transform: scale(1);
 	}
 }
-/* -------------------------------------------------------------------
-* responsive: contact
-* ------------------------------------------------------------------- */
+/* responsive: contact ----------------------- */
 @media only screen and (max-width: 1200px) {
 	.contact-content {
 		max-width: 995px;
@@ -2828,9 +2577,10 @@ p.self {
 	}
 }
 
-/* ===================================================================
-* footer
-* ------------------------------------------------------------------- */
+/* ==============================================
+	footer
+   ----------------------------------------------
+*/
 footer {
 	background-color: #003d5f;
 	padding: 9rem 0 6rem;
@@ -2861,7 +2611,9 @@ footer h4 {
 footer a {
 	color: #FFFFFF;
 }
-footer a:hover, footer a:focus, footer a:active {
+footer a:hover,
+footer a:focus,
+footer a:active {
 	color: #003d5f;
 }
 footer .row {
@@ -2888,10 +2640,7 @@ footer .row {
 .contact-footer li a:focus {
 	color: #39b54a;
 }
-
-/* ---------------------------------------------------------------
-* footer bottom
-* --------------------------------------------------------------- */
+/* footer bottom ----------------------------- */
 .footer-bottom {
 	margin-top: 5.4rem;
 	text-align: center;
@@ -2909,10 +2658,7 @@ footer .row {
 .footer-bottom .copyright span:last-child::after {
 	display: none;
 }
-
-/* -------------------------------------------------------------------
-* go to top
-* ------------------------------------------------------------------- */
+/* go to top --------------------------------- */
 .go-top {
 	position: fixed;
 	bottom: 30px;
@@ -2941,10 +2687,7 @@ footer .row {
 .go-top a:hover, .go-top a:focus {
 	color: #FFFFFF;
 }
-
-/* -------------------------------------------------------------------
-* responsive: footer
-* ------------------------------------------------------------------- */
+/* responsive: footer ------------------------ */
 @media only screen and (max-width: 900px) {
 	.footer-main .left {
 		padding-right: 20px;
@@ -3021,67 +2764,6 @@ footer .row {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* OTROS */
 
 
@@ -3090,14 +2772,7 @@ footer .row {
 
 
 
-
-
-
-
-
-/* -------------------------------------------------------------------
-* stats
-* ------------------------------------------------------------------- */
+/* stats ------------------------------------- */
 .about-stats {
 	text-align: center;
 }
@@ -3130,11 +2805,7 @@ footer .row {
 	line-height: 1.333;
 	position: relative;
 }
-
-
-/* -------------------------------------------------------------------
-* responsive: stats
-* ------------------------------------------------------------------- */
+/* responsive: stats ------------------------- */
 @media only screen and (max-width: 1200px) {
 	.stats__col {
 		margin: 1.5rem 0;
@@ -3184,7 +2855,6 @@ footer .row {
 		font-size: 7.8rem;
 	}
 }
-
 
 /* .bot {
 	position: relative;
