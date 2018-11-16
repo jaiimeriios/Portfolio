@@ -1,7 +1,9 @@
-/* Portfolio Projects ==================================================== */
+/* ==============================================
+	portfolio projects
+   ----------------------------------------------
+*/
 
-
-/* navbar ---------------------------------------------------------------- */
+/* navbar ------------------------------------ */
 #navbar {
 	position: fixed;
 	top: 0;
@@ -30,15 +32,14 @@
 	font-family: "montserrat-regular", sans-serif;
 	font-size: .85em;
 }
-/* navbar responsive ---------------------------- */
+/* navbar responsive ------------------------- */
 @media only screen and (max-width: 400px) {
 	#navbar a {
 		font-size: 0.9em;
 		padding: 2rem 0;
 	}
 }
-
-/* hero ------------------------------------------------------------------ */
+/* hero -------------------------------------- */
 .portfolio-project {
     margin-bottom: -20vh;
 }
@@ -54,8 +55,7 @@ h1.project-title {
 	margin: 0 auto;
     text-shadow: -0.45rem 0.35rem 0.1rem rgba(0, 0, 0, 0.4);
 }
-
-/* project about --------------------------------------------------------- */
+/* project about ----------------------------- */
 .p-about {
 	padding:8rem 0;
 	position: relative;
@@ -115,8 +115,7 @@ ul.project-about li i {
     vertical-align: text-top;
     margin: 3px 2px 0 0;
 }
-
-/* about responsive ----------------------------- */
+/* about responsive -------------------------- */
 @media only screen and (max-width: 1200px) {
 	.about-desc {
 		font-size: 2.2rem;
@@ -145,8 +144,7 @@ ul.project-about li i {
 		font-size: 1.8rem;
 	}
 }
-
-/* project description --------------------------------------------------- */
+/* project description ----------------------- */
 .p-decription {
 	padding:6rem 0;
 	position: relative;
@@ -232,7 +230,7 @@ ul.project-features-list li i {
     vertical-align: text-top;
     margin: 2px 5px 0 2px;
 }
-/* description responsive ----------------------- */
+/* responsive: description ------------------- */
 @media only screen and (max-width: 1200px) {
 }
 @media only screen and (max-width: 800px) {
@@ -241,8 +239,7 @@ ul.project-features-list li i {
 }
 @media only screen and (max-width: 400px) {
 }
-
-/* projects slider ------------------------------------------------------- */
+/* projects slider --------------------------- */
 .s-clients {
 	padding: 10rem 0;
 	background-color: #fafafa;
@@ -268,7 +265,7 @@ ul.project-features-list li i {
 .clients__slide:hover, .clients__slide:focus {
 	opacity: 1;
 }
-/* testimonials ---------------------------------------------------------- */
+/* testimonials ------------------------------ */
 .clients-testimonials {
 	margin-top: 4.2rem;
 	padding-top: 7.2rem;
@@ -350,7 +347,7 @@ ul.project-features-list li i {
 .clients-testimonials .testimonials .slick-dots {
 	margin-top: -0.6px;
 }
-/* clients responsive --------------------------- */
+/* clients responsive ------------------------ */
 @media only screen and (max-width: 1200px) {
 	.clients-testimonials .testimonials {
 		margin: 0 12%;
@@ -407,7 +404,7 @@ ul.project-features-list li i {
 		font-size: 1.9rem;
 	}
 }
-/* slider ---------------------------------------------------------------- */
+/* slider ------------------------------------ */
 .slick-slider .slick-slide {
 	outline: none;
 }
@@ -453,4 +450,3 @@ ul.project-features-list li i {
 .slick-slider .slick-dots li:hover button {
 	background: #126e89;
 }
-
