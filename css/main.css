@@ -1641,8 +1641,8 @@ html.no-csstransitions .home-content__main {
 		margin: 0rem 0 1rem 0;
 	}
 	.home-content h2 {
-		font-size: 2.2rem;
-		line-height: 3rem;
+		font-size: 2.25rem;
+		line-height: 3.5rem;
 	}
 	.home-content__main {
 		padding-top: 23rem;
@@ -1650,19 +1650,19 @@ html.no-csstransitions .home-content__main {
 	}
 }
 @media only screen and (max-width: 800px) {
+	.home-content__main {
+		max-width: 550px;
+	}
 	.home-content h3 {
-		font-size: 1.45rem;
+		font-size: 2rem;
 	}
 	.home-content h1 {
 		font-size: 7rem;
 	}
-	.home-content__main {
-		max-width: 550px;
-	}
 }
 @media only screen and (max-width: 700px) {
 	.home-content__main {
-		max-width: 490px;
+		max-width: 500px;
 	}
 	.home-content h1 {
 		font-size: 6.5rem;
@@ -1680,23 +1680,26 @@ html.no-csstransitions .home-content__main {
 		width: 70%;
 		margin: 1.5rem 0 0 0;
 	}
-	.home-social {
-		right: 4rem;
-	}
 	.home-content__scroll {
 		right: 7.5rem;
 	}
 }
 @media only screen and (max-width: 600px) {
+	.home-content__main {
+		text-align: center;
+	}
 	.home-content h1 {
 		font-size: 6rem;
 		margin: 2rem 0 3rem 0;
 	}
 	.home-content h2 {
-		font-size: 1.8rem;
+		font-size: 2rem;
 	}
 	.home-content__scroll {
 		bottom: 5.4rem;
+	}
+	.home-content__main br {
+		display: none;
 	}
 }
 @media only screen and (max-width: 500px) {
@@ -1707,15 +1710,13 @@ html.no-csstransitions .home-content__main {
 		font-size: 5.5rem;
 	}
 	.home-content h2 {
-		font-size: 1.6rem;
-		line-height: 2.5rem;
-	}
+		font-size: 2rem;
+		line-height: 4rem;
+	} 
 	.home-content__main {
-		text-align: center;
 		max-width: none;
-		padding-top: 15rem;
-		padding-right: 25px;
-		width: 85%;
+		padding-top: 18rem;
+		width: 95%;
 	}
 	.home-content__buttons {
 		padding-top: 1.2rem;
