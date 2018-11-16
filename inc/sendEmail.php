@@ -19,8 +19,8 @@ if($_POST) {
    }
 
    // Check Message
-   if (strlen($contact_message) < 15) {
-      $error['message'] = "Please enter your message. It should have at least 15 characters.";
+   if (strlen($contact_message) < 5) {
+      $error['message'] = "Please enter your message. It should have at least 5 characters.";
    }
 
    // Subject
@@ -57,4 +57,5 @@ if($_POST) {
    }
    // end if - there was a validation error
 }
+
 ?>

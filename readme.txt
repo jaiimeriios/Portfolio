@@ -2,7 +2,6 @@ SOURCES
 
 Fonts:
    - Montserrat Font (https://www.google.com/fonts/specimen/Montserrat)
-   - Lora Font (https://fonts.google.com/specimen/Lora)
 
 Icons:
    - Font Awesome (http://fortawesome.github.io/Font-Awesome/)
