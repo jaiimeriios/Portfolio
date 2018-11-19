@@ -90,7 +90,7 @@ function enableRadialProgress(){
 			progPercent = $this.data('prog-percent');
 			
 		var bar = new ProgressBar.Circle(this, {
-			color: '#aaa',
+			color: '#003d5f',
 			strokeWidth: 3,
 			trailWidth: 1,
 			easing: 'easeInOut',
@@ -98,8 +98,8 @@ function enableRadialProgress(){
 			text: {
 				
 			},
-			from: { color: '#aaa', width: 1 },
-			to: { color: '#FEAE01', width: 3 },
+			from: { color: '#003d5f', width: 1 },
+			to: { color: '#1483bd', width: 3 },
 			// Set default step function for all animate calls
 			step: function(state, circle) {
 				circle.path.setAttribute('stroke', state.color);
