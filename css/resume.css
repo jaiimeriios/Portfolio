@@ -23,9 +23,9 @@
 	imports
    ----------------------------------------------
 */
-@import url("../../fonts/font-awesome/css/font-awesome.min.css");
-@import url("../../fonts/micons/micons.css");
-@import url("../../css/fonts.css");
+@import url("../fonts/font-awesome/css/font-awesome.min.css");
+@import url("../fonts/micons/micons.css");
+@import url("../css/fonts.css");
 
 /* ---------------------------------
 1. PRIMARY STYLES
@@ -125,9 +125,8 @@ b.max-bold{ font-weight: 700; }
 	position: relative;
 	background-position: center;
 	background-attachment: fixed;
-	background-size: cover; 
-	background-image: url(../../resume/images/slider-3-1920x1080.jpg);
-	/* background-image: url(../resume/images/slider-3-1920x1080.jpg); */
+	background-size: cover;
+	background-image: url(../resume/images/slider-3-1920x1080.jpg);
 }
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
