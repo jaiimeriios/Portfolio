@@ -43,7 +43,7 @@
 	imports
    ----------------------------------------------
 */
-@import url("font-awesome/css/font-awesome.min.css");
+@import url("../fonts/font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
 @import url("fonts.css");
 

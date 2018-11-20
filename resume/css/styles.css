@@ -19,17 +19,12 @@
 
 	*/
 
-
-
-	
-
-
 /* ==============================================
 	imports
    ----------------------------------------------
 */
-@import url("../../font-awesome/css/font-awesome.min.css");
-@import url("../../micons/micons.css");
+@import url("../../fonts/font-awesome/css/font-awesome.min.css");
+@import url("../../fonts/micons/micons.css");
 @import url("../../css/fonts.css");
 
 /* ---------------------------------
@@ -201,10 +196,17 @@ b.max-bold{ font-weight: 700; }
 
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
 
-.experience .list > li:before{ content: ''; position: absolute; top: 50%; left: 0; height: 10px; 
+.experience .list li i {
+	color: #1483bd;
+    font-size: 1rem;
+    vertical-align: text-top;
+    margin: 3px 2px 0 0;
+}
+
+/* .experience .list > li:before{ content: ''; position: absolute; top: 50%; left: 0; height: 10px; 
 	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #555; }
 
-	
+	 */
 
 
 /* ---------------------------------
