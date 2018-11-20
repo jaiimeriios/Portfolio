@@ -120,10 +120,12 @@ b.max-bold{ font-weight: 700; }
 --------------------------------- */
 
 .intro-section{
+	z-index: 1;
 	padding: 50px 0;
 	position: relative;
+	background-position: center;
+	background-attachment: fixed;
 	background-size: cover; 
-	z-index: 1;
 	background-image: url(../images/slider-3-1920x1080.jpg);
 }
 
