@@ -1116,7 +1116,7 @@ html.no-csstransitions .home-content__main {
 	background-color: transparent;
 	position: absolute;
 	top: 0;
-	z-index: 500;
+	z-index: 700;
 }
 /* header logo ------------------------------- */
 .header-logo {
@@ -1143,20 +1143,21 @@ html.no-csstransitions .home-content__main {
 }
 /* main navigation --------------------------- */
 .header-nav {
-	background: rgba(0, 0, 0, 0.98);
-	color: rgba(255, 255, 255, 0.85);
-	font-family: "montserrat-light", sans-serif;
-	font-size: 1.3rem;
-	line-height: 1.846;
-	padding: 3.6rem 3rem 3.6rem 3.6rem;
-	height: 100%;
-	width: 280px;
-	position: fixed;
-	right: 0;
-	top: 0;
 	z-index: 700;
+	width: 300px;
+	height: 100%;
+	padding: 3.5rem;
+	position: fixed;
+	top: 0;
+	right: -30px;
 	overflow-y: auto;
 	overflow-x: hidden;
+	background-color: rgba(0, 0, 0, 0.97);
+	box-shadow: -5px 0 20px 5px rgba(0, 0, 0, 0.35);
+	font-family: "montserrat-light", sans-serif;
+	font-size: 1.3rem;
+	color: rgba(255, 255, 255, 0.85);
+	line-height: 1.846;
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 	-webkit-transform: translateZ(0);
@@ -1178,12 +1179,11 @@ html.no-csstransitions .home-content__main {
 }
 .header-nav h3 {
 	font-family: "montserrat-regular", sans-serif;
-	font-size: 1.15rem;
-	line-height: 1.5;
+	font-size: 1.2rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
-	margin-bottom: 4.8rem;
-	margin-top: .9rem;
+	margin-bottom: 4rem;
+	margin-top: 4px;
 	color: #fff;
 }
 .header-nav p {
@@ -1198,14 +1198,14 @@ html.no-csstransitions .home-content__main {
 .header-nav__list {
 	font-family: "montserrat-light", sans-serif;
 	font-size: 2rem;
-	margin: 5rem 0;
+	margin: 4rem 0;
 	padding: 0;
 	letter-spacing: 0.15rem;
 	list-style: none;
 }
 .header-nav__list li {
 	padding-left: 0;
-	line-height: 5rem;
+	line-height: 4rem;
 }
 .header-nav__list a,
 .header-nav__list a:visited {
@@ -1237,10 +1237,9 @@ html.no-csstransitions .home-content__main {
 	height: 30px;
 	width: 30px;
 	border-radius: 3px;
-	background-color: rgba(0, 0, 0, 0.3);
 	position: absolute;
-	top: 36px;
-	right: 30px;
+	top: 30px;
+	right: 60px;
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
@@ -1250,13 +1249,12 @@ html.no-csstransitions .home-content__main {
 .header-nav__close span::after {
 	content: "";
 	display: block;
-	height: 2px;
+	height: 3px;
 	width: 15px;
 	background-color: #39b54a;
 	position: absolute;
 	top: 50%;
 	left: 9px;
-	margin-top: -2px;
 }
 .header-nav__close span::before {
 	-webkit-transform: rotate(-45deg);
@@ -1268,6 +1266,12 @@ html.no-csstransitions .home-content__main {
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
+.header-nav__close:hover span::before,
+.header-nav__close:hover span::after {
+	color: #fff;
+}
+
+
 /* menu is open ------------------------------ */
 .menu-is-open .header-nav {
 	-webkit-transform: translateX(0);
@@ -1292,35 +1296,34 @@ html.no-csstransitions .home-content__main {
 /* mobile menu toggle ------------------------ */
 .header-menu-toggle {
 	position: fixed;
-	right: 35px;
-	top: 24px;
-	height: 42px;
-	width: 43px;
-	line-height: 42px;
-	font-family: "montserrat-medium", sans-serif;
-	font-size: 2rem;
+	top: 20px;
+	right: 20px;
+	height: 45px;
+	width: 45px;
+	line-height: 46px;
+	font-family: "montserrat-light", sans-serif;
+	font-size: 1.85rem;
 	text-transform: uppercase;
-	letter-spacing: .2rem;
-	color: #00AA4F;
+	letter-spacing: .15rem;
+	color: #fff;
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.header-menu-toggle.opaque {
-	background-color: #000000;
-}
+.header-menu-toggle.opaque,
 .header-menu-toggle.opaque .header-menu-text {
-	background-color: #000000;
+	background-color: #000;
 }
-.header-menu-toggle:hover, .header-menu-toggle:focus {
-	color: #FFFFFF;
+.header-menu-toggle:hover,
+.header-menu-toggle:focus {
+	color: #00AA4F;
 }
 .header-menu-text {
 	display: block;
 	position: absolute;
 	top: 0;
-	left: -96px;
-	width: 110px;
-	padding: 0 15px;
+	   left: -80px;
+    width: 90px;
+    padding: 0 0 0 10px;
 }
 .header-menu-icon {
 	display: block;
@@ -1333,24 +1336,28 @@ html.no-csstransitions .home-content__main {
 	right: auto;
 	bottom: auto;
 	background-color: white;
-	-webkit-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+/*	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;*/
 }
-.header-menu-icon::before, .header-menu-icon::after {
+.header-menu-icon::before,
+.header-menu-icon::after {
 	content: '';
 	width: 100%;
 	height: 100%;
 	background-color: inherit;
 	position: absolute;
 	left: 0;
-	-webkit-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+/*	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;*/
 }
 .header-menu-icon::before {
 	top: -9px;
 }
 .header-menu-icon::after {
 	bottom: -9px;
+}
+.header-menu-toggle:hover .header-menu-icon {
+	background-color: #00AA4F;
 }
 /* responsive: header ------------------------ */
 @media only screen and (max-width: 600px) {
@@ -1643,7 +1650,7 @@ html.no-csstransitions .home-content__main {
 	background: linear-gradient(to bottom, #003d5f, #051d2b 100%)
 }
 .works-content {
-	max-width: 1300px;
+	max-width: 1100px;
 	margin-top: 0;
 }
 .s-works .intro-wrap {
@@ -2047,6 +2054,7 @@ p.services {
 	position: relative;
 	margin-top: 8rem;
 	background-color: white;
+	max-width: 1050px;
 	padding: 3rem 0;
 	border-radius: 2px;
 	box-shadow: 2px 25px 45px 5px rgba(0,0,0,0.05)
@@ -2297,7 +2305,7 @@ p.self {
 	position: relative;
 	margin: -10rem auto 0 auto;
 	width: 94%;
-	max-width: 1200px;
+	max-width: 1050px;
 	padding: 6rem 0;
 	background-color: #fff;
 	border-radius: 2px;
@@ -2366,7 +2374,7 @@ p.self {
 }
 .contact-content {
 	position: relative;
-	max-width: 1200px;
+	max-width: 1050px;
 	z-index: 9;
 	border-radius: 2px;
 	background-color: rgba(0, 0, 0, 0.4);
