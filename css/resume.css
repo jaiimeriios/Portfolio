@@ -27,10 +27,10 @@
 @import url("../fonts/micons/micons.css");
 @import url("../css/fonts.css");
 
-/* ---------------------------------
-1. PRIMARY STYLES
---------------------------------- */
-
+/* ==============================================
+	primary
+   ----------------------------------------------
+*/
 html{
 	font-size: 100%;
 	height: 100%;
@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; paddi
 
 h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
 
-h1,h2,h3{ font-family: "montserrat-regular", sans-serif; }
+h1,h2,h3{ font-family: "montserrat-light", sans-serif; }
 
 p{ line-height: 1.6; font-size: 1.05rem; font-weight: 400; color: #777; font-family: "montserrat-light", sans-serif; }
 
@@ -89,9 +89,10 @@ b.max-bold{ font-weight: 700; }
 
 
 
-/* ---------------------------------
-2. COMMONS FOR PAGE DESIGN
---------------------------------- */
+/* ==============================================
+	common styles
+   ----------------------------------------------
+*/
 
 .section{ padding: 100px 0 50px; border-bottom: 1px solid #ddd; }
 
@@ -115,24 +116,49 @@ b.max-bold{ font-weight: 700; }
 
 
 
-/* ---------------------------------
-3. INTRO SECTION
---------------------------------- */
-
+/* ==============================================
+	home
+   ----------------------------------------------
+*/
 .intro-section{
 	z-index: 1;
-	padding: 50px 0;
+	padding: 100px 0;
 	position: relative;
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
-	background-image: url(../resume/images/slider-3-1920x1080.jpg);
+	background-image: url(../resume/images/capitan.jpg);
+}
+.intro-section:before{
+	content:'';
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0; 
+	right: 0;
+	/*background: green; }*/
+}
+ .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 32, 49, 0.8);
+}
+.shadow-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.55) 100%);
+	background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.55) 100%);
+	background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.55) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
 }
 
-.intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
-	right: 0; background: rgba(0,0,0, .2); }
-
-	
 /* HEADER */
 
 .intro-section .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px; margin-bottom: 50px;
@@ -143,6 +169,7 @@ b.max-bold{ font-weight: 700; }
 .intro-section .info .icon{ float: left; font-size: 30px; }
 
 .intro-section .info .right-area{ margin-left: 45px; }
+
 
 
 /* INTRO */
@@ -208,20 +235,24 @@ b.max-bold{ font-weight: 700; }
 
 
 
-
-/* ---------------------------------
+/* ==============================================
 	summary
---------------------------------- */
-
-
+   ----------------------------------------------
+*/
+.summary-section {
+	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.35);
+}
 
 
 	
 
 
-/* ---------------------------------
-5. EXPERIENCE SECTION
---------------------------------- */
+/* ==============================================
+	experience
+   ----------------------------------------------
+*/
 .experience-section { background-color: #003d5f; color: #fff; }
 
 .experience h6 b {
@@ -247,9 +278,15 @@ b.max-bold{ font-weight: 700; }
 	 */
 
 
-/* ---------------------------------
-4. ABOUT SECTION
---------------------------------- */
+/* ==============================================
+	about
+   ----------------------------------------------
+*/
+.about-section {
+	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.25);
+}
 
 .radial-progress{ position: relative; max-width: 200px; margin: 0 auto; }
 
@@ -273,29 +310,17 @@ b.max-bold{ font-weight: 700; }
 }
 
 
-/* ---------------------------------
-6. PORFOLIO SECTION
---------------------------------- */
-
-.portfolio-section{ position: relative; }
-
-.portfolio-section .portfolioFilter{ margin-top: 60px; color: #666; }
-
-.portfolio-section .portfolioFilter a{ margin: 10px 10px 0 0; }
-
-.portfolio-section .portfolioFilter a.current{ color: #1483bd; }
-
-.portfolio-section .portfolioContainer{ margin-left: -15px; margin-right: -15px; }
-
-.portfolio-section .p-item{ width: 25%; padding: 0 7.5px 0px; margin-top: 15px; }
-
-.portfolio-section .p-item a{ display: inline-block; position: relative; }
-
-
 	
-/* ---------------------------------
-7. EDUCATION SECTION
---------------------------------- */
+/* ==============================================
+	education
+   ----------------------------------------------
+*/
+
+.education-section {
+	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+}
 
 .education-wrapper{ position: relative; }
 
@@ -311,10 +336,10 @@ b.max-bold{ font-weight: 700; }
 	
 	
 	
-/* ---------------------------------
-8. FOOTER
---------------------------------- */
-
+/* ==============================================
+	footer
+   ----------------------------------------------
+*/
 .copyright { 
 	text-align: center;
 	padding: 30px 0;
@@ -340,36 +365,30 @@ b.max-bold{ font-weight: 700; }
 
 
 
-/* ---------------------------------
-	RESPONSIVE
---------------------------------- */
+/* ==============================================
+	responsive
+   ----------------------------------------------
+*/
 
-
-
-/* Screens Resolution : 992px
--------------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
 	
 }
 
 /* Screens Resolution : 992px
 -------------------------------------------------------------------------- */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 985px) {
 
-	
-
-
-	
-	/* ---------------------------------
-	7. EDUCATION SECTION
-	--------------------------------- */
+	h3 {
+		font-size: 1.5em;
+	}
+	h6 {
+		font-size: 0.85em;
+	}
 	
 	.education-wrapper:after,
 	.education-wrapper .education:after{ display: none; }
 }
 
-/* Screens Resolution : 767px
--------------------------------------------------------------------------- */
 @media only screen and (max-width: 767px) {
 	
 	/* ---------------------------------
@@ -400,19 +419,9 @@ b.max-bold{ font-weight: 700; }
 	/* INTRO */
 
 	.intro .downlad-btn{ float: none; }
-	
-		/* ---------------------------------
-	6. PORFOLIO SECTION
-	--------------------------------- */
-	
-	.portfolio-section .portfolioFilter{ margin-top: 0px; margin-bottom: 20px; }
-	
-	.portfolio-section .p-item{ width: 50%; }
-	
 }
 
-/* Screens Resolution : 575px
--------------------------------------------------------------------------- */
+
 @media only screen and (max-width: 575px) {
 	
 	/* ---------------------------------
@@ -421,39 +430,12 @@ b.max-bold{ font-weight: 700; }
 
 	body{ font-size: 14px;  }
 	
-	/* ---------------------------------
-	6. PORFOLIO SECTION
-	--------------------------------- */
 
-	.portfolio-section .p-item{ width: 100%; }
 	
 }
 
-/* Screens Resolution : 479px
--------------------------------------------------------------------------- */
 @media only screen and (max-width: 479px) {
-
-
 }
 
-/* Screens Resolution : 359px
--------------------------------------------------------------------------- */
 @media only screen and (max-width: 359px) {
-	
-	
-
-}
-
-/* Screens Resolution : 290px
--------------------------------------------------------------------------- */
-@media only screen and (max-width: 290px) {
-
-	
-}
-
-/* Screens Resolution : 290px
--------------------------------------------------------------------------- */
-@media only screen and (max-width: 260px) {
-
-	
 }

@@ -2785,9 +2785,9 @@ footer .row {
 	text-decoration: none;
 	border: 0 none;
 	display: block;
-	height: 60px;
-	width: 60px;
-	line-height: 60px;
+	height: 45px;
+	width: 45px;
+	line-height: 45px;
 	background: #000;
 	color: #39b54a;
 	text-align: center;
@@ -2796,7 +2796,7 @@ footer .row {
 	transition: all 0.3s ease-in-out;
 }
 .go-top a i, .go-top a:visited i {
-	font-size: 18px;
+	font-size: 20px;
 	line-height: inherit;
 }
 .go-top a:hover, .go-top a:focus {
