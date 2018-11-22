@@ -2,30 +2,26 @@
 
 
 
-	TOC
-	
-	1. PRIMARY STYLES
-	2. COMMONS FOR PAGE DESIGN
-	3. INTRO SECTION
-		HEADER 
-		INTRO 
-	4. ABOUT SECTION
-	5. EXPERIENCE SECTION
-	6. PORFOLIO SECTION
-	7. EDUCATION SECTION
-	8. FOOTER
-
-
-
-	*/
+	 imports
+	= primary
+	= common
+	= intro
+		- header
+		- intro
+	= summary
+	= experience
+	= about
+	= education
+	= footer
+	= responsive
+*/
 
 /* ==============================================
 	imports
    ----------------------------------------------
 */
 @import url("../fonts/font-awesome/css/font-awesome.min.css");
-@import url("../fonts/micons/micons.css");
-@import url("../css/fonts.css");
+@import url("fonts.css");
 
 /* ==============================================
 	primary
