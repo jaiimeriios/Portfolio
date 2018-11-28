@@ -907,7 +907,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	}
 }
 /* animate .home-content__main --------------- */
-html.cl-preload .home-content__main {
+/*html.cl-preload .home-content__main {
 	opacity: 0;
 }
 html.cl-loaded .home-content__main {
@@ -917,14 +917,14 @@ html.cl-loaded .home-content__main {
 }
 html.no-csstransitions .home-content__main {
 	opacity: 1;
-}
+}*/
 
 /* ==============================================
 	home animation
    ----------------------------------------------
 */
 /* fade in */
-@-webkit-keyframes fadeIn {
+/*@-webkit-keyframes fadeIn {
 	from {
 		opacity: 0;
 		-webkit-transform: translate3d(0, 150%, 0);
@@ -975,7 +975,7 @@ html.no-csstransitions .home-content__main {
 		transform: translate3d(0, -150%, 0);
 	}
 }
-
+*/
 /* ==============================================
 	display headings
    ----------------------------------------------
