@@ -45,6 +45,7 @@ Portfolio Projects
 	color: #f2f2f2;
 	text-decoration: none;
 	background-color:rgba(3, 50, 76, 0.95);
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
 }
 #navbar a:hover {
 	color: #39b54a;
@@ -110,11 +111,12 @@ h1.project-title {
 	z-index: 9;
 }
 p.project-about {
-	font-family: "montserrat-light", sans-serif;
-	font-size: 1.75rem;
+	font-family: "montserrat-extralight", sans-serif;
+	font-size: 1.7rem;
 	text-align: left;
 	color: #fff;
 	line-height: 1.75em;
+	letter-spacing: 0.1rem;
 	text-shadow: none;
 	max-width: 700px;
 	margin: 0 auto;
@@ -128,16 +130,17 @@ ul.project-about {
 	justify-content: space-between;
 }
 ul.project-about li {
-	font-family: "montserrat-light", sans-serif;
-	font-size: 1.65rem;
-	line-height: 5rem;	
+	font-family: "montserrat-extralight", sans-serif;
+	font-size: 1.7rem;
+	line-height: 5rem;
+	letter-spacing: 0.1rem;
 	color: #fff;
 }
 ul.project-about li i {
 	color: #1483bd;
 	font-size: 1rem;
 	vertical-align: text-top;
-	margin: 3px 2px 0 0;
+	margin: 2px 2px 0 0;
 }
 /* responsive: about ------------------------- */
 @media only screen and (max-width: 1200px) {
@@ -213,7 +216,7 @@ ul.project-btns li.dwnld a:hover {
 }
 h3.project-desc {
 	font-family: "montserrat-regular", sans-serif;
-	font-size: 1.7rem;
+	font-size: 1.75rem;
 	line-height: 1;
 	text-transform: uppercase;
 	letter-spacing: .05rem;
@@ -223,10 +226,10 @@ h3.project-desc {
 }
 p.project-desc {
 	font-family: "montserrat-light", sans-serif;
-	font-size: 1.6rem;
+	font-size: 1.7rem;
 	text-align: left;
-	color: rgba(0, 0, 0, 0.85);
-	line-height: 1.6em;
+	color: rgba(0, 0, 0, 0.95);
+	line-height: 1.7em;
 	text-shadow: none;
 	max-width: 700px;
 	margin: 3.25rem auto;
