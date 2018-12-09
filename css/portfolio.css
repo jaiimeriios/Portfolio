@@ -193,7 +193,6 @@ ul.project-btns {
 ul.project-btns li {
 	font-family: "montserrat-light", sans-serif;
 	font-size: 1.8rem;
-	line-height: 8rem;
 }
 ul.project-btns li a {
 	color: #0ed229;
@@ -264,7 +263,9 @@ ul.project-features-list li i {
 @media only screen and (max-width: 800px) {
 }
 @media only screen and (max-width: 600px) {
-}
+	ul.project-btns li {
+		font-size: 2rem;
+	}
 @media only screen and (max-width: 400px) {
 }
 
