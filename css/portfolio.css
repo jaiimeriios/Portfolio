@@ -263,8 +263,16 @@ ul.project-features-list li i {
 @media only screen and (max-width: 800px) {
 }
 @media only screen and (max-width: 600px) {
+	ul.project-btns {
+		flex-direction: column;
+  		text-align: center;
+	}
 	ul.project-btns li {
-		font-size: 2rem;
+		font-size: 2.25rem;
+    	margin: 2rem 0 2rem 0;
+	}
+	ul.project-btns li i {
+		font-size: 2.5rem;
 	}
 @media only screen and (max-width: 400px) {
 }
