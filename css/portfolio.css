@@ -172,6 +172,7 @@ ul.project-about li i {
 	}
 }
 
+
 /* project description ----------------------- */
 .p-decription {
 	padding:1rem 0;
@@ -274,15 +275,15 @@ ul.project-features-list li i {
 	ul.project-btns li i {
 		font-size: 2.5rem;
 	}
+}
 @media only screen and (max-width: 400px) {
 }
 
 /* projects slider --------------------------- */
-.s-clients {
-	padding: 10rem 0;
+.p-other {
+	padding: 8rem 0;
 	background-color: #fafafa;
 	color: #757575;
-	position: relative;
 	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
 	-webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
