@@ -1301,8 +1301,8 @@ html.no-csstransitions .home-content__main {
 	right: 20px;
 	height: 45px;
 	width: 45px;
+	font-family: "montserrat-regular", sans-serif;
 	line-height: 45px;
-	font-family: "montserrat-light", sans-serif;
 	font-size: 1.85rem;
 	text-transform: uppercase;
 	letter-spacing: .15rem;
