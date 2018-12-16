@@ -2201,8 +2201,8 @@ p.services {
 	float: left;
 	margin: 0;	
 	width: 30%;
-	max-width: 300px;
-	height: 300px;
+	max-width: 250px;
+	height: 250px;
 	border-radius: 50% 50%;
 	overflow: hidden;
 }
@@ -2214,7 +2214,7 @@ img.self {
 	transition: all 0.3s ease-in-out;
 }
 img.self:hover {
-	opacity: 0.45;
+	opacity: 0.5;
 }
 .self-txt{
 	width: 70%;
@@ -2230,9 +2230,9 @@ p.self {
 	font-family: "montserrat-extralight", sans-serif;
 	font-size: 2rem;
 	text-align: left;
-	margin: 2.5rem 0 2rem 5rem;
+	margin: 0 0 0 5rem;
 	line-height: 3.75rem;
-	letter-spacing: 0.2px;
+	letter-spacing: 0.1px;
 	color: rgba(255, 255, 255, 0.9);
 	text-shadow: 1px 1px 0 #03202f;
 }
@@ -2249,9 +2249,15 @@ p.self {
 		max-width: 750px;
 	}
 	.self-img {
-		width: 70%;
 		float: none;
-		margin: 2rem auto 0 auto;
+		margin: 0rem auto;
+		width: 100%;
+		height: 100%;
+		max-width: 30rem;
+		max-height: 30rem;
+	}
+	img.self {
+		opacity: 0.45;
 	}
 	.self-txt {
 		width: 95%;
@@ -2262,7 +2268,7 @@ p.self {
 	p.self:first-child {
 		font-family: "montserrat-light", sans-serif;
 		font-size: 2.5rem;
-   	margin: 0 0 3rem 0;
+   		margin: 0 0 3rem 0;
 	}
 	p.self {
 		text-align: center;
