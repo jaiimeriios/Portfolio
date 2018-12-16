@@ -1306,7 +1306,7 @@ html.no-csstransitions .home-content__main {
 	font-size: 1.85rem;
 	text-transform: uppercase;
 	letter-spacing: .15rem;
-	color: #fff;
+	color: #39b54a;
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
@@ -1316,7 +1316,7 @@ html.no-csstransitions .home-content__main {
 }
 .header-menu-toggle:hover,
 .header-menu-toggle:focus {
-	color: #00AA4F;
+	color: #fff;
 }
 .header-menu-text {
 	display: block;
@@ -1336,7 +1336,7 @@ html.no-csstransitions .home-content__main {
 	top: 50%;
 	right: auto;
 	bottom: auto;
-	background-color: white;
+	background-color: #39b54a;
 /*	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;*/
 }
@@ -1358,7 +1358,7 @@ html.no-csstransitions .home-content__main {
 	bottom: -9px;
 }
 .header-menu-toggle:hover .header-menu-icon {
-	background-color: #00AA4F;
+	background-color: #fff;
 }
 /* responsive: header ------------------------ */
 @media only screen and (max-width: 600px) {
@@ -1701,7 +1701,7 @@ html.no-csstransitions .home-content__main {
 .portfolio-item__thumb a::after {
 	content: "+";
 	font-family: georgia, serif;
-	font-size: 2.8rem;
+	font-size: 3.5rem;
 	display: block;
 	height: 30px;
 	width: 30px;
@@ -1712,7 +1712,7 @@ html.no-csstransitions .home-content__main {
 	left: 50%;
 	top: 50%;
 	text-align: center;
-	color: #fff;
+	color: #39b54a;
 	opacity: 0;
 	visibility: hidden;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -1737,19 +1737,19 @@ html.no-csstransitions .home-content__main {
 	transition: all 0.3s ease-in-out;
 }
 .portfolio-item__title {
-	font-family: "montserrat-semibold", sans-serif;
-	font-size: 1.4rem;
+	font-family: "montserrat-bold", sans-serif;
+	font-size: 1.6rem;
 	line-height: 1.286;
-	color: #39b54a;
+	color: #1483bd;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.75);
 	text-transform: uppercase;
-	letter-spacing: .2rem;
-	margin: 0 0 .3rem 0;
+	letter-spacing: .075rem;
+	margin: 0 0 1rem 0;
 }
 .portfolio-item__cat {
-	color: #fff;
 	font-family: "montserrat-light", sans-serif;
 	font-size: 1.5rem;
-	line-height: 1.714;
+	color: #39b54a;
 	margin-bottom: 0;
 }
 .portfolio-item__caption {
