@@ -1386,7 +1386,7 @@ html.no-csstransitions .home-content__main {
 	width: 100%;
 	height: 100%;
 	/* min-height: 786px; */
-	background-color: transparent;
+	background-color: rgba(0, 61, 95, 0.35);
 	position: relative;
 	display: table;
 }
@@ -1396,7 +1396,7 @@ html.no-csstransitions .home-content__main {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 32, 49, 0.8);
+	background-color: rgba(0, 32, 49, 0.875);
 }
 .s-home .shadow-overlay {
 	position: absolute;
