@@ -1386,9 +1386,10 @@ html.no-csstransitions .home-content__main {
 	width: 100%;
 	height: 100%;
 	/* min-height: 786px; */
-	background-color: rgba(0, 61, 95, 0.35);
+	background-color: transparent;
 	position: relative;
 	display: table;
+	/*background-image: url('../images/hoja.jpg');*/
 }
 .s-home .overlay {
 	position: absolute;
@@ -1396,7 +1397,7 @@ html.no-csstransitions .home-content__main {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 32, 49, 0.875);
+	background-color: rgba(0, 0, 0, 0.9);
 }
 .s-home .shadow-overlay {
 	position: absolute;
@@ -1404,9 +1405,9 @@ html.no-csstransitions .home-content__main {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.75) 100%);
-	background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.75) 100%);
-	background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.75) 100%);
+	background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.5) 100%);
+	background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.5) 100%);
+	background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.5) 100%);
 	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
 }
 .no-js .s-home {
@@ -1423,14 +1424,14 @@ html.no-csstransitions .home-content__main {
 	top: 0;
 }
 .home-content__main {
-	padding-top: 20rem;
+	padding-top: 16rem;
 	position: relative;
 	text-align: left;
 }
 .home-content h3 {
 	font-family: "montserrat-light", sans-serif;
 	font-size: 2.5rem;
-	color: #1483bd;
+	color: #386d56;
 	position: relative;
 	margin: 0 0 0 0.5rem;
 	text-shadow: -2px 1px 0 #000;
@@ -1446,7 +1447,7 @@ html.no-csstransitions .home-content__main {
 	font-family: "montserrat-extralight", sans-serif;
 	font-size: 3.25rem;
 	line-height: 4.2rem;
-	color: #fff;
+	color: #386d56;
 	text-transform: uppercase;
 	position: relative;
 	margin: 0 0 0 0.5rem;
@@ -1532,7 +1533,7 @@ html.no-csstransitions .home-content__main {
 		line-height: 3.5rem;
 	}
 	.home-content__main {
-		padding-top: 23rem;
+		padding-top: 15rem;
 		max-width: 665px;
 	}
 }

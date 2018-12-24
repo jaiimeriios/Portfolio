@@ -92,23 +92,20 @@ _____________________________)    (_____________________________
 </header>
 
 <!-- hero ============================================================ -->
-<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/rio.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
-	<div class="overlay"></div>
+<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hojas3.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+ 	<div class="overlay"></div>
 	<div class="shadow-overlay"></div>
 	<canvas id="canvas"></canvas>
 	<div class="home-content">
 		<div class="row home-content__main">
 			<h3 data-aos="fade-up" data-aos-delay='1000'>
-				Hello &amp; Welcome, My Name Is
+				Hi, I'm
 			</h3>
 			<h1 data-aos="fade-up" data-aos-delay='1100'>
 				Jaime Rios
 			</h1>
 			<h2 data-aos="fade-up" data-aos-delay='1200'>
-				Web Designer &amp;
-			</h2>
-			<h2 data-aos="fade-up" data-aos-delay='1300'>
-				Frontend Developer
+				Web Designer &amp; Frontend Developer
 			</h2>
 			<div class="home-content__scroll">
 				<a href="#works" class="scroll-link">
@@ -521,6 +518,23 @@ _____________________________)    (_____________________________
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
 <script src="js/particles.js"></script>
+
+<script>
+(function() {
+  var indexOf = [].indexOf;
+
+  if (indexOf.call(window, 'ontouchstart') >= 0 === false) {
+    $("body").mousemove(function(e) {
+      var moveX, moveY;
+      moveX = e.pageX * -1 / 35 + 'px';
+      moveY = e.pageY * -1 / 35 + 'px';
+      return $('#home').css('background-position', 'calc(50% + ' + moveX + ') calc(50% + ' + moveY + ')');
+    });
+  }
+
+}).call(this);
+
+</script>
 
 <!--        ____
            / . .\
