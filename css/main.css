@@ -1443,7 +1443,7 @@ html.no-csstransitions .home-content__main {
 	background: linear-gradient(#fff 0%, #ccc 40%, #fff 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	text-shadow: -0.5rem 0.45rem 0.1rem rgba(0, 0, 0, 0.65)
+	/*text-shadow: -0.5rem 0.45rem 0.1rem rgba(0, 0, 0, 0.65)*/
 }
 .home-content h2 {
 	font-family: "montserrat-extralight", sans-serif;
