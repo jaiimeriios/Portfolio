@@ -1440,7 +1440,9 @@ html.no-csstransitions .home-content__main {
 	font-family: "montserrat-medium", sans-serif;
 	font-size: 9rem;
 	margin: 1rem 0;
-	color: #FFFFFF;
+	background: linear-gradient(#fff 0%, #ccc 40%, #fff 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	text-shadow: -0.5rem 0.45rem 0.1rem rgba(0, 0, 0, 0.65)
 }
 .home-content h2 {
@@ -1645,9 +1647,9 @@ html.no-csstransitions .home-content__main {
 	position: relative;
 	background: #003d5f;
 	box-shadow: inset 0 3px 10px -3px #000;
+	background: linear-gradient(to bottom, #0e0e0e, #0c0c0c 100%%);
 	background: -moz-linear-gradient(top, #0e0e0e, #0c0c0c 100%);
 	background: -webkit-linear-gradient(top, #0e0e0e, #0c0c0c 100%);
-	background: linear-gradient(to bottom, #0e0e0e, #0c0c0c 100%%)
 }
 .works-content {
 	max-width: 1200px;
@@ -2175,6 +2177,16 @@ p.services {
 .s-self {
 	padding:6rem 0 18rem 0;
 	position: relative;
+	background: #003d5f;
+	box-shadow: inset 0 3px 10px -3px #000;
+	background: linear-gradient(to bottom, #0e0e0e, #0c0c0c 100%%);
+	background: -moz-linear-gradient(top, #0e0e0e, #0c0c0c 100%);
+	background: -webkit-linear-gradient(top, #0e0e0e, #0c0c0c 100%);
+}
+/*
+.s-self {
+	padding:6rem 0 18rem 0;
+	position: relative;
 	background: linear-gradient(45deg, #003d5f, #0d699c);
 	background-size: 400% 400%;
 	animation: BackgroundGradient 6s ease infinite;
@@ -2185,6 +2197,7 @@ p.services {
 	50% {background-position: 100% 50%;}
 	100% {background-position: 0% 50%;}
  }
+ */
 .s-self .section-header.has-bottom-sep::before {
 	background-color: rgba(255, 255, 255, 0.08);
 }
