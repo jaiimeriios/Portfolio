@@ -1002,7 +1002,7 @@ html.no-csstransitions .home-content__main {
 }
 .subhead {
 	font-family: "montserrat-light", sans-serif;
-	font-size: 1.75rem;
+	font-size: 2rem;
 	line-height: 1;
 	text-transform: uppercase;
 	letter-spacing: .05rem;
@@ -1015,10 +1015,10 @@ html.no-csstransitions .home-content__main {
 /* responsive: display headings -------------- */
 @media only screen and (max-width: 1200px) {
 	.display-1 {
-		font-size: 3rem;
+		font-size: 3.25rem;
 	}
 	.display-2 {
-		font-size: 3rem;
+		font-size: 3.25rem;
 	}
 }
 @media only screen and (max-width: 800px) {
@@ -1037,7 +1037,7 @@ html.no-csstransitions .home-content__main {
 		font-size: 2rem;
 	}
 	.subhead {
-		font-size: 1.2rem;
+		font-size: 1.75rem;
 	}
 }
 @media only screen and (max-width: 400px) {
@@ -2080,7 +2080,7 @@ p.services {
 }
 .services-list p.skills {
 	font-family: "montserrat-light", sans-serif;
-	font-size: 1.65rem;
+	font-size: 1.8rem;
 	color: #c1c1c1;
 	margin: 0 0 0 3.65rem;
 	line-height: 2.5rem;
