@@ -981,8 +981,8 @@ html.no-csstransitions .home-content__main {
    ----------------------------------------------
 */
 .display-1 {
-	font-family: "montserrat-light", sans-serif;
-	font-size: 4.1rem;
+	font-family: "montserrat-extralight", sans-serif;
+	font-size: 3.5rem;
 	color: #000000;
 	margin: 1rem 0;
 }
@@ -991,22 +991,22 @@ html.no-csstransitions .home-content__main {
 	margin: 1rem 0;
 }
 .display-2 {
-	font-family: "montserrat-light", sans-serif;
-	font-size: 4.1rem;
+	font-family: "montserrat-extralight", sans-serif;
+	font-size: 3.5rem;
 	color: #fff;
 	margin: 1rem 0;
 }
 .display-2--light {
 	color: #fff;
-	text-shadow: 2px 2px 1px #04334c;
+	text-shadow: 2px 2px 1px #000;
 }
 .subhead {
-	font-family: "montserrat-regular", sans-serif;
+	font-family: "montserrat-light", sans-serif;
 	font-size: 1.75rem;
 	line-height: 1;
 	text-transform: uppercase;
 	letter-spacing: .05rem;
-	color: #1483bd;
+	color: #386d56;
 	margin: 0;
 }
 .subhead--dark {
@@ -1015,26 +1015,26 @@ html.no-csstransitions .home-content__main {
 /* responsive: display headings -------------- */
 @media only screen and (max-width: 1200px) {
 	.display-1 {
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 	.display-2 {
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 }
 @media only screen and (max-width: 800px) {
 	.display-1 {
-		font-size: 3.5rem;
+		font-size: 2.75rem;
 	}
 	.display-2 {
-		font-size: 3.5rem;
+		font-size: 2.75rem;
 	}
 }
 @media only screen and (max-width: 600px) {
 	.display-1 {
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 	.display-2 {
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 	.subhead {
 		font-size: 1.2rem;
@@ -1424,13 +1424,13 @@ html.no-csstransitions .home-content__main {
 	top: 0;
 }
 .home-content__main {
-	padding-top: 16rem;
+	padding-top: 20rem;
 	position: relative;
 	text-align: left;
 }
 .home-content h3 {
-	font-family: "montserrat-light", sans-serif;
-	font-size: 2.5rem;
+	font-family: "montserrat-extralight", sans-serif;
+	font-size: 2.85rem;
 	color: #386d56;
 	position: relative;
 	margin: 0 0 0 0.5rem;
@@ -1445,7 +1445,7 @@ html.no-csstransitions .home-content__main {
 }
 .home-content h2 {
 	font-family: "montserrat-extralight", sans-serif;
-	font-size: 3.25rem;
+	font-size: 2.75rem;
 	line-height: 4.2rem;
 	color: #386d56;
 	text-transform: uppercase;
@@ -1533,7 +1533,7 @@ html.no-csstransitions .home-content__main {
 		line-height: 3.5rem;
 	}
 	.home-content__main {
-		padding-top: 15rem;
+		padding-top: 16rem;
 		max-width: 665px;
 	}
 }
@@ -1644,10 +1644,10 @@ html.no-csstransitions .home-content__main {
 	min-height: 800px;
 	position: relative;
 	background: #003d5f;
-	box-shadow: inset 0 3px 10px -3px #051d2b;
-	background: -moz-linear-gradient(top, #003d5f, #051d2b 100%);
-	background: -webkit-linear-gradient(top, #003d5f, #051d2b 100%);
-	background: linear-gradient(to bottom, #003d5f, #051d2b 100%)
+	box-shadow: inset 0 3px 10px -3px #000;
+	background: -moz-linear-gradient(top, #0e0e0e, #0c0c0c 100%);
+	background: -webkit-linear-gradient(top, #0e0e0e, #0c0c0c 100%);
+	background: linear-gradient(to bottom, #0e0e0e, #0c0c0c 100%%)
 }
 .works-content {
 	max-width: 1200px;
