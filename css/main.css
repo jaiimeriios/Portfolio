@@ -863,10 +863,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	vertical-align: middle;
 }
 .line-scale-pulse-out {
-	margin-top: -15rem;
+	margin-top: -10rem;
 }
 .line-scale-pulse-out > div {
-	background-color: #51aadc;
+	background-color: #0784c5;
     width: 5px;
     height: 50px;
     border-radius: 10px;
