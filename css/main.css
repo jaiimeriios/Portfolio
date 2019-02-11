@@ -848,6 +848,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	width: 100%;
 	display: table;
 }
+#preloader h6 {
+	font-family: "montserrat-light", sans-serif;
+    font-size: 1.5rem;
+	color: #fff;
+	text-transform: initial;
+}
 .no-js #preloader, .oldie #preloader {
 	display: none;
 }
@@ -856,12 +862,15 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	text-align: center;
 	vertical-align: middle;
 }
+.line-scale-pulse-out {
+	margin-top: -15rem;
+}
 .line-scale-pulse-out > div {
-	background-color: #1483bd;
-	width: 4px;
-    height: 40px;
-    border-radius: 5px;
-    margin: 0px 3px;
+	background-color: #51aadc;
+    width: 5px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 0px 5px;
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 	display: inline-block;
@@ -1397,8 +1406,10 @@ html.no-csstransitions .home-content__main {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.9);
+	background-color: rgba(7, 32, 65, 0.99);
+	/* background-color: #011832; */
 }
+/* } */
 .s-home .shadow-overlay {
 	position: absolute;
 	top: 0;
@@ -1424,7 +1435,7 @@ html.no-csstransitions .home-content__main {
 	top: 0;
 }
 .home-content__main {
-	padding-top: 20rem;
+	padding-top: 15rem;
 	position: relative;
 	text-align: left;
 }
@@ -1457,14 +1468,14 @@ html.no-csstransitions .home-content__main {
 	text-shadow: -2px 1px 0 #000;
 }
 .home-content__scroll {
-	margin: 8rem 0 0 0;
+	margin: 14rem 0 0 0;
 	text-align: center;
 }
 .home-content__scroll h4 {
-	font-family: "montserrat-extralight", sans-serif;
-	font-size: 1.5rem;
-	color: #fff;
-	margin: 0;
+	font-family: "montserrat-light", sans-serif;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
 }
 .home-content__scroll a {
 	position: relative;
@@ -1652,11 +1663,11 @@ html.no-csstransitions .home-content__main {
 	padding: 6rem 0 12rem 0;
 	min-height: 800px;
 	position: relative;
-	background: #003d5f;
+	background: #041c3c;
 	box-shadow: inset 0 3px 10px -3px #000;
-	background: linear-gradient(to bottom, #0e0e0e, #0c0c0c 100%%);
+	/* background: linear-gradient(to bottom, #0e0e0e, #0c0c0c 100%%);
 	background: -moz-linear-gradient(top, #0e0e0e, #0c0c0c 100%);
-	background: -webkit-linear-gradient(top, #0e0e0e, #0c0c0c 100%);
+	background: -webkit-linear-gradient(top, #0e0e0e, #0c0c0c 100%); */
 }
 .works-content {
 	max-width: 1200px;
@@ -2062,7 +2073,7 @@ p.services {
 .services-list {
 	position: relative;
 	margin-top: 5rem;
-	background-color: #0c0c0c;
+	background-color: #041c3c;
 	max-width: 1150px;
 	padding: 4rem 2rem 0 2rem;
 	border-radius: 2px;
@@ -2184,11 +2195,11 @@ p.services {
 .s-self {
 	padding:6rem 0 18rem 0;
 	position: relative;
-	background: #003d5f;
+	background: #041c3c;
 	box-shadow: inset 0 3px 10px -3px #000;
-	background: linear-gradient(to bottom, #0e0e0e, #0c0c0c 100%%);
+	/* background: linear-gradient(to bottom, #0e0e0e, #0c0c0c 100%%);
 	background: -moz-linear-gradient(top, #0e0e0e, #0c0c0c 100%);
-	background: -webkit-linear-gradient(top, #0e0e0e, #0c0c0c 100%);
+	background: -webkit-linear-gradient(top, #0e0e0e, #0c0c0c 100%); */
 }
 /*
 .s-self {
@@ -2389,10 +2400,10 @@ p.self {
 	padding: 6rem 0;
 	color: #fff;
 	position: relative;
-	background: #003d5f;
-	background: -moz-linear-gradient(top, #003d5f, #051d2b 100%);
+	background: #041c3c;
+	/* background: -moz-linear-gradient(top, #003d5f, #051d2b 100%);
 	background: -webkit-linear-gradient(top, #003d5f, #051d2b 100%);
-	background: linear-gradient(to bottom, #003d5f, #051d2b 100%)
+	background: linear-gradient(to bottom, #003d5f, #051d2b 100%) */
 }
 .s-contact .intro-wrap {
 	padding: 2rem 0 3rem 0;
@@ -2728,7 +2739,7 @@ p.self {
    ----------------------------------------------
 */
 footer {
-	background-color: #003d5f;
+	background-color: #041c3c;
 	padding: 6rem 0;
 	font-family: "montserrat-light", sans-serif;
 	font-size: 1em;
