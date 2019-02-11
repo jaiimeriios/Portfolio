@@ -990,9 +990,9 @@ html.no-csstransitions .home-content__main {
    ----------------------------------------------
 */
 .display-1 {
-	font-family: "montserrat-extralight", sans-serif;
-	font-size: 3.5rem;
-	color: #000000;
+	font-family: "montserrat-light", sans-serif;
+    font-size: 3rem;
+	color: #000;
 	margin: 1rem 0;
 }
 .display-1--light {
@@ -1000,14 +1000,14 @@ html.no-csstransitions .home-content__main {
 	margin: 1rem 0;
 }
 .display-2 {
-	font-family: "montserrat-extralight", sans-serif;
-	font-size: 3.5rem;
-	color: #fff;
-	margin: 1rem 0;
+	font-family: "montserrat-light", sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    margin: 1rem 0;
 }
 .display-2--light {
 	color: #fff;
-	text-shadow: 2px 2px 1px #000;
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
 }
 .subhead {
 	font-family: "montserrat-light", sans-serif;
@@ -1435,17 +1435,18 @@ html.no-csstransitions .home-content__main {
 	top: 0;
 }
 .home-content__main {
-	padding-top: 15rem;
+	padding-top: 18rem;
 	position: relative;
 	text-align: left;
 }
 .home-content h3 {
-	font-family: "montserrat-extralight", sans-serif;
-	font-size: 2.85rem;
-	color: #386d56;
+	font-family: "montserrat-light", sans-serif;
+	font-size: 3rem;
+	color: #ffffff;
+	text-transform: lowercase;
 	position: relative;
-	margin: 0 0 0 0.5rem;
-	text-shadow: -2px 1px 0 #000;
+	margin: 0;
+	text-shadow: -2px 1px 0 #021733;
 }
 .home-content h1 {
 	font-family: "montserrat-medium", sans-serif;
@@ -1458,23 +1459,22 @@ html.no-csstransitions .home-content__main {
 	/*text-shadow: -0.5rem 0.45rem 0.1rem rgba(0, 0, 0, 0.65)*/
 }
 .home-content h2 {
-	font-family: "montserrat-extralight", sans-serif;
-	font-size: 2.75rem;
-	line-height: 4.2rem;
-	color: #386d56;
-	text-transform: uppercase;
+	font-family: "montserrat-light", sans-serif;
+	font-size: 3rem;
+	color: #ffffff;
+	text-transform: lowercase;
 	position: relative;
-	margin: 0 0 0 0.5rem;
-	text-shadow: -2px 1px 0 #000;
+	margin: 0;
+	text-shadow: -2px 1px 0 #021733;
 }
 .home-content__scroll {
-	margin: 14rem 0 0 0;
+	margin: 20rem 0 0 0;
 	text-align: center;
 }
 .home-content__scroll h4 {
 	font-family: "montserrat-light", sans-serif;
     font-size: 1.5rem;
-    color: rgba(255, 255, 255, 0.8);
+    color: #0654b5;
     margin: 0;
 }
 .home-content__scroll a {
@@ -1483,7 +1483,7 @@ html.no-csstransitions .home-content__main {
 }
 .home-content__scroll a::before {
 	content: '\f107';
-	color: #39b54a;
+	color: #0654b5;
 	font-size: 30px;
 	text-shadow: 0 -2px 0 rgba(0, 0, 0, 0.9);
 	font-family: FontAwesome;
@@ -2063,9 +2063,8 @@ p.about {
 p.services {
 	font-family: "montserrat-light", sans-serif;
 	text-align: center;
-	color: #c1c1c1;
-	font-size: 2.25rem;
-	line-height: 1.75em;
+	color: #fff;
+	font-size: 2rem;
 	margin: 0 auto;
 	max-width: 800px;
 }
@@ -2075,7 +2074,7 @@ p.services {
 	margin-top: 5rem;
 	background-color: #041c3c;
 	max-width: 1150px;
-	padding: 4rem 2rem 0 2rem;
+	padding: 5rem 2rem 1rem 2rem;
 	border-radius: 2px;
 	box-shadow: 2px 25px 45px 5px rgba(0,0,0,0.05)
 }
@@ -2099,7 +2098,7 @@ p.services {
 .services-list p.skills {
 	font-family: "montserrat-light", sans-serif;
 	font-size: 1.8rem;
-	color: #c1c1c1;
+	color: #cdd6e2;
 	margin: 0 0 0 3.65rem;
 	line-height: 2.5rem;
 }
@@ -2800,7 +2799,7 @@ footer .row {
 	text-align: center;
 	font-size: 15px;
 	width: 100%;
-	background: #013958;
+	background: #021124;
 	padding: 3rem 0;
 }
 .footer-bottom  h6 {
