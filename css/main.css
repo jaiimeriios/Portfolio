@@ -1522,6 +1522,12 @@ html.no-csstransitions .home-content__main {
 		top: 35px;
 	}
 }
+.wave-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+	right: 0;
+}
 /* responsive: home -------------------------- */
 @media only screen and (max-width: 1500px) {
 	.home-content h1 {
