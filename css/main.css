@@ -1477,20 +1477,20 @@ html.no-csstransitions .home-content__main {
     color: #0654b5;
     margin: 0;
 }
-.home-content__scroll a {
+.home-content__scroll p {
 	position: relative;
 	display: inline-block;
+	font-size: 2.5rem;
+	
 }
-.home-content__scroll a::before {
+.home-content__scroll p::before {
+	font-family: FontAwesome;
 	content: '\f107';
 	color: #0654b5;
-	font-size: 30px;
-	text-shadow: 0 -2px 0 rgba(0, 0, 0, 0.9);
-	font-family: FontAwesome;
 	position: relative;
-	-moz-animation: scroll 2.5 infinite ease-in-out;
-	-webkit-animation: scroll 2.5s infinite ease-in-out;
-	animation: scroll 2.5s infinite ease-in-out;
+	-moz-animation: scroll 3 infinite ease-in-out;
+	-webkit-animation: scroll 3s infinite ease-in-out;
+	animation: scroll 3s infinite ease-in-out;
 }
 @-moz-keyframes scroll {
 	0% {
@@ -1499,7 +1499,7 @@ html.no-csstransitions .home-content__main {
 	}
 	100% {
 		opacity: 0;
-		top: 35px;
+		top: 40px;
 	}
 }
 @-webkit-keyframes scroll {
@@ -1509,7 +1509,7 @@ html.no-csstransitions .home-content__main {
 	}
 	100% {
 		opacity: 0;
-		top: 35px;
+		top: 40px;
 	}
 }
 @keyframes scroll {
@@ -1519,7 +1519,7 @@ html.no-csstransitions .home-content__main {
 	}
 	100% {
 		opacity: 0;
-		top: 35px;
+		top: 40px;
 	}
 }
 .wave-bottom {
