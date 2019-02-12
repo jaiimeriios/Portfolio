@@ -1481,7 +1481,6 @@ html.no-csstransitions .home-content__main {
 	position: relative;
 	display: inline-block;
 	font-size: 2.5rem;
-	
 }
 .home-content__scroll p::before {
 	font-family: FontAwesome;
