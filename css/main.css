@@ -1006,8 +1006,8 @@ html.no-csstransitions .home-content__main {
     margin: 1rem 0;
 }
 .display-2--light {
-	color: #fff;
-	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
+	color: #3c80d2;
+	/* text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4); */
 }
 .subhead {
 	font-family: "montserrat-light", sans-serif;
@@ -1077,7 +1077,7 @@ html.no-csstransitions .home-content__main {
 	display: inline-block;
 	height: 1px;
 	width: 550px;
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: rgba(5, 32, 64, 0.07);
 	position: absolute;
 	bottom: 0;
 	left: 50%;
@@ -1086,7 +1086,7 @@ html.no-csstransitions .home-content__main {
 	transform: translateX(-50%);
 }
 .section-header.has-bottom-sep.light-sep::before {
-	background-color: rgba(255, 255, 255, 0.05);
+	background-color: rgba(10, 89, 189, 0.08);
 }
 /* responsive: header ------------------------ */
 @media only screen and (max-width: 1200px) {
@@ -1449,14 +1449,15 @@ html.no-csstransitions .home-content__main {
 	text-shadow: -2px 1px 0 #021733;
 }
 .home-content h1 {
-	font-family: "montserrat-medium", sans-serif;
+	font-family: "montserrat-semibold", sans-serif;
 	font-size: 9rem;
 	margin: 1rem 0;
-	background: linear-gradient(#fff 0%, #ccc 40%, #fff 100%);
+	color: #fff;
+	text-shadow: -0.5rem 0.45rem 0.1rem #04142b;
+	/* background: linear-gradient(#fff 0%, #ccc 40%, #fff 100%);
 	background-clip: text;
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	/*text-shadow: -0.5rem 0.45rem 0.1rem rgba(0, 0, 0, 0.65)*/
+	-webkit-text-fill-color: transparent; */
 }
 .home-content h2 {
 	font-family: "montserrat-light", sans-serif;
@@ -1668,9 +1669,10 @@ html.no-csstransitions .home-content__main {
 	padding: 6rem 0 12rem 0;
 	min-height: 800px;
 	position: relative;
-	background: #041c3c;
+	background-color: #fff;
+	/* background: #041c3c;
 	box-shadow: inset 0 3px 10px -3px #000;
-	/* background: linear-gradient(to bottom, #0e0e0e, #0c0c0c 100%%);
+	background: linear-gradient(to bottom, #0e0e0e, #0c0c0c 100%%);
 	background: -moz-linear-gradient(top, #0e0e0e, #0c0c0c 100%);
 	background: -webkit-linear-gradient(top, #0e0e0e, #0c0c0c 100%); */
 }
