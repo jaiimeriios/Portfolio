@@ -1450,23 +1450,23 @@ html.no-csstransitions .home-content__main {
 }
 .home-content h1 {
 	font-family: "montserrat-semibold", sans-serif;
-	font-size: 9rem;
+	font-size: 6rem;
 	margin: 1rem 0;
 	color: #fff;
-	text-shadow: -0.5rem 0.45rem 0.1rem #04142b;
+	text-shadow: -4px 6px 1px #041831;
 	/* background: linear-gradient(#fff 0%, #ccc 40%, #fff 100%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent; */
 }
 .home-content h2 {
-	font-family: "montserrat-light", sans-serif;
-	font-size: 3rem;
-	color: #ffffff;
-	text-transform: lowercase;
-	position: relative;
+	font-family: "montserrat-extralight", sans-serif;
+    font-size: 3rem;
+    color: #8fbdf7;
+    text-transform: lowercase;
+    position: relative;
 	margin: 0;
-	text-shadow: -2px 1px 0 #021733;
+	text-shadow: -1px 1px 1px #041831;
 }
 .home-content__scroll {
 	margin: 20rem 0 0 0;
@@ -1530,20 +1530,16 @@ html.no-csstransitions .home-content__main {
 }
 /* responsive: home -------------------------- */
 @media only screen and (max-width: 1500px) {
-	.home-content h1 {
-		font-size: 9rem;
-	}
 	.home-content__main {
 		max-width: 1000px;
 	}
 }
 @media only screen and (max-width: 1200px) {
 	.home-content h1 {
-		font-size: 8.5rem;
 		margin: 0.5rem 0 1rem 0;
 	}
 	.home-content h2 {
-		font-size: 2.85rem;
+		font-size: 2.9rem;
 		margin: 0;
 	}
 	.home-content__main {
@@ -1551,12 +1547,8 @@ html.no-csstransitions .home-content__main {
 	}
 }
 @media only screen and (max-width: 1000px) {
-	.home-content h1 {
-		font-size: 8rem;
-	}
 	.home-content h2 {
-		font-size: 2.75rem;
-		line-height: 3.5rem;
+		font-size: 2.8rem;
 	}
 	.home-content__main {
 		padding-top: 16rem;
@@ -1567,22 +1559,16 @@ html.no-csstransitions .home-content__main {
 	.home-content__main {
 		max-width: 550px;
 	}
-	.home-content h3 {
-		font-size: 2rem;
-	}
 	.home-content h1 {
-		font-size: 7rem;
+		font-size: 5rem;
 	}
 }
 @media only screen and (max-width: 700px) {
 	.home-content__main {
 		max-width: 500px;
 	}
-	.home-content h1 {
-		font-size: 6.5rem;
-	}
 	.home-content h2 {
-		font-size: 2.5rem;
+		font-size: 2.6rem;
 		line-height: 2.9rem;
 	}
 	.home-content__buttons {
