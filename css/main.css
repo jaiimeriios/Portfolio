@@ -118,7 +118,6 @@ body {
 	padding: 0;
 	overflow-x: hidden;
 }
-
 /* width */
 ::-webkit-scrollbar {
 	width: 8px;
@@ -160,7 +159,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 }
 @media only screen and (max-width: 600px) {
 	h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
-		margin-top: 5.1rem;
+		margin-top: 5rem;
 	}
 }
 h5, .h5, h6, .h6 {
