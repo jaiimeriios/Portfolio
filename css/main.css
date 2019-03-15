@@ -1908,8 +1908,8 @@ p.about {
 	width: 100%;
 	align-items: center;
 	box-sizing: border-box;
- }
- .mosaic_background {
+}
+.mosaic_background {
 	top: 0; left: 0;
 	width: 100%;
 	height: 100%;
@@ -1917,8 +1917,8 @@ p.about {
 	background:linear-gradient(#044b73, #02334f);
 	overflow: hidden;
 	z-index: -1;
- }
- .mosaic_background:after {
+}
+.mosaic_background:after {
 	content:'';
 	position: absolute;
 	width: 600%;
@@ -1931,22 +1931,22 @@ p.about {
 	animation-duration: 200s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
- }
- @keyframes rotate {
+}
+@keyframes rotate {
 	0% { transform: rotateZ(0deg); }
 	50% { opacity: 0.85;}
 	100% { transform: rotateZ(360deg); }
- }
- @-moz-keyframes rotate {
+}
+@-moz-keyframes rotate {
 	0% { transform: rotateZ(0deg); }
 	50% { opacity: 0.85;}
 	100% { transform: rotateZ(360deg); }
- }
- @-webkit-keyframes rotate {
+}
+@-webkit-keyframes rotate {
 	0% { transform: rotateZ(0deg); }
 	50% { opacity: 0.85;}
 	100% {transform: rotateZ(360deg); }
- }
+}
 /*
 .elements {
 	width: 100%;
