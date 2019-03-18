@@ -1,19 +1,19 @@
 /*         ;               ,           
-         ,;                 '.         
-        ;:                   :;        
-       ::                     ::       
-       ::                     ::       
-       ':                     :        
-        :.                    :        
-     ;' ::                   ::  '     
-    .'  ';                   ;'  '.    
+		 ,;                 '.         
+		;:                   :;        
+	   ::                     ::       
+	   ::                     ::       
+	   ':                     :        
+		:.                    :        
+	 ;' ::                   ::  '     
+	.'  ';                   ;'  '.    
    ::    :;                 ;:    ::   
    ;      :;.             ,;:     ::   
    :;      :;:           ,;"      ::   
    ::.      ':;  ..,.;  ;:'     ,.;:   
-    "'"...   '::,::::: ;:   .;.;""'    
-        '"""....;:::::;,;.;"""         
-    .:::.....'"':::::::'",...;::::;.   
+	"'"...   '::,::::: ;:   .;.;""'    
+		'"""....;:::::;,;.;"""         
+	.:::.....'"':::::::'",...;::::;.   
    ;:' '""'"";.,;:::::;.'""""""  ':;   
   ::'         ;::;:::;::..         :;  
  ::         ,;:::::::::::;:..       :: 
@@ -22,14 +22,14 @@
  :.    ::   ::::::;  :::::::   :     ; 
   ;    ::   :::::::  :::::::   :    ;  
    '   ::   ::::::....:::::'  ,:   '   
-    '  ::    :::::::::::::"   ::       
-       ::     ':::::::::"'    ::       
-       ':       """""""'      ::       
-        ::                   ;:        
-        ':;                 ;:"        
-          ';              ,;'          
-            "            '"            
-             '          '
+	'  ::    :::::::::::::"   ::       
+	   ::     ':::::::::"'    ::       
+	   ':       """""""'      ::       
+		::                   ;:        
+		':;                 ;:"        
+		  ';              ,;'          
+			"            '"            
+			 '          '
 = base style
 	- links
 	- typography & general
@@ -849,7 +849,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 #preloader h6 {
 	font-family: "montserrat-light", sans-serif;
-    font-size: 1.5rem;
+	font-size: 1.5rem;
 	color: #fff;
 	text-transform: initial;
 }
@@ -866,10 +866,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .line-scale-pulse-out > div {
 	background-color: #0784c5;
-    width: 5px;
-    height: 50px;
-    border-radius: 10px;
-    margin: 0px 5px;
+	width: 5px;
+	height: 50px;
+	border-radius: 10px;
+	margin: 0px 5px;
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 	display: inline-block;
@@ -990,7 +990,7 @@ html.no-csstransitions .home-content__main {
 */
 .display-1 {
 	font-family: "montserrat-light", sans-serif;
-    font-size: 3rem;
+	font-size: 3rem;
 	color: #000;
 	margin: 1rem 0;
 }
@@ -1000,9 +1000,9 @@ html.no-csstransitions .home-content__main {
 }
 .display-2 {
 	font-family: "montserrat-light", sans-serif;
-    font-size: 3rem;
-    color: #fff;
-    margin: 1rem 0;
+	font-size: 3rem;
+	color: #fff;
+	margin: 1rem 0;
 }
 .display-2--light {
 	color: #088ed4;
@@ -1010,12 +1010,12 @@ html.no-csstransitions .home-content__main {
 }
 .subhead {
 	font-family: "montserrat-light", sans-serif;
-    font-size: 2rem;
-    line-height: 1;
-    text-transform: lowercase;
-    letter-spacing: .05rem;
-    color: #6e9eda;
-    margin: 0;
+	font-size: 2rem;
+	line-height: 1;
+	text-transform: lowercase;
+	letter-spacing: .05rem;
+	color: #6e9eda;
+	margin: 0;
 }
 .subhead--dark {
 	color: #1282bd;
@@ -1331,8 +1331,8 @@ html.no-csstransitions .home-content__main {
 	position: absolute;
 	top: 0;
 	   left: -80px;
-    width: 90px;
-    padding: 0 0 0 10px;
+	width: 90px;
+	padding: 0 0 0 10px;
 }
 .header-menu-icon {
 	display: block;
@@ -1460,10 +1460,10 @@ html.no-csstransitions .home-content__main {
 }
 .home-content h2 {
 	font-family: "montserrat-extralight", sans-serif;
-    font-size: 3rem;
-    color: #9fb6d4;
-    text-transform: lowercase;
-    position: relative;
+	font-size: 3rem;
+	color: #9fb6d4;
+	text-transform: lowercase;
+	position: relative;
 	margin: 0;
 	text-shadow: -1px 1px 1px #041831;
 }
@@ -1473,9 +1473,9 @@ html.no-csstransitions .home-content__main {
 }
 .home-content__scroll h4 {
 	font-family: "montserrat-light", sans-serif;
-    font-size: 1.5rem;
-    color: #9fb6d4;
-    margin: 0;
+	font-size: 1.5rem;
+	color: #9fb6d4;
+	margin: 0;
 }
 .home-content__scroll p {
 	position: relative;
@@ -1522,9 +1522,9 @@ html.no-csstransitions .home-content__main {
 	}
 }
 .wave-bottom {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 	right: 0;
 }
 /* responsive: home -------------------------- */
@@ -2039,8 +2039,8 @@ p.about {
 	height: 100%;
 	background-color: #f6f6f6;
 	box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
-    -webkit-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
 }
 .s-services .intro-wrap {
 	padding: 2rem 0 0 0;
@@ -2190,8 +2190,8 @@ p.services {
 	position: relative;
 	background-color: #fff;
 	box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
-    -webkit-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
 	/* background: #041c3c;
 	box-shadow: inset 0 3px 10px -3px #000;
 	background: linear-gradient(to bottom, #0e0e0e, #0c0c0c 100%%);
@@ -2225,12 +2225,12 @@ p.services {
 }
 .self-img {
 	float: left;
-    margin: 0 0 0 2rem;
-    width: 25%;
-    max-width: 225px;
-    height: 225px;
-    border-radius: 50% 50%;
-    overflow: hidden;
+	margin: 0 0 0 2rem;
+	width: 25%;
+	max-width: 225px;
+	height: 225px;
+	border-radius: 50% 50%;
+	overflow: hidden;
 }
 img.self {
 	width: 100%;
@@ -2254,12 +2254,12 @@ img.self:hover {
 } */
 p.self {
 	font-family: "montserrat-light", sans-serif;
-    font-size: 1.55rem;
-    text-align: left;
-    margin: 1rem 1rem 2rem 3rem;
-    line-height: 2.65rem;
-    letter-spacing: 0.25px;
-    color: #2f2f2f;
+	font-size: 1.55rem;
+	text-align: left;
+	margin: 1rem 1rem 2rem 3rem;
+	line-height: 2.65rem;
+	letter-spacing: 0.25px;
+	color: #2f2f2f;
 }
 /* responsive: personal ---------------------- */
 @media only screen and (max-width: 1200px) {
@@ -2330,7 +2330,7 @@ p.self {
 */
 .s-resume {
 	padding: 0;
-    background-color: #fff;
+	background-color: #fff;
 }
 .s-resume .section-header.has-bottom-sep::before {
 	background-color: rgba(255, 255, 255, 0.08);
@@ -2451,7 +2451,7 @@ p.self {
 }
 .frm-rgt textarea#contactMessage {
 	padding: 1rem 0 0 2rem;
-    min-height: 18.75rem;
+	min-height: 18.75rem;
 }
 .form-field {
 	position: relative;
@@ -2801,12 +2801,12 @@ footer .row {
 }
 .footer-bottom  h6 {
 	display: inline-block;
-    font-family: "montserrat-light", sans-serif;
-    color: #78a9e6;
-    letter-spacing: 0;
-    text-transform: none;
-    font-size: 1.5rem;
-    margin: 1rem 0 2rem 0;
+	font-family: "montserrat-light", sans-serif;
+	color: #78a9e6;
+	letter-spacing: 0;
+	text-transform: none;
+	font-size: 1.5rem;
+	margin: 1rem 0 2rem 0;
 }
 
 /* go to top --------------------------------- */

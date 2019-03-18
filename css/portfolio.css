@@ -128,15 +128,15 @@ ul.project-about {
 }
 ul.project-about li {
 	font-family: "montserrat-light", sans-serif;
-    font-size: 1.6rem;
-    line-height: 5rem;
-    color: #1483bd;
+	font-size: 1.6rem;
+	line-height: 5rem;
+	color: #1483bd;
 }
 ul.project-about li i {
 	color: #1ea3e8;
-    font-size: 1rem;
-    vertical-align: text-top;
-    margin: 2px 0px 0 0;
+	font-size: 1rem;
+	vertical-align: text-top;
+	margin: 2px 0px 0 0;
 }
 /* responsive: about ------------------------- */
 @media only screen and (max-width: 1200px) {
@@ -266,7 +266,7 @@ ul.project-features-list li i {
 	}
 	ul.project-btns li {
 		font-size: 2.25rem;
-    	margin: 2rem 0 2rem 0;
+		margin: 2rem 0 2rem 0;
 	}
 	ul.project-btns li i {
 		font-size: 2.5rem;
