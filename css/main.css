@@ -1815,14 +1815,14 @@ html.no-csstransitions .home-content__main {
 .portfolio-item:hover .portfolio-item__thumb a::after {
 	opacity: 1;
 	visibility: visible;
-	-webkit-transform: scale(1.2);
-	-ms-transform: scale(1.2);
-	transform: scale(1.2);
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
 }
 .portfolio-item:hover .portfolio-item__thumb img {
-	-webkit-transform: scale(1.2);
-	-ms-transform: scale(1.2);
-	transform: scale(1.2);
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
 }
 .portfolio-item:hover .portfolio-item__project-link,
 .portfolio-item:hover .portfolio-item__text {
@@ -1835,10 +1835,10 @@ html.no-csstransitions .home-content__main {
 /* responsive: portfolio --------------------- */
 @media only screen and (max-width: 950px) {
 	.portfolio-item__title, .portfolio-item__cat {
-	font-size: 1.3rem;
+		font-size: 1.3rem;
 	}
 	.grid-sizer {
-	width: 50%;
+		width: 50%;
 	}
 }
 @media only screen and (max-width: 900px) {

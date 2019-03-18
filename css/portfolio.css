@@ -111,7 +111,7 @@ p.project-about {
 	font-family: "montserrat-light", sans-serif;
 	font-size: 1.65rem;
 	text-align: left;
-	color: #fff;
+	color: #151515;
 	line-height: 1.55em;
 	letter-spacing: 0.05rem;
 	text-shadow: none;
@@ -127,17 +127,16 @@ ul.project-about {
 	justify-content: space-between;
 }
 ul.project-about li {
-	font-family: "montserrat-extralight", sans-serif;
-	font-size: 1.7rem;
-	line-height: 5rem;
-	letter-spacing: 0.1rem;
-	color: #fff;
+	font-family: "montserrat-light", sans-serif;
+    font-size: 1.6rem;
+    line-height: 5rem;
+    color: #1483bd;
 }
 ul.project-about li i {
-	color: #1483bd;
-	font-size: 1rem;
-	vertical-align: text-top;
-	margin: 2px 2px 0 0;
+	color: #1ea3e8;
+    font-size: 1rem;
+    vertical-align: text-top;
+    margin: 2px 0px 0 0;
 }
 /* responsive: about ------------------------- */
 @media only screen and (max-width: 1200px) {
@@ -176,9 +175,9 @@ ul.project-about li i {
 	position: relative;
 	margin: 0 auto;
 	background-color: #f6f6f6;
-	box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.35);
-	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.35);
-	-moz-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.35);
+	box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
 }
 ul.project-btns {
 	display: flex;
@@ -223,13 +222,13 @@ h3.project-desc {
 }
 p.project-desc {
 	font-family: "montserrat-light", sans-serif;
-	font-size: 1.7rem;
+	font-size: 1.65rem;
 	text-align: left;
-	color: rgba(0, 0, 0, 0.95);
+	color: #151515;
 	line-height: 1.7em;
 	text-shadow: none;
 	max-width: 700px;
-	margin: 3.25rem auto;
+	margin: 3rem auto;
 }
 img.img-desc {
 	width: 100%;
