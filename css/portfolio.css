@@ -44,12 +44,12 @@ Portfolio Projects
 	padding: 1.6rem 5rem;
 	color: #f2f2f2;
 	text-decoration: none;
-	background-color:rgba(3, 50, 76, 0.95);
+	background-color: #1483bd;
 	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
 }
 #navbar a:hover {
-	color: #39b54a;
-	background-color: #003d5f;
+	color: #fff;
+	background-color: #076699;
 }
 #navbar span {
 	font-family: "montserrat-regular", sans-serif;
