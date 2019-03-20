@@ -160,7 +160,7 @@ ul.project-features-list li i {
 .p-about {
 	position: relative;
     margin: 0 auto;
-    padding: 6rem 0;
+    padding: 4rem 0;
     background-color: #fff;
     border-bottom: solid 1px #eee;
     display: flex;
@@ -219,11 +219,14 @@ p.project-about {
 }
 a.site-link {
 	font-family: "montserrat-light", sans-serif;
-	color: #fff;
+    color: #fff;
     font-size: 1.5rem;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2.5rem;
     border-radius: 3px;
-	background: linear-gradient(to bottom, #40c152 0%, #29ab3b 100%);
+    float: right;
+    right: 0;
+    margin: 2rem auto 0 auto;
+    background: linear-gradient(to bottom, #40c152 0%, #29ab3b 100%);
 }
 a.site-link:hover {
 	
@@ -282,6 +285,11 @@ ul.project-btns li.dwnld a:hover {
 	}
 	.about-desc {
 		font-size: 1.9rem;
+	}
+	a.site-link {
+		float: none;
+		display: table;
+		margin: 4rem auto 0 auto
 	}
 }
 @media only screen and (max-width: 400px) {
