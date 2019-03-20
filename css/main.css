@@ -1685,6 +1685,7 @@ html.no-csstransitions .home-content__main {
 	position: relative;
 	overflow: hidden;
 	border-radius: 2px;
+	transition: all 0.5s;
 }
 .portfolio-item__thumb img {
 	vertical-align: bottom;
