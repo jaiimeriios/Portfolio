@@ -2064,7 +2064,6 @@ p.services {
 /* services list ----------------------------- */
 .services-list {
 	position: relative;
-	margin-top: 5rem;
 	background-color: #f6f6f6;
 	max-width: 1150px;
 	padding: 5rem 2rem 1rem 2rem;
