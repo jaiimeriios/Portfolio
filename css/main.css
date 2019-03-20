@@ -2080,7 +2080,7 @@ p.services {
 	font-size: 2rem;
 	margin: -0.5rem 1.5rem 0 0;
 }
-.services-list .service-item h3 {
+.services-list .service-item h5 {
 	margin: 0 0 1rem 0;
 	font-size: 1.65rem;
 	color: #6e9eda;

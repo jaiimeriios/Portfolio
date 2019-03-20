@@ -168,9 +168,21 @@ ul.project-about li i {
 	}
 }
 
+/* section NDA ------------------------------- */
+section.nda {
+	position: relative;
+	padding: 7rem 0;
+	background-color: #ccc;
+}
+h6.nda {
+	margin: 0 auto;
+	text-align: center;
+    font-size: 1.75rem;
+    color: #eee;
+}
 
 /* project description ----------------------- */
-.p-decription {
+	.p-decription {
 	padding:1rem 0;
 	position: relative;
 	margin: 0 auto;
