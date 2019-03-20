@@ -1696,7 +1696,7 @@ html.no-csstransitions .home-content__main {
 }
 .portfolio-item__thumb a::before {
 	display: block;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(2, 16, 34, 0.85);
 	content: "";
 	opacity: 0;
 	visibility: hidden;
@@ -1712,12 +1712,10 @@ html.no-csstransitions .home-content__main {
 .portfolio-item__thumb a::after {
 	content: "+";
 	font-family: georgia, serif;
-	font-size: 3.5rem;
+	font-size: 2.5rem;
 	display: block;
 	height: 30px;
 	width: 30px;
-	line-height: 30px;
-	margin-left: -15px;
 	margin-top: -30px;
 	position: absolute;
 	left: 50%;
@@ -1749,13 +1747,13 @@ html.no-csstransitions .home-content__main {
 }
 .portfolio-item__title {
 	font-family: "montserrat-bold", sans-serif;
-	font-size: 1.6rem;
-	line-height: 1.286;
-	color: #1483bd;
-	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.75);
+	font-size: 1.65rem;
+	line-height: 1.25;
+	color: #ffffff;
+	text-shadow: 2px 2px 0 #000;
 	text-transform: uppercase;
 	letter-spacing: .075rem;
-	margin: 0 0 1rem 0;
+	margin: 0 0 1.5rem 0;
 }
 .portfolio-item__cat {
 	font-family: "montserrat-light", sans-serif;
