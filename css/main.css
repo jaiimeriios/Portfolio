@@ -124,15 +124,19 @@ body {
 }
 /* Track */
 ::-webkit-scrollbar-track {
-	background-color: #000;
+	background-color: #fff;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: #39b54a;
+	background: linear-gradient(to bottom, #FCC72C 0%, #f0b917 100%);
 }
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-	background: #33a242; 
+/* ::-webkit-scrollbar-thumb:hover {
+	background: linear-gradient(to bottom, #e8b009 0%, #FCC72C 100%); 
+} */
+::selection {
+    color: #fcfcfc;
+	background: #FCC72C;
 }
 /* links ------------------------------------- */
 a {
