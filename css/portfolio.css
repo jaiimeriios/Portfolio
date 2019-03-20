@@ -82,10 +82,11 @@ h1.project-title {
 
 /* project about ----------------------------- */
 .p-about {
-	padding:5rem 0;
 	position: relative;
 	margin:  0 auto;
+	padding:5rem 0;
 	background-color: #fff;
+	border-bottom: solid 1px #eee;
 }
 /*
 .p-about .section-header{
@@ -183,10 +184,10 @@ h6.nda {
 
 /* project description ----------------------- */
 	.p-decription {
-	padding:1rem 0;
 	position: relative;
+	padding:0;
 	margin: 0 auto;
-	background-color: #f6f6f6;
+	background-color: #fff;
 	box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
 	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
 	-moz-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
@@ -234,12 +235,12 @@ h3.project-desc {
 }
 p.project-desc {
 	font-family: "montserrat-light", sans-serif;
-	font-size: 1.65rem;
+	font-size: 1.4rem;
 	text-align: left;
-	color: #151515;
+	color: #000;
 	line-height: 1.7em;
 	text-shadow: none;
-	max-width: 700px;
+	max-width: 850px;
 	margin: 3rem auto;
 }
 img.img-desc {
