@@ -92,46 +92,13 @@ h1.project-title {
 	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
 	-moz-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
 }
-ul.project-btns {
-	display: flex;
-	flex-wrap: wrap;
-	max-width: 700px;
-	margin: 3rem auto;
-	list-style-type: none;
-	justify-content: space-between;
-}
-ul.project-btns li {
-	font-family: "montserrat-light", sans-serif;
-	font-size: 1.8rem;
-}
-ul.project-btns li a {
-	color: #0ed229;
-}
-ul.project-btns li a:hover {
-	color: #33a242;
-}
-ul.project-btns li i {
-	font-size: 2rem;
-	vertical-align: text-top;
-	margin: -2px 0 0 0;
-}
-ul.project-btns li.dwnld a {
-	background-color: #0ed229;
-	color: #fff;
-	padding: 1rem 1.5rem;
-}
-ul.project-btns li.dwnld a:hover {
-	background-color: #33a242;
-}
 h3.project-desc {
 	font-family: "montserrat-regular", sans-serif;
-	font-size: 1.75rem;
-	line-height: 1;
-	text-transform: uppercase;
-	letter-spacing: .05rem;
-	color: #1483bd;
-	max-width: 860px;
-	margin: 2rem auto 0 auto;
+    font-size: 2rem;
+    line-height: 1;
+    color: #1483bd;
+    max-width: 860px;
+    margin: 5rem auto 0 auto;
 }
 p.project-desc {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -192,10 +159,13 @@ ul.project-features-list li i {
 /* project about ----------------------------- */
 .p-about {
 	position: relative;
-	margin:  0 auto;
-	padding:6rem 0;
-	background-color: #fff;
-	border-bottom: solid 1px #eee;
+    margin: 0 auto;
+    padding: 6rem 0;
+    background-color: #fff;
+    border-bottom: solid 1px #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /*
 .p-about .section-header{
@@ -217,23 +187,13 @@ ul.project-features-list li i {
 	position: relative;
 	z-index: 9;
 }
-p.project-about {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1.85rem;
-	text-align: left;
-	color: #151515;
-	line-height: 1.75em;
-	text-shadow: none;
-	max-width: 860px;
-	margin: 0 auto;
-}
 ul.project-about {
 	display: flex;
-	flex-wrap: wrap;
-	max-width: 700px;
-	margin: 4rem auto 0 auto;
-	list-style-type: none;
-	justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 860px;
+    margin: 2rem auto;
+    list-style-type: none;
+    justify-content: space-between;
 }
 ul.project-about li {
 	font-family: "montserrat-light", sans-serif;
@@ -246,6 +206,59 @@ ul.project-about li i {
 	font-size: 1rem;
 	vertical-align: text-top;
 	margin: 2px 0px 0 0;
+}
+p.project-about {
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.7rem;
+    text-align: left;
+    color: #000;
+    line-height: 1.75em;
+    text-shadow: none;
+    max-width: 860px;
+    margin: 1rem auto;
+}
+a.site-link {
+	font-family: "montserrat-light", sans-serif;
+	color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+	background: linear-gradient(to bottom, #40c152 0%, #29ab3b 100%);
+}
+a.site-link:hover {
+	
+}
+
+ul.project-btns {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 700px;
+	margin: 3rem auto;
+	list-style-type: none;
+	justify-content: space-between;
+}
+ul.project-btns li {
+	font-family: "montserrat-light", sans-serif;
+	font-size: 1.8rem;
+}
+ul.project-btns li a {
+	color: #0ed229;
+}
+ul.project-btns li a:hover {
+	color: #33a242;
+}
+ul.project-btns li i {
+	font-size: 2rem;
+	vertical-align: text-top;
+	margin: -2px 0 0 0;
+}
+ul.project-btns li.dwnld a {
+	background-color: #0ed229;
+	color: #fff;
+	padding: 1rem 1.5rem;
+}
+ul.project-btns li.dwnld a:hover {
+	background-color: #33a242;
 }
 /* responsive: about ------------------------- */
 @media only screen and (max-width: 1200px) {
