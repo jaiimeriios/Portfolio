@@ -2040,10 +2040,10 @@ p.about {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #f6f6f6;
-	box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
-	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
-	-moz-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
+	background-color: #fafafa;
+	box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.05);
+	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.05);
 }
 .s-services .intro-wrap {
 	padding: 2rem 0 0 0;
@@ -2060,7 +2060,7 @@ p.about {
 p.services {
 	font-family: "montserrat-light", sans-serif;
 	text-align: center;
-	color: #2f2f2f;
+	color: #000;
 	font-size: 1.75rem;
 	margin: 0 auto;
 	max-width: 800px;
@@ -2068,14 +2068,17 @@ p.services {
 /* services list ----------------------------- */
 .services-list {
 	position: relative;
+    max-width: 1150px;
+    padding: 0;
+    margin: 5rem auto 0 auto;
+	/*
 	background-color: #f6f6f6;
-	max-width: 1150px;
-	padding: 5rem 2rem 1rem 2rem;
-	border-radius: 2px;
-	/* box-shadow: 2px 25px 45px 5px rgba(0,0,0,0.05) */
+	box-shadow: 2px 25px 45px 5px rgba(0,0,0,0.05)
+	*/
 }
 .services-list .service-item {
 	margin-bottom: 6rem;
+    padding: 0 1em;
 }
 .services-list .service-icon {
 	float: left;
@@ -2094,7 +2097,7 @@ p.services {
 .services-list p.skills {
 	font-family: "montserrat-light", sans-serif;
 	font-size: 1.5rem;
-	color: #2f2f2f;
+	color: #000;
 	margin: 0 0 0 3.65rem;
 	line-height: 2.35rem;
 }
@@ -2191,9 +2194,9 @@ p.services {
 	padding:6rem 0 18rem 0;
 	position: relative;
 	background-color: #fff;
-	box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
+	/* box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
 	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
-	-moz-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15); */
 	/* background: #041c3c;
 	box-shadow: inset 0 3px 10px -3px #000;
 	background: linear-gradient(to bottom, #0e0e0e, #0c0c0c 100%%);
