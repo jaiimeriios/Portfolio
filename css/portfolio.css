@@ -229,7 +229,7 @@ a.site-link {
     background: linear-gradient(to bottom, #40c152 0%, #29ab3b 100%);
 }
 a.site-link:hover {
-	
+	background: linear-gradient(to bottom, #29ab3b 0%, #40c152 100%);
 }
 
 ul.project-btns {
