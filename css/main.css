@@ -1080,7 +1080,7 @@ html.no-csstransitions .home-content__main {
 	display: inline-block;
 	height: 1px;
 	width: 550px;
-	background-color: rgba(5, 32, 64, 0.07);
+	background-color: rgba(8, 142, 212, 0.15);
 	position: absolute;
 	bottom: 0;
 	left: 50%;
@@ -1688,7 +1688,7 @@ html.no-csstransitions .home-content__main {
 .portfolio-item {
 	position: relative;
 	overflow: hidden;
-	border-radius: 2px;
+	border-radius: 3px;
 	transition: all 0.5s;
 }
 .portfolio-item__thumb img {
@@ -2040,10 +2040,10 @@ p.about {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #fafafa;
-	box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.05);
-	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.05);
-	-moz-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.05);
+	background-color: #f9faff;
+	box-shadow: inset 0px 1px 1px 0px rgba(8, 142, 212, 0.15);
+	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(8, 142, 212, 0.15);
+	-moz-box-shadow: inset 0px 1px 1px 0px rgba(8, 142, 212, 0.15);
 }
 .s-services .intro-wrap {
 	padding: 2rem 0 0 0;
@@ -2070,15 +2070,18 @@ p.services {
 	position: relative;
     max-width: 1150px;
     padding: 0;
-    margin: 5rem auto 0 auto;
-	/*
-	background-color: #f6f6f6;
-	box-shadow: 2px 25px 45px 5px rgba(0,0,0,0.05)
-	*/
+	margin: 5rem auto 0 auto;
+}
+.services-list-flex {
+	display: flex;
+	justify-content: space-between;
 }
 .services-list .service-item {
+	width: 32%;
 	margin-bottom: 6rem;
-    padding: 0 1em;
+    background-color: #fff;
+    padding: 2rem 3rem 2rem 1.5rem;
+    border-radius: 3px;
 }
 .services-list .service-icon {
 	float: left;
@@ -2087,7 +2090,7 @@ p.services {
 	margin: -0.5rem 1.5rem 0 0;
 }
 .services-list .service-item h5 {
-	margin: 0 0 1rem 0;
+	margin: 0 0 0.5rem 0;
 	font-size: 1.65rem;
 	color: #6e9eda;
 }
@@ -2096,7 +2099,7 @@ p.services {
 }
 .services-list p.skills {
 	font-family: "montserrat-light", sans-serif;
-	font-size: 1.5rem;
+	font-size: 1.35rem;
 	color: #000;
 	margin: 0 0 0 3.65rem;
 	line-height: 2.35rem;
@@ -2147,6 +2150,7 @@ p.services {
 	.services-list .service-item:nth-child(n) {
 		padding-right: 5px;
 		padding-left: 5px;
+		margin: 0 1rem 2rem 1rem;
 	}
 	.services-list h3 {
 		font-size: 3rem;
@@ -2164,9 +2168,13 @@ p.services {
 	.s-services {
 		padding-top: 12rem;
 	}
+	.services-list-flex {
+		display: block;
+	}
 	.services-list .service-item:nth-child(n) {
 		padding-right: 10px;
 		padding-left: 10px;
+		margin: 2rem auto;
 	}
 	.services-list .service-item {
 		width: 98%;
