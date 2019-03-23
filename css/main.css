@@ -2079,9 +2079,10 @@ p.services {
 .services-list .service-item {
 	width: 32%;
 	margin-bottom: 6rem;
+	padding: 2rem 3rem 2rem 1.5rem;
     background-color: #fff;
-    padding: 2rem 3rem 2rem 1.5rem;
-    border-radius: 3px;
+	border-radius: 3px;
+	border: solid 1px rgba(8, 142, 212, 0.15);
 }
 .services-list .service-icon {
 	float: left;
