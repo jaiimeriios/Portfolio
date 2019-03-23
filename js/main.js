@@ -502,7 +502,6 @@ I8aaaaaa8aaa8baaaaaa88aaaaaaaa8aaaaaaaa88aaaaaad8aaa8aaaaaa8I
 
    /* Initialize ------------------------------------------------------ */
     (function ssInit() {
-        
         clPreloader();
         clMenuOnScrolldown();
         clOffCanvas();
