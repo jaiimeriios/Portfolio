@@ -2073,12 +2073,11 @@ p.about {
 	font-size: 1.8rem;
 }
 p.services {
-	font-family: "montserrat-light", sans-serif;
-	text-align: center;
-	color: #000;
-	font-size: 1.75rem;
-	margin: 0 auto;
-	max-width: 800px;
+	font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: #000;
+    font-size: 1.8rem;
+    margin: 0 auto;
 }
 /* services list ----------------------------- */
 .services-list {
@@ -2282,11 +2281,12 @@ img.self:hover {
 	color: #1482bc;
 } */
 p.self {
-	font-family: "montserrat-light", sans-serif;
-	font-size: 1.55rem;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.75rem;
+	text-align: left;
+	line-height: 1.65em;
 	text-align: left;
 	margin: 1rem 1rem 2rem 3rem;
-	line-height: 2.65rem;
 	letter-spacing: 0.25px;
 	color: #2f2f2f;
 }
