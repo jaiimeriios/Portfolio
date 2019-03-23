@@ -1471,6 +1471,21 @@ html.no-csstransitions .home-content__main {
 	margin: 0;
 	text-shadow: -1px 1px 1px #041831;
 }
+.lineas {
+	margin: 2.5rem 0 0 0;
+}
+.lineas span {
+    display: block;
+    width: 88px;
+    height: 3px;
+	border-radius: 5px;
+	margin-bottom: 1.5rem;
+	background-color: rgba(8, 142, 212, 0.15);
+	/* background: #ff4d5a; */
+}
+.lineas span:last-child {
+    margin-left: 2rem;
+}
 .home-content__scroll {
 	margin: 20rem 0 0 0;
 	text-align: center;
