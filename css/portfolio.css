@@ -162,7 +162,7 @@ ul.project-features-list li i {
     margin: 0 auto;
     padding: 4rem 0;
     background-color: #fff;
-    border-bottom: solid 1px #eee;
+    border-bottom: solid 1px rgba(8, 142, 212, 0.15);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -193,13 +193,17 @@ ul.project-about {
     max-width: 860px;
     margin: 2rem auto;
     list-style-type: none;
-    justify-content: space-between;
+    justify-content: start;
 }
 ul.project-about li {
 	font-family: "montserrat-light", sans-serif;
 	font-size: 1.6rem;
 	line-height: 5rem;
+	margin-right: 6rem;
 	color: #1483bd;
+}
+ul.project-about li:last-child {
+	margin-right: 0;
 }
 ul.project-about li i {
 	color: #1ea3e8;
@@ -209,13 +213,13 @@ ul.project-about li i {
 }
 p.project-about {
 	font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.75rem;
     text-align: left;
     color: #000;
-    line-height: 1.75em;
+    line-height: 1.65em;
     text-shadow: none;
     max-width: 860px;
-    margin: 1rem auto;
+    margin: 2.25rem auto 3rem auto;
 }
 a.site-link {
 	font-family: "montserrat-light", sans-serif;
