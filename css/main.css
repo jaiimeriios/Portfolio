@@ -1355,8 +1355,6 @@ html.no-csstransitions .home-content__main {
 	right: auto;
 	bottom: auto;
 	background-color: #9fb6d4;
-/*	-webkit-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;*/
 }
 .header-menu-icon::before,
 .header-menu-icon::after {
@@ -1366,8 +1364,6 @@ html.no-csstransitions .home-content__main {
 	background-color: inherit;
 	position: absolute;
 	left: 0;
-/*	-webkit-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;*/
 }
 .header-menu-icon::before {
 	top: -8px;
@@ -1403,7 +1399,6 @@ html.no-csstransitions .home-content__main {
 .s-home {
 	width: 100%;
 	height: 100%;
-	/* min-height: 786px; */
 	background-color: transparent;
 	position: relative;
 	display: table;
@@ -1416,7 +1411,6 @@ html.no-csstransitions .home-content__main {
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0, 26, 56, 0.9);
-	/* background-color: #011832; */
 }
 /* } */
 .s-home .shadow-overlay {
