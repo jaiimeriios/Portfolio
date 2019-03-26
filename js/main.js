@@ -75,7 +75,7 @@ I8aaaaaa8aaa8baaaaaa88aaaaaaaa8aaaaaaaa88aaaaaad8aaa8aaaaaa8I
         var menuTrigger = $('.header-menu-toggle');
 
         $WIN.on('scroll', function() {
-            if ($WIN.scrollTop() > 150) {
+            if ($WIN.scrollTop() > 350) {
                 menuTrigger.addClass('opaque');
             } else {
                 menuTrigger.removeClass('opaque');
