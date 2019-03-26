@@ -128,7 +128,7 @@ body {
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: linear-gradient(to bottom, #FCC72C 0%, #f0b917 100%);
+	background: linear-gradient(to bottom, #fd391a 0%, #fd6b1a 100%);
 }
 /* Handle on hover */
 /* ::-webkit-scrollbar-thumb:hover {
@@ -136,7 +136,7 @@ body {
 } */
 ::selection {
     color: #fcfcfc;
-	background: #FCC72C;
+	background: #fd6b1a;
 }
 /* links ------------------------------------- */
 a {
@@ -1165,7 +1165,7 @@ html.no-csstransitions .home-content__main {
 	right: 0;
 	overflow-y: auto;
 	overflow-x: hidden;
-	background-color: rgba(0, 8, 21, 0.99);
+	background: linear-gradient(to bottom, #042752 0%, #02152d 100%);
 	box-shadow: -5px 0 15px 5px rgba(0, 0, 0, 0.25);
 	font-family: "montserrat-light", sans-serif;
 	font-size: 1.3rem;
@@ -1324,11 +1324,13 @@ html.no-csstransitions .home-content__main {
 }
 .header-menu-toggle.opaque,
 .header-menu-toggle.opaque .header-menu-text {
-	background-color: #fd6b1a;
+	background: linear-gradient(to bottom, #fd391a 0%, #fd6b1a 100%);
 }
+.header-menu-toggle.opaque .header-menu-text:hover,
 .header-menu-toggle:hover,
 .header-menu-toggle:focus {
 	color: #fff;
+	background: linear-gradient(to bottom, #fd6b1a 0%, #fd391a 100%);
 }
 .header-menu-text {
 	display: block;
@@ -2853,8 +2855,8 @@ footer .row {
 	height: 45px;
 	width: 45px;
 	line-height: 45px;
-	background: #000;
-	color: #39b54a;
+	background: linear-gradient(to bottom, #fd391a 0%, #fd6b1a 100%);
+	color: #fff;
 	text-align: center;
 	text-transform: uppercase;
 	-webkit-transition: all 0.3s ease-in-out;
