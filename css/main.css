@@ -2078,9 +2078,9 @@ p.about {
 	font-size: 1.8rem;
 }
 p.services {
-	font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.75rem;
-    line-height: 1.65em;
+	font-family: "montserrat-light", sans-serif;
+    font-size: 1.55rem;
+    line-height: 1.85em;
     text-align: center;
     margin: 1rem 1rem 2rem 3rem;
     letter-spacing: 0.25px;
@@ -2288,11 +2288,11 @@ img.self:hover {
 	color: #1482bc;
 } */
 p.self {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1.75rem;
-	line-height: 1.65em;
+	font-family: "montserrat-light", sans-serif;
+	font-size: 1.55rem;
+    line-height: 1.85em;
 	text-align: left;
-	margin: 1rem 1rem 2rem 3rem;
+	margin: 1rem 1rem 1rem 3rem;
 	letter-spacing: 0.25px;
 	color: #2f2f2f;
 }

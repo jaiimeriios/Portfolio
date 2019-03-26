@@ -101,11 +101,11 @@ h3.project-desc {
     margin: 5rem auto 0 auto;
 }
 p.project-desc {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1.75rem;
+	font-family: "montserrat-light", sans-serif;
+	font-size: 1.55rem;
 	text-align: left;
 	color: #000;
-	line-height: 1.65em;
+	line-height: 1.75em;
 	text-shadow: none;
 	max-width: 860px;
 	margin: 2.25rem auto 3rem auto;
@@ -212,11 +212,11 @@ ul.project-about li i {
 	margin: 2px 0px 0 0;
 }
 p.project-about {
-	font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.75rem;
-    text-align: left;
-    color: #000;
-    line-height: 1.65em;
+	font-family: "montserrat-light", sans-serif;
+	font-size: 1.55rem;
+	text-align: left;
+	color: #000;
+	line-height: 1.75em;
     text-shadow: none;
     max-width: 860px;
     margin: 2.25rem auto 3rem auto;
