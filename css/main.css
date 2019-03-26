@@ -2079,10 +2079,12 @@ p.about {
 }
 p.services {
 	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.75rem;
+    line-height: 1.65em;
     text-align: center;
+    margin: 1rem 1rem 2rem 3rem;
+    letter-spacing: 0.25px;
     color: #000;
-    font-size: 1.8rem;
-    margin: 0 auto;
 }
 /* services list ----------------------------- */
 .services-list {
@@ -2111,8 +2113,8 @@ p.services {
 }
 .services-list .service-item h5 {
 	margin: 0 0 0.5rem 0;
-	font-size: 1.65rem;
-	color: #6e9eda;
+    font-size: 1.5rem;
+    color: #088ed4;
 }
 .services-list .service-text {
 	margin: 0;
@@ -2288,7 +2290,6 @@ img.self:hover {
 p.self {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1.75rem;
-	text-align: left;
 	line-height: 1.65em;
 	text-align: left;
 	margin: 1rem 1rem 2rem 3rem;
@@ -2858,7 +2859,7 @@ footer .row {
 	height: 45px;
 	width: 45px;
 	line-height: 45px;
-	background: linear-gradient(to bottom, #fd481a 0%, #fd6b1a 100%);
+	background: linear-gradient(to bottom, #032651 0%, #021a38 100%);
 	color: #fff;
 	text-align: center;
 	text-transform: uppercase;
@@ -2866,7 +2867,7 @@ footer .row {
 	transition: all 0.3s ease-in-out;
 }
 .go-top a i, .go-top a:visited i {
-	font-size: 20px;
+	font-size: 15px;
 	line-height: inherit;
 }
 .go-top a:hover, .go-top a:focus {
