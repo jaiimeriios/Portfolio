@@ -110,9 +110,13 @@ p.project-desc {
 	max-width: 860px;
 	margin: 2.25rem auto 3rem auto;
 }
+p.project-desc::before {
+	content: '-';
+	margin: 0 0 0 10px;
+}
 img.img-desc {
 	width: 100%;
-	max-width: 800px;
+	max-width: 700px;
 	height: auto;
 	margin: 4rem auto;
 	display: block;
