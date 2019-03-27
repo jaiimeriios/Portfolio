@@ -1171,8 +1171,6 @@ html.no-csstransitions .home-content__main {
 	font-size: 1.3rem;
 	color: rgba(255, 255, 255, 0.85);
 	line-height: 1.846;
-	-webkit-transition: all 0.2s ease;
-	transition: all 0.2s ease;
 	-webkit-transform: translateZ(0);
 	-webkit-transform: translateX(100%);
 	-ms-transform: translateX(100%);
@@ -1188,7 +1186,7 @@ html.no-csstransitions .home-content__main {
 .header-nav a:hover,
 .header-nav a:focus,
 .header-nav a:active {
-	color: #ffffff;
+	color: #39b54a;
 }
 .header-nav h3 {
 	font-family: "montserrat-regular", sans-serif;
@@ -1211,8 +1209,8 @@ html.no-csstransitions .home-content__main {
 }
 .header-nav__list {
 	font-family: "montserrat-light", sans-serif;
-	font-size: 2rem;
-	margin: 4rem 0;
+	font-size: 1.65rem;
+	margin: 5rem 0 5rem -1rem;
 	padding: 0;
 	letter-spacing: 0.15rem;
 	list-style: none;
@@ -1223,13 +1221,16 @@ html.no-csstransitions .home-content__main {
 }
 .header-nav__list a,
 .header-nav__list a:visited {
-	color: #56b0ff;
+	color: #fff;
+    text-decoration: underline;
+    text-decoration-color: #39b54a;
+    padding: 1rem;
 }
 .header-nav__social {
 	list-style: none;
 	display: inline-block;
 	margin: 0;
-	font-size: 3rem;
+	font-size: 2.5rem;
 }
 .header-nav__social li {
 	margin-right: 2rem;
@@ -1241,7 +1242,7 @@ html.no-csstransitions .home-content__main {
 }
 .header-nav__social li a:hover,
 .header-nav__social li a:focus {
-	color: #fff;
+	color: #39b54a;
 }
 .header-nav__social li:last-child {
 	margin: 0;
@@ -1350,7 +1351,7 @@ html.no-csstransitions .home-content__main {
 	height: 1px;
 	margin-top: -2px;
 	position: absolute;
-	left: 10px;
+	left: 13px;
 	top: 50%;
 	right: auto;
 	bottom: auto;
