@@ -854,7 +854,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 #preloader h6 {
 	font-family: "montserrat-light", sans-serif;
 	font-size: 1.5rem;
-	color: #fff;
+	color: #9fb6d4;
 	text-transform: initial;
 }
 .no-js #preloader, .oldie #preloader {
@@ -2832,11 +2832,11 @@ footer .row {
 .footer-bottom  h6 {
 	display: inline-block;
 	font-family: "montserrat-light", sans-serif;
-	color: #78a9e6;
+	color: #9fb6d4;
 	letter-spacing: 0;
 	text-transform: none;
-	font-size: 1.5rem;
-	margin: 1rem 0 2rem 0;
+	font-size: 1.35rem;
+	margin: 1rem 0 ;
 }
 
 /* go to top --------------------------------- */
