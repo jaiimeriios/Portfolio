@@ -462,29 +462,8 @@ I8aaaaaa8aaa8baaaaaa88aaaaaaaa8aaaaaaaa88aaaaaad8aaa8aaaaaa8I
         });
     };
 
-
-    /* Clean URL -------------------------------------------------------- */
-    var clCleanURL = function() {
-        // smoothscrolling without markup changes - handle links with @href started with '#' only
-	    $(document).on('click', 'a[href^="#"]', function(e) {
-            // target element id
-            var id = $(this).attr('href');
-            // target element
-            var $id = $(id);
-            if ($id.length === 0) {
-                return;
-            }
-            // prevent standard hash navigation (avoid blinking in IE)
-            e.preventDefault();
-            // top position relative to the document
-            var pos = $id.offset().top;
-            // animated top scrolling
-            $('body, html').animate({scrollTop: pos});
-	    });
-    };
-
-
-    /* Show Nav on Scroll up --------------------------------------------- */
+	
+	/* Show Nav on Scroll up --------------------------------------------- */
 	var clShowNavL = function () {
 		var prevScrollpos = window.pageYOffset;
 		window.onscroll = function() {
@@ -498,7 +477,25 @@ I8aaaaaa8aaa8baaaaaa88aaaaaaaa8aaaaaaaa88aaaaaad8aaa8aaaaaa8I
 		}
 	};
 	
-
+	/* Clean URL -------------------------------------------------------- */
+	var clCleanURL = function() {
+		// smoothscrolling without markup changes - handle links with @href started with '#' only
+		$(document).on('click', 'a[href^="#"]', function(e) {
+			// target element id
+			var id = $(this).attr('href');
+			// target element
+			var $id = $(id);
+			if ($id.length === 0) {
+				return;
+			}
+			// prevent standard hash navigation (avoid blinking in IE)
+			e.preventDefault();
+			// top position relative to the document
+			var pos = $id.offset().top;
+			// animated top scrolling
+			$('body, html').animate({scrollTop: pos});
+		});
+	};
 
    /* Initialize ------------------------------------------------------ */
     (function ssInit() {
@@ -516,8 +513,8 @@ I8aaaaaa8aaa8baaaaaa88aaaaaaaa8aaaaaaaa88aaaaaad8aaa8aaaaaa8I
         clAOS();
         clAjaxChimp();
         clBackToTop();
-        clCleanURL();
         clShowNavL();
+        clCleanURL();
     })();
         
 })(jQuery);
