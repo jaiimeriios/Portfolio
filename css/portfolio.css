@@ -110,6 +110,9 @@ p.project-desc {
 	max-width: 860px;
 	margin: 2.25rem auto 3rem auto;
 }
+p.project-desc a {
+	text-decoration: underline;
+}
 img.img-desc {
 	width: 100%;
 	max-width: 700px;
