@@ -88,9 +88,6 @@ h1.project-title {
 	padding:0;
 	margin: 0 auto;
 	background-color: #fff;
-	box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
-	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
-	-moz-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
 }
 h3.project-desc {
 	font-family: "montserrat-regular", sans-serif;
@@ -164,7 +161,6 @@ ul.project-features-list li i {
 	position: relative;
     margin: 0 auto;
     padding: 4rem 0;
-    background-color: #fff;
     border-bottom: solid 1px rgba(8, 142, 212, 0.15);
     display: flex;
     align-items: center;
@@ -309,13 +305,13 @@ ul.project-btns li.dwnld a:hover {
 section.nda {
 	position: relative;
 	padding: 7rem 0;
-	background-color: #ccc;
+	background-color: #e7f1ff;
 }
 h6.nda {
 	margin: 0 auto;
 	text-align: center;
     font-size: 1.75rem;
-    color: #eee;
+    color: rgba(86, 176, 255, 0.65);
 }
 
 
