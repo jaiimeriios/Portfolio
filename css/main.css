@@ -1176,6 +1176,8 @@ html.no-csstransitions .home-content__main {
 	-ms-transform: translateX(100%);
 	transform: translateX(100%);
 	visibility: hidden;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 .header-nav a {
 	color: rgba(255, 255, 255, 0.5);
@@ -2250,7 +2252,7 @@ p.services {
 }
 .self-img {
 	float: left;
-	margin: 0 0 0 2rem;
+	margin: 0;
 	width: 25%;
 	max-width: 225px;
 	height: 225px;
@@ -2268,7 +2270,7 @@ img.self:hover {
 	opacity: 0.85;
 }
 .self-txt{
-	width: 75%;
+	width: 74%;
 	float: left;
 }
 /* p.self:first-child {
@@ -2307,7 +2309,7 @@ p.self {
 		max-height: 30rem;
 	}
 	img.self {
-		opacity: 0.45;
+		opacity: 0.75;
 	}
 	.self-txt {
 		width: 95%;
@@ -2315,15 +2317,10 @@ p.self {
 		padding: 0;
 		margin: 6rem auto;
 	}
-	p.self:first-child {
-		font-family: "montserrat-light", sans-serif;
-		font-size: 2.5rem;
-   		margin: 0 0 3rem 0;
-	}
 	p.self {
 		text-align: center;
-		margin: 0;
-		font-size: 2.2rem;
+		margin: 2rem 0;
+		font-size: 2rem;
 		line-height: 1.5em;
 	}	
 }
