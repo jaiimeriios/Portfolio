@@ -1,6 +1,6 @@
 ﻿<?php
 
-siteOwnersEmail = 'jaimerios1989@gmail.com';
+$siteOwnersEmail = 'jaimerios1989@gmail.com';
 
 if($_POST) {
 	$name = trim(stripslashes($_POST['contactName']));
