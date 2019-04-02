@@ -1413,7 +1413,7 @@ html.no-csstransitions .home-content__main {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 26, 56, 0.9);
+	background-color: rgba(0, 26, 56, 0.85);
 }
 /* } */
 .s-home .shadow-overlay {
