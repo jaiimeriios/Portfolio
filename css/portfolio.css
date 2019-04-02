@@ -161,13 +161,13 @@ ul.project-about li i {
 }
 p.project-about {
 	font-family: "montserrat-light", sans-serif;
-	font-size: 1.6rem;
-	text-align: left;
-	color: #000;
-	line-height: 1.75em;
+    font-size: 1.6rem;
+    text-align: left;
+    color: #000;
+    line-height: 1.65em;
     text-shadow: none;
     max-width: 860px;
-    margin: 2.25rem auto 3rem auto;
+    margin: 2.25rem auto;
 }
 a.site-link {
 	font-family: "montserrat-light", sans-serif;
@@ -264,10 +264,10 @@ p.project-desc {
 	font-size: 1.6rem;
 	text-align: left;
 	color: #000;
-	line-height: 1.75em;
+	line-height: 1.65em;
 	text-shadow: none;
 	max-width: 860px;
-	margin: 2.25rem auto 3rem auto;
+	margin: 2.25rem auto;
 }
 p.project-desc a {
 	text-decoration: underline;
