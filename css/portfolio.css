@@ -268,6 +268,10 @@ p.project-desc {
 p.project-desc a {
 	text-decoration: underline;
 }
+p.project-desc span.bld {
+	font-family: "montserrat-regular", sans-serif;
+	color: #56b0ff;
+}
 img.img-desc {
 	width: 100%;
 	max-width: 700px;
