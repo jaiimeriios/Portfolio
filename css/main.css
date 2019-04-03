@@ -2216,14 +2216,7 @@ p.services {
 	padding:6rem 0 18rem 0;
 	position: relative;
 	background-color: #fff;
-	/* box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
-	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
-	-moz-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.15); */
-	/* background: #041c3c;
-	box-shadow: inset 0 3px 10px -3px #000;
-	background: linear-gradient(to bottom, #0e0e0e, #0c0c0c 100%%);
-	background: -moz-linear-gradient(top, #0e0e0e, #0c0c0c 100%);
-	background: -webkit-linear-gradient(top, #0e0e0e, #0c0c0c 100%); */
+	/* background-image: url(../images/lines.svg); */
 }
 /*
 .s-self {
