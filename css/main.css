@@ -1183,7 +1183,7 @@ html.no-csstransitions .home-content__main {
 	color: rgba(255, 255, 255, 0.5);
 }
 .header-nav a:visited {
-	color: #56b0ff;
+	color: #fff;
 }
 .header-nav a:hover,
 .header-nav a:focus,
@@ -1240,7 +1240,7 @@ html.no-csstransitions .home-content__main {
 	display: inline-block;
 }
 .header-nav__social li a {
-	color: #56b0ff;
+	color: #fff;
 }
 .header-nav__social li a:hover,
 .header-nav__social li a:focus {
