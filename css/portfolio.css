@@ -64,10 +64,10 @@ Portfolio Projects
 }
 /* hero -------------------------------------- */
 .portfolio-project {
-	margin-bottom: -35vh;
+	margin-bottom: -45vh;
 }
 .home-content__main {
-	padding-top: 15rem;
+	padding-top: 13rem;
 	max-width: 700px;
 }
 h1.project-title {
@@ -78,6 +78,9 @@ h1.project-title {
 	max-width: 760px;
 	margin: 0 auto;
 	text-shadow: -0.45rem 0.35rem 0.1rem rgba(0, 0, 0, 0.4);
+}
+.home-content__scroll{
+	margin: 17rem 0 0 0;
 }
 .portfolio-project .shadow-overlay {
 	background: -webkit-linear-gradient(top, rgba(2, 26, 56, 0.65) 0%, rgb(4, 28, 60) 100%);
@@ -273,7 +276,7 @@ p.project-desc a {
 	text-decoration: underline;
 }
 p.project-desc span.bld {
-	font-family: "montserrat-regular", sans-serif;
+	/* font-family: "montserrat-regular", sans-serif; */
 	color: #56b0ff;
 }
 img.img-desc {
