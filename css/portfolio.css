@@ -376,7 +376,11 @@ h6.nda {
 	display: flex;
 	justify-content: flex-end;
 	max-width: 860px;
+	margin: 0 auto;
 }
 .other-projects a {
-	margin: 0 1rem; 
+	margin: 0;
+}
+.other-projects a img {
+	width: 90%;
 }
