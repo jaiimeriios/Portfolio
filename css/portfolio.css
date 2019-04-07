@@ -385,51 +385,21 @@ h6.nda {
 .pr-nx:nth-child(2){
 	flex: 3;
 }
-.other-projects a {
-	margin: 0;
-
-}
-.other-projects a img {
-	margin: 0;
-}
-.other-projects a img:hover {
-	box-shadow: 0 0 5px #afe3ff;
-}
-
-
-
-
-
-
-
-
-
-
-.pr-nx {
-	max-width: 720px;
-	margin: 24px auto 48px auto;
-}
-
-
-
-.column {
+a.zoomIn {
 	display: inline-block;
 	text-align: center;
 }
 
-figure {
+figure.zoomimg {
 	overflow: hidden;
+	margin: 0;
 }
-.pr-nx img.zoom-in {
+img.zoom-in {
 	display: block;
 	width: 100%;
 	height: 300px;
 }
-
-
-
-/*Zoom In*/
-.zoomIn img {
+a.zoomIn img {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .5s ease-in-out;
