@@ -378,9 +378,17 @@ h6.nda {
 	max-width: 860px;
 	margin: 0 auto;
 }
+.pr-nx {
+	margin: 0;
+	flex: 4;
+}
+.pr-nx:nth-child(2n){
+	flex: 1
+}
 .other-projects a {
 	margin: 0;
+
 }
 .other-projects a img {
-	width: 90%;
+	margin: 0;
 }
