@@ -371,7 +371,6 @@ h6.nda {
     -webkit-box-shadow: inset 0px 1px 1px 0px rgba(8, 142, 212, 0.15);
     -moz-box-shadow: inset 0px 1px 1px 0px rgba(8, 142, 212, 0.15);
 }
-
 .other-projects {
 	display: flex;
 	justify-content: flex-end;
@@ -408,4 +407,15 @@ a.zoomIn img {
 a.zoomIn:hover img {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
+}
+@media only screen and (max-width: 400px) {
+	.other-projects {
+		display: block;
+	}
+	.pr-nx {
+		margin: 1rem auto;
+	}
+	.pr-nx:nth-child(2){
+		display: none;
+	}
 }
