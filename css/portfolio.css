@@ -397,7 +397,7 @@ figure.zoomimg {
 img.zoom-in {
 	display: block;
 	width: 100%;
-	height: 300px;
+	height: auto;
 }
 a.zoomIn img {
 	-webkit-transform: scale(1);
