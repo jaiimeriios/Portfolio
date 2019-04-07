@@ -392,3 +392,50 @@ h6.nda {
 .other-projects a img {
 	margin: 0;
 }
+.other-projects a img:hover {
+	box-shadow: 0 0 5px #afe3ff;
+}
+
+
+
+
+
+
+
+
+
+
+.pr-nx {
+	max-width: 720px;
+	margin: 24px auto 48px auto;
+}
+
+
+
+.column {
+	display: inline-block;
+	text-align: center;
+}
+
+figure {
+	overflow: hidden;
+}
+.pr-nx img.zoom-in {
+	display: block;
+	width: 100%;
+	height: 300px;
+}
+
+
+
+/*Zoom In*/
+.zoomIn img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+a.zoomIn:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
