@@ -389,7 +389,6 @@ a.zoomIn {
 	display: inline-block;
 	text-align: center;
 }
-
 figure.zoomimg {
 	overflow: hidden;
 	margin: 0;
@@ -398,6 +397,7 @@ img.zoom-in {
 	display: block;
 	width: 100%;
 	height: auto;
+	border-radius: 4px;
 }
 a.zoomIn img {
 	-webkit-transform: scale(1);
