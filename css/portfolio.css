@@ -382,8 +382,8 @@ h6.nda {
 	margin: 0;
 	flex: 4;
 }
-.pr-nx:nth-child(2n){
-	flex: 1
+.pr-nx:nth-child(2){
+	flex: 3;
 }
 .other-projects a {
 	margin: 0;
