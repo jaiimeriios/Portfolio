@@ -2051,13 +2051,6 @@ p.about {
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
-}
-.s-services .overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
 	background-color: #f9faff;
 	box-shadow: inset 0px 1px 1px 0px rgba(8, 142, 212, 0.15);
 	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(8, 142, 212, 0.15);
