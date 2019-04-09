@@ -1551,9 +1551,6 @@ html.no-csstransitions .home-content__main {
 }
 /* responsive: home -------------------------- */
 @media only screen and (max-width: 1500px) {
-	.home-content__main {
-		/* max-width: 1000px; */
-	}
 }
 @media only screen and (max-width: 1200px) {
 	.home-content h1 {
