@@ -1,38 +1,9 @@
-/* ==================================================================
-                          JS Main
-            ,gaaaaaaaagaaaaaaaaaaaaagaaaaaaaag,
-           ,aP8b    _,dYba,       ,adPb,_    d8Ya,
-         ,aP"  Yb_,dP"   "Yba, ,adP"   "Yb,_dP  "Ya,
-       ,aP"    _88"         )888(         "88_    "Ya,
-     ,aP"   _,dP"Yb      ,adP"8"Yba,      dP"Yb,_   "Ya,
-   ,aPYb _,dP8    Yb  ,adP"   8   "Yba,  dP    8Yb,_ dPYa,
- ,aP"  YdP" dP     YbdP"      8      "YbdP     Yb "YbP  "Ya,
-I8aaaaaa8aaa8baaaaaa88aaaaaaaa8aaaaaaaa88aaaaaad8aaa8aaaaaa8I
-`Yb,   d8a, Ya      d8b,      8      ,d8b      aP ,a8b   ,dP'
-  "Yb,dP "Ya "8,   dI "Yb,    8    ,dP" Ib   ,8" aP" Yb,dP"
-    "Y8,   "YaI8, ,8'   "Yb,  8  ,dP"   `8, ,8IaP"   ,8P"
-      "Yb,   `"Y8ad'      "Yb,8,dP"      `ba8P"'   ,dP"
-        "Yb,    `"8,        "Y8P"        ,8"'    ,dP"
-          "Yb,    `8,         8         ,8'    ,dP"
-            "Yb,   `Ya        8        aP'   ,dP"
-              "Yb,   "8,      8      ,8"   ,dP"
-                "Yb,  `8,     8     ,8'  ,dP"
-                  "Yb, `Ya    8    aP' ,dP"
-                    "Yb, "8,  8  ,8" ,dP"
-                      "Yb,`8, 8 ,8',dP"
-                        "Yb,Ya8aP,dP"
-                          "Y88888P"
-                            "Y8P"
-                              "
------------------------------------------------------------------- */
-
 (function($) {
 
     "use strict";
     
     var cfg = {
         scrollDuration : 800, // smoothscroll duration
-        mailChimpURL   : 'https://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&amp;id=e6957d85dc'   // mailchimp url
     },
 
     $WIN = $(window);
@@ -116,45 +87,6 @@ I8aaaaaa8aaa8baaaaaa88aaaaaaaa8aaaaaaaa88aaaaaad8aaa8aaaaaa8I
         });
 
     };
-
-
-   /* Stat Counter
-    * ------------------------------------------------------ */
-    var clStatCount = function() {
-        
-        var statSection = $(".about-stats"),
-            stats = $(".stats__count");
-
-        statSection.waypoint({
-
-            handler: function(direction) {
-
-                if (direction === "down") {
-
-                    stats.each(function () {
-                        var $this = $(this);
-
-                        $({ Counter: 0 }).animate({ Counter: $this.text() }, {
-                            duration: 4000,
-                            easing: 'swing',
-                            step: function (curValue) {
-                                $this.text(Math.ceil(curValue));
-                            }
-                        });
-                    });
-
-                } 
-
-                // trigger once only
-                this.destroy();
-
-            },
-
-            offset: "90%"
-
-        });
-    };
-
 
    /* Masonry
     * ---------------------------------------------------- */ 
@@ -343,7 +275,6 @@ I8aaaaaa8aaa8baaaaaa88aaaaaaaa8aaaaaaaa88aaaaaad8aaa8aaaaaa8I
         clPreloader();
         clMenuOnScrolldown();
         clOffCanvas();
-        clStatCount();
         clMasonryFolio();
         clSmoothScroll();
         clPlaceholder();
