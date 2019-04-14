@@ -2749,19 +2749,9 @@ footer {
 	position: relative;
 	overflow: hidden;
 }
-
 footer h2.footext {
 	font-size: 1.75rem;
     color: #fff;
-}
-
-
-footer h4 {
-	color: #FFFFFF;
-	font-size: 1.6rem;
-	line-height: 1.313;
-	margin-top: 0;
-	margin-bottom: 3.6rem;
 }
 footer a {
 	color: #FFFFFF;
