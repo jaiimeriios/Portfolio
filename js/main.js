@@ -88,20 +88,6 @@
 
     };
 
-   /* Masonry
-    * ---------------------------------------------------- */ 
-    var clMasonryFolio = function () {
-        
-        var containerBricks = $('.masonry');
-
-        containerBricks.imagesLoaded(function () {
-            containerBricks.masonry({
-                itemSelector: '.masonry__brick',
-                resize: true
-            });
-        });
-    };
-
 
    /* Smooth Scrolling
     * ------------------------------------------------------ */
@@ -275,7 +261,6 @@
         clPreloader();
         clMenuOnScrolldown();
         clOffCanvas();
-        clMasonryFolio();
         clSmoothScroll();
         clPlaceholder();
         clAlertBoxes();
