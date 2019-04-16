@@ -115,14 +115,6 @@
 
     };
 
-
-   /* Placeholder Plugin Settings
-    * ------------------------------------------------------ */
-    var clPlaceholder = function() {
-        $('input, textarea, select').placeholder();  
-    };
-
-
    /* Alert Boxes
     * ------------------------------------------------------ */
     var clAlertBoxes = function() {
@@ -262,7 +254,6 @@
         clMenuOnScrolldown();
         clOffCanvas();
         clSmoothScroll();
-        clPlaceholder();
         clAlertBoxes();
         clContactForm();
         clAOS();
