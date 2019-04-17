@@ -1404,7 +1404,6 @@ html.no-csstransitions .home-content__main {
 	background-color: transparent;
 	position: relative;
 	display: table;
-	/*background-image: url('../images/hoja.jpg');*/
 }
 .s-home .overlay {
 	position: absolute;
@@ -1414,7 +1413,6 @@ html.no-csstransitions .home-content__main {
 	height: 100%;
 	background-color: rgba(0, 26, 56, 0.85);
 }
-/* } */
 .s-home .shadow-overlay {
 	position: absolute;
 	top: 0;
@@ -1897,7 +1895,6 @@ html.no-csstransitions .home-content__main {
 .s-services {
 	padding: 6rem 0;
 	position: relative;
-	background-image: url('../images/');
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
@@ -2059,7 +2056,6 @@ p.services {
 	padding:6rem 0 18rem 0;
 	position: relative;
 	background-color: #fff;
-	/* background-image: url(../images/lines.svg); */
 }
 /*
 .s-self {
