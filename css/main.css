@@ -2199,28 +2199,7 @@ p.self {
 	border-radius: 2px;
 	box-shadow: 2px 25px 45px 5px rgba(0,0,0,0.2);
 }
-.contact-self {
-	list-style: none;
-	display: block;
-	margin: 0 auto;
-	padding: 5rem 0 0 0;
-	text-align: center;
-	font-size: 3.5rem;
-	clear: both;
-}
-.contact-self li {
-	margin: 0 0.6em;
-	padding-left: 0;
-	display: inline-block;
-}
-.contact-self li a {
-	color: #058641;
-	text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.35);
-}
-.contact-self li a:hover,
-.contact-self li a:focus {
-	color: #fff;
-}
+
 /* responsive: resume ------------------------ */
 @media only screen and (max-width: 1200px) {
 	.self-desc {
