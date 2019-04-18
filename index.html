@@ -389,18 +389,18 @@
 			<fieldset>
 				<div class="frm-lft">
 					<div class="form-field">
-						<input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required aria-required="true" class="full-width">
+						<input name="contactName" type="text" id="contactName" placeholder="Your Name" minlength="2" required class="full-width">
 					</div>
 					<div class="form-field">
-						<input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required aria-required="true" class="full-width">
+						<input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email"  required class="full-width">
 					</div>
 					<div class="form-field">
-						<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+						<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" class="full-width">
 					</div>
 				</div>
 				<div class="frm-rgt">
 					<div class="form-field">
-						<textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required aria-required="true" class="full-width"></textarea>
+						<textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required class="full-width"></textarea>
 					</div>
 				</div>
 				<div class="form-field">
@@ -416,59 +416,13 @@
 				</div>
 			</fieldset>
 			</form>
-			<div class="message-warning">
+			<!-- <div class="message-warning">
 				Something went wrong. Please try again.
 			</div>
 			<div class="message-success">
 				Your message was sent, thank you!<br>
-			</div>
+			</div> -->
 		</div> 
-
-
-
-		<form name="contact" method="POST" action="/#contact" data-netlify="true">
-			<p>
-			  <label>Your Name: <input type="text" name="name"/></label>
-			</p>
-			<p>
-			  <label>Your Email: <input type="email" name="email"/></label>
-			</p>
-			  <label>Message: <textarea name="message"></textarea></label>
-			</p>
-			<p><button type="submit">Send</button></p>
-		  </form>
-
-
-		  <script>
-
-				let testForm = document.querySelector("#contact form");
-				
-				testForm.addEventListener('submit', e => {
-				  e.preventDefault();
-				  const formData = new FormData(testForm);
-				  fetch(testForm.getAttribute('action'), {
-					method: 'POST',
-					headers: {
-					  'Accept': 'application/x-www-form-urlencoded;charset=UTF-8',
-					  'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
-					},
-					body: new URLSearchParams(formData).toString()
-				  })
-				  .then(res => {
-					if (res) {
-					  M.toast({
-						html: 'Thank you for your submission!',
-						classes: 'pulse'
-					  });
-					}
-				  });
-				});
-			  
-			  </script>
-
-
-
-
 	</div>
 </section>
 
