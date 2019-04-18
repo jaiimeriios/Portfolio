@@ -126,7 +126,7 @@
 
 
    /* Contact Form
-    * ------------------------------------------------------
+    * ------------------------------------------------------ */
     var clContactForm = function() {
         
         $('#contactForm').validate({
@@ -137,14 +137,14 @@
     
                 $.ajax({
     
-                    type: "POST",
-                    url: "inc/sendEmail.php",
-                    data: $(form).serialize(),
-                    beforeSend: function() { 
+                    // type: "POST",
+                    // url: "inc/sendEmail.php",
+                    // data: $(form).serialize(),
+                    // beforeSend: function() { 
     
-                        sLoader.slideDown("slow");
+                    //     sLoader.slideDown("slow");
     
-                    },
+                    // },
                     success: function(msg) {
     
                         // Message was sent
@@ -175,7 +175,7 @@
     
         });
     };
-*/
+
 
    /* Animate On Scroll
     * ------------------------------------------------------ */
@@ -252,7 +252,7 @@
         clOffCanvas();
         clSmoothScroll();
         clAlertBoxes();
-        // clContactForm();
+        clContactForm();
         clAOS();
         clBackToTop();
         clShowNavL();
