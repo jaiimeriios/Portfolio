@@ -126,13 +126,11 @@
 
 
    /* Contact Form
-    * ------------------------------------------------------ */
+    * ------------------------------------------------------
     var clContactForm = function() {
         
-        /* local validation */
         $('#contactForm').validate({
-        
-            /* submit via ajax */
+
             submitHandler: function(form) {
     
                 var sLoader = $('.submit-loader');
@@ -177,7 +175,7 @@
     
         });
     };
-
+*/
 
    /* Animate On Scroll
     * ------------------------------------------------------ */
@@ -254,7 +252,7 @@
         clOffCanvas();
         clSmoothScroll();
         clAlertBoxes();
-        clContactForm();
+        // clContactForm();
         clAOS();
         clBackToTop();
         clShowNavL();
