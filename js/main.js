@@ -146,7 +146,6 @@
     
                     // },
                     success: function(msg) {
-    
                         // Message was sent
                         if (msg == 'OK') {
                             sLoader.slideUp("slow"); 
@@ -160,19 +159,14 @@
                             $('.message-warning').html(msg);
                             $('.message-warning').slideDown("slow");
                         }
-    
                     },
                     error: function() {
-    
                         sLoader.slideUp("slow"); 
                         $('.message-warning').html("Something went wrong. Please try again.");
                         $('.message-warning').slideDown("slow");
-    
                     }
-    
-                });
+            	});
             }
-    
         });
     };
 
