@@ -137,14 +137,12 @@
     
                 $.ajax({
     
-                    // type: "POST",
+                    type: "POST",
                     // url: "inc/sendEmail.php",
-                    // data: $(form).serialize(),
-                    // beforeSend: function() { 
-    
-                    //     sLoader.slideDown("slow");
-    
-                    // },
+                    data: $(form).serialize(),
+                    beforeSend: function() { 
+                        sLoader.slideDown("slow");
+                    },
                     success: function(msg) {
                         // Message was sent
                         if (msg == 'OK') {
