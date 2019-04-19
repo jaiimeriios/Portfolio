@@ -385,9 +385,12 @@
 		<div class="contact-primary">
 			<h3>you can always <a href="mailto:jaimerios1989@gmail.com">email me</a> or Send Me A Message using the form below</h3>
 
-			<form id="formContact" name="formContact" method="post" data-netlify="true">
+			<form id="formContact" name="formContact" method="post" data-netlify="true" netlify-honeypot="bot">
 			<fieldset>
 				<div class="frm-lft">
+					<p class="hidden">
+						<label>Don’t fill this out if you're human: <input name="bot" /></label>
+					</p>
 					<div class="form-field">
 						<input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
 					</div>
