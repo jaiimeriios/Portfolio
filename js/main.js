@@ -125,14 +125,14 @@
 
 
    /* Contact Form
-    * ------------------------------------------------------ */
+    * ------------------------------------------------------ *
     var clContactForm = function() {
 
 
 
-		
-    };
 
+    };
+*/
 
    /* Animate On Scroll
     * ------------------------------------------------------ */
@@ -209,7 +209,7 @@
         clOffCanvas();
         clSmoothScroll();
         clAlertBoxes();
-        clContactForm();
+        // clContactForm();
         clAOS();
         clBackToTop();
         clShowNavL();
