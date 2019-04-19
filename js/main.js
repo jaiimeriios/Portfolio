@@ -195,7 +195,7 @@
 
 	   /* Contact Form
     * ------------------------------------------------------ */
-   var clContactForm = function() {
+//    var clContactForm = function() {
         
 	// $('#contactForm').validate({
 
@@ -232,9 +232,9 @@
 			// 		$('.message-warning').slideDown("slow");
 			// 	}
 			// });
-		}
-	});
-};
+// 		}
+// 	});
+// };
 
    /* Initialize ------------------------------------------------------ */
     (function ssInit() {
