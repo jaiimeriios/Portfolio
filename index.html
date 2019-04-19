@@ -385,7 +385,7 @@
 		<div class="contact-primary">
 			<h3>you can always <a href="mailto:jaimerios1989@gmail.com">email me</a> or Send Me A Message using the form below</h3>
 
-			<form id="contactForm" name="contactForm" method="post" novalidate action="" data-netlify="true">
+			<form id="contactForm" name="contactForm" method="post" action="./contactForm" data-netlify="true">
 			<fieldset>
 				<div class="frm-lft">
 					<div class="form-field">
@@ -423,51 +423,6 @@
 				Your message was sent, thank you!<br>
 			</div>
 		</div> 
-
-
-
-		<form name="contact" method="POST" action="/#contact" data-netlify="true">
-			<p>
-			  <label>Your Name: <input type="text" name="name"/></label>
-			</p>
-			<p>
-			  <label>Your Email: <input type="email" name="email"/></label>
-			</p>
-			  <label>Message: <textarea name="message"></textarea></label>
-			</p>
-			<p><button type="submit">Send</button></p>
-		  </form>
-
-		  <script>
-				let testForm = document.querySelector("#contact form");
-				
-				testForm.addEventListener('submit', e => {
-				  e.preventDefault();
-				  const formData = new FormData(testForm);
-				  fetch(testForm.getAttribute('action'), {
-					method: 'POST',
-					headers: {
-					  'Accept': 'application/x-www-form-urlencoded;charset=UTF-8',
-					  'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
-					},
-					body: new URLSearchParams(formData).toString()
-				  })
-				  .then(res => {
-					if (res) {
-					  M.toast({
-						html: 'Thank you for your submission!',
-						classes: 'pulse'
-					  });
-					}
-				  });
-				});
-			  
-			  </script>
-
-
-
-
-
 	</div>
 </section>
 
