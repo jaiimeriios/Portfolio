@@ -197,11 +197,11 @@
     * ------------------------------------------------------ */
    var clContactForm = function() {
         
-	$('#contactForm').validate({
+	// $('#contactForm').validate({
 
-		submitHandler: function(form) {
+	// 	submitHandler: function(form) {
 
-			var sLoader = $('.submit-loader');
+	// 		var sLoader = $('.submit-loader');
 
 			// $.ajax({
 
