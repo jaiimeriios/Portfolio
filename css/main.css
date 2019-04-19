@@ -2269,8 +2269,12 @@ p.self {
 .contact-content h3 a:hover {
 	color: #fff;
 }
+
+.frm-lft .bot-hidden {
+	display: none;
+}
 .frm-lft {
-	float: left;
+float: left;
 	width: 46%;
 	margin: 0;
 }
