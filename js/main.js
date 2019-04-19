@@ -12,7 +12,6 @@
     var doc = document.documentElement;
     doc.setAttribute('data-useragent', navigator.userAgent);
 
-
    /* Preloader
     * -------------------------------------------------- */
     var clPreloader = function() {
@@ -22,7 +21,7 @@
         $WIN.on('load', function() {
 
             //force page scroll position to top at page refresh
-            // $('html, body').animate({ scrollTop: 0 }, 'normal');
+            $('html, body').animate({ scrollTop: 0 }, 'normal');
 
             // will first fade out the loading animation 
             $("#loader").fadeOut("slow", function() {
