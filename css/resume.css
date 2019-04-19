@@ -104,7 +104,7 @@ b.max-bold{ font-weight: 700; }
 
 .margin-tb-30{ margin-top: 30px; margin-bottom: 30px; }
 
-.font-blue{ color:#1483bd; }
+.font-blue{ color:#088ed4; }
 
 .font-semi-white{ color: #ddd; }
 
@@ -118,12 +118,12 @@ b.max-bold{ font-weight: 700; }
 */
 .intro-section{
 	z-index: 1;
-	padding: 100px 0;
+	padding: 45px 0;
 	position: relative;
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
-	background-image: url(../resume/images/capitan.jpg);
+	background-image: url(../images/space.jpg);
 }
 .intro-section:before{
 	content:'';
@@ -253,7 +253,9 @@ b.max-bold{ font-weight: 700; }
 	experience
    ----------------------------------------------
 */
-.experience-section { background-color: #003d5f; color: #fff; }
+.experience-section {
+	background-color: #041c3c;
+	color: #fff; }
 
 .experience h6 b {
 	color: #1483bd;
