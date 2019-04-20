@@ -1441,6 +1441,7 @@ html.no-csstransitions .home-content__main {
 	padding-top: 18rem;
 	position: relative;
 	text-align: left;
+	max-width: 1100px;
 }
 .home-content h3 {
 	font-family: "montserrat-light", sans-serif;
@@ -1667,18 +1668,13 @@ html.no-csstransitions .home-content__main {
    ----------------------------------------------
 */
 .s-works {
-	padding: 6rem 0 12rem 0;
+	padding: 4rem 0 8rem 0;
 	min-height: 800px;
 	position: relative;
 	background-color: #fff;
-	/* background: #041c3c;
-	box-shadow: inset 0 3px 10px -3px #000;
-	background: linear-gradient(to bottom, #0e0e0e, #0c0c0c 100%%);
-	background: -moz-linear-gradient(top, #0e0e0e, #0c0c0c 100%);
-	background: -webkit-linear-gradient(top, #0e0e0e, #0c0c0c 100%); */
 }
 .works-content {
-	max-width: 1200px;
+	max-width: 1100px;
 	margin-top: 0;
 }
 .s-works .intro-wrap {
@@ -1920,14 +1916,15 @@ p.services {
     font-size: 1.55rem;
     line-height: 1.85em;
     text-align: center;
-    margin: 1rem 1rem 2rem 3rem;
+	margin: 0 auto;
+    max-width: 1100px;
     letter-spacing: 0.25px;
     color: #000;
 }
 /* services list ----------------------------- */
 .services-list {
 	position: relative;
-    max-width: 1150px;
+    max-width: 1100px;
     padding: 0;
 	margin: 5rem auto 0 auto;
 }
@@ -2194,7 +2191,7 @@ p.self {
 	margin: -10rem auto -6rem auto;
 	width: 94%;
 	max-width: 1100px;
-	padding: 6rem 0;
+	padding: 3rem 0;
 	background-color: #fff;
 	border-radius: 2px;
 	box-shadow: 2px 25px 45px 5px rgba(0,0,0,0.2);
@@ -2237,7 +2234,7 @@ p.self {
 }
 .contact-content {
 	position: relative;
-	max-width: 1050px;
+	max-width: 1100px;
 	z-index: 9;
 	border-radius: 2px;
 	background-color: rgba(0, 0, 0, 0.4);
