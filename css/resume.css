@@ -1,7 +1,4 @@
 /*
-
-
-
 	 imports
 	= primary
 	= common
@@ -43,74 +40,47 @@ body{
 	margin: 0;
 	font-weight: 400;
 	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-wrap: break-word; 
-	color: #333; }
-
+	color: #333;
+}
 h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; padding: 0; }
-
 h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
-
 h1,h2,h3{ font-family: "montserrat-light", sans-serif; }
-
 p{ line-height: 1.6; font-size: 1.05rem; font-weight: 400; color: #777; font-family: "montserrat-light", sans-serif; }
-
 h1{ font-size: 4em; line-height: 1; }
 h2{ font-size: 2.2em; line-height: 1.1; }
 h3{ font-size: 1.8em; }
 h4{ font-size: 1.3em; }
 h5{ font-size: 1em; }
 h6{ font-size: .9em; letter-spacing: 1px; }
-
 a, button{ display: inline-block; text-decoration: none; color: inherit; line-height: 1; 
 	-webkit-transition: all .25s ease-in-out; transition: all .25s ease-in-out; }
-
 a:focus, a:active, a:hover,
 button:focus, button:active, button:hover,
 a b.light-color:hover{ text-decoration: none; color: #1483bd; }
-
 b{ font-weight: 600; }
-
 img{ width: 100%; }
-
 li{ list-style: none; display: inline-block; }
-
 span{ display: inline-block; }
-
 button{ outline: 0; border: 0; background: none; cursor: pointer; }
-
 .icon{ font-size: 1.1em; display: inline-block; line-height: inherit; }
-
 [class^="icon-"]:before, [class*=" icon-"]:before{ line-height: inherit; }
-
 b.max-bold{ font-weight: 700; }
-
-
 
 /* ==============================================
 	common styles
    ----------------------------------------------
 */
-
 .section{ padding: 100px 0 50px; border-bottom: 1px solid #ddd; }
-
 .section .heading{ margin-bottom: 60px; }
-
 .section .heading:before{ content:''; height: 10px; width: 50px; border-radius: 5px;
 	margin-bottom: 20px; display: block; background: #1483bd; }
-	
 .margin-t-10{ margin-top: 10px; }
-
 .margin-b-30{ margin-bottom: 30px; }
 .margin-b-50{ margin-bottom: 50px; }
-
 .margin-tb-30{ margin-top: 30px; margin-bottom: 30px; }
-
 .font-blue{ color:#088ed4; }
-
 .font-semi-white{ color: #ddd; }
-
 .font-lite-black{ color: #1483bd; }
-
-
 
 /* ==============================================
 	home
@@ -162,18 +132,13 @@ b.max-bold{ font-weight: 700; }
 	padding: 30px 10px;
 	margin-bottom: 70px;
 	background: #1483bd;
-	color: #fff; }
-
+	color: #fff;
+}
 .intro-section .info{ margin-bottom: 10px; }
-
 .intro-section .info .icon{ float: left; font-size: 30px; }
-
 .intro-section .info .right-area{ margin-left: 45px; }
 
-
-
 /* INTRO */
-
 .intro {
 	color: #fff;
 }
@@ -231,10 +196,6 @@ b.max-bold{ font-weight: 700; }
 	background-color: #003d5f;
 }
 
-
-
-
-
 /* ==============================================
 	summary
    ----------------------------------------------
@@ -244,11 +205,6 @@ b.max-bold{ font-weight: 700; }
 	-webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.35);
 	-moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.35);
 }
-
-
-	
-
-
 /* ==============================================
 	experience
    ----------------------------------------------
@@ -264,7 +220,6 @@ b.max-bold{ font-weight: 700; }
 .experience p {
 	color: #fff;
 }
-
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
 
 .experience .list li i {
@@ -273,13 +228,9 @@ b.max-bold{ font-weight: 700; }
     vertical-align: text-top;
     margin: 0 2px 0 0;
 }
-
 /* .experience .list > li:before{ content: ''; position: absolute; top: 50%; left: 0; height: 10px; 
 	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #555; }
-
-	 */
-
-
+*/
 /* ==============================================
 	about
    ----------------------------------------------
@@ -289,16 +240,13 @@ b.max-bold{ font-weight: 700; }
 	-webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.25);
 	-moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.25);
 }
-
 .radial-progress{ position: relative; max-width: 200px; margin: 0 auto; }
-
 .radial-progress .progressbar-text {
 	display: none;
 	font-size: 2.2em; font-weight: 500; 
-	padding-bottom: 25px!important; color: #333!important; }
-
+	padding-bottom: 25px!important; color: #333!important;
+}
 .radial-progress .progressbar-text:after{ content:'%'; }
-
 .radial-progress .progress-title {
 	position: absolute;
 	top: 30%;
@@ -311,33 +259,23 @@ b.max-bold{ font-weight: 700; }
 	transform: translate(-50%, 15px);
 }
 
-
-	
 /* ==============================================
 	education
    ----------------------------------------------
 */
-
 .education-section {
 	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
 	-webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
 }
-
 .education-wrapper{ position: relative; }
-
-.education-wrapper:after{ content:''; position: absolute; top: 8px; bottom: 0; left: -51px;
-	width: 2px; background: #ccc; }
-
+.education-wrapper:after{ content:''; position: absolute; top: 8px; bottom: 0; left: -51px; width: 2px; background: #ccc; }
 .education-wrapper .education{ position: relative; }
-
 .education-wrapper .education:after {
 	content:''; position: absolute; top: 8px; left: -58px; width: 16px; 
 	height: 16px; border-radius: 10px; z-index: 1;
-	box-shadow: 0 0 0 8px rgba(20, 131, 189, 0.25); background: #1483bd; }
-	
-	
-	
+	box-shadow: 0 0 0 8px rgba(20, 131, 189, 0.25); background: #1483bd;
+}
 /* ==============================================
 	footer
    ----------------------------------------------
@@ -408,7 +346,6 @@ footer .row {
 .col-full {
 	margin: 0 auto;
 }
-
 .section-header.has-bottom-sep {
     padding-bottom: 3rem;
     margin: 0 auto;
@@ -422,44 +359,24 @@ footer .row {
     color: #6e9eda;
     margin: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==============================================
 	responsive
    ----------------------------------------------
 */
-
 @media only screen and (max-width: 1200px) {
-	
 }
-
 /* Screens Resolution : 992px
 -------------------------------------------------------------------------- */
 @media only screen and (max-width: 985px) {
-
 	h3 {
 		font-size: 1.5em;
 	}
 	h6 {
 		font-size: 0.85em;
 	}
-	
 	.education-wrapper:after,
 	.education-wrapper .education:after{ display: none; }
 }
-
 @media only screen and (max-width: 767px) {
 	
 	/* ---------------------------------
@@ -467,21 +384,16 @@ footer .row {
 	--------------------------------- */
 
 	p{ line-height: 1.4; }
-
 	h1{ font-size: 3em; }
 	h2{ font-size: 2em; }
 	h3{ font-size: 1.8em; }
 
-
-	
 	/* ---------------------------------
 	2. COMMONS FOR PAGE DESIGN
 	--------------------------------- */
 
 	.section{ padding: 50px 0 0px; }
-
 	.section .heading{ margin-bottom: 30px; }
-
 	
 	/* ---------------------------------
 	3. INTRO SECTION
@@ -491,22 +403,15 @@ footer .row {
 
 	.intro .downlad-btn{ float: none; }
 }
-
-
 @media only screen and (max-width: 575px) {
 	
 	/* ---------------------------------
 	1. PRIMARY STYLES
 	--------------------------------- */
-
 	body{ font-size: 14px;  }
-	
 
-	
 }
-
 @media only screen and (max-width: 479px) {
 }
-
 @media only screen and (max-width: 359px) {
 }
