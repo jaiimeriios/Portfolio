@@ -72,8 +72,8 @@ b.max-bold{ font-weight: 700; }
 */
 .section{ padding: 100px 0 50px; border-bottom: 1px solid #ddd; }
 .section .heading{ margin-bottom: 60px; }
-.section .heading:before{ content:''; height: 10px; width: 50px; border-radius: 5px;
-	margin-bottom: 20px; display: block; background: #1483bd; }
+.section .heading:before{ content:''; height: 5px; width: 70px; border-radius: 5px;
+	margin-bottom: 20px; display: block; background: rgba(20, 131, 189, 0.25); }
 .margin-t-10{ margin-top: 10px; }
 .margin-b-30{ margin-bottom: 30px; }
 .margin-b-50{ margin-bottom: 50px; }
