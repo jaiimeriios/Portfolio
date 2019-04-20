@@ -176,11 +176,11 @@ a.site-link {
 	font-family: "montserrat-light", sans-serif;
     color: #fff;
     font-size: 1.5rem;
-    padding: 0.5rem 2.5rem;
+    padding: 1rem 2.5rem;
     border-radius: 3px;
     float: right;
-    right: 0;
-    margin: 2rem auto 0 auto;
+    height: 45px;
+    margin: 0 auto;
     background: linear-gradient(to bottom, #40c152 0%, #29ab3b 100%);
 }
 a.site-link:hover {
