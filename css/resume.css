@@ -80,7 +80,7 @@ b.max-bold{ font-weight: 700; }
 .margin-tb-30{ margin-top: 30px; margin-bottom: 30px; }
 .font-blue{ color:#088ed4; }
 .font-semi-white{ color: #ddd; }
-.font-lite-black{ color: #1483bd; }
+.font-lite-black{ color: #088ed4; }
 
 /* ==============================================
 	home
@@ -213,6 +213,12 @@ b.max-bold{ font-weight: 700; }
 	background-color: #041c3c;
 	color: #fff; }
 
+
+.worktime {
+	display: flex;
+	justify-content: space-between;
+}
+
 .experience h6 b {
 	color: #1483bd;
 }
@@ -220,7 +226,7 @@ b.max-bold{ font-weight: 700; }
 .experience p {
 	color: #fff;
 }
-.experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
+.experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; font-size: .9em; }
 
 .experience .list li i {
 	color: #1483bd;
