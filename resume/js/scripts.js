@@ -1,21 +1,18 @@
-
 (function ($) {
-
-    "use strict";
 	
+	"use strict";
 	
-
 	// LINE PROGRESS BAR
 	enableLineProgress();
-	
+
 	// RADIAL PROGRESS BAR
 	enableRadialProgress();
-	
+
 	// ACCORDIAN
 	panelAccordian();
 
 	$(window).on('load', function(){
-		
+
 		// ISOTOPE PORTFOLIO WITH FILTER
 		if(isExists('.portfolioContainer')){
 			var $container = $('.portfolioContainer');
@@ -27,7 +24,6 @@
 					queue: false
 				}
 			});
-		 
 			$('.portfolioFilter a').click(function(){
 				$('.portfolioFilter .current').removeClass('current');
 				$(this).addClass('current');
@@ -44,14 +40,11 @@
 				 return false;
 			}); 
 		}
-	
 	});
-	
 	
 	$('a[href="#"]').on('click', function(event){
 		return;
 	});
-	
 	
 	if ( $.isFunction($.fn.fluidbox) ) {
 		$('a').fluidbox();
@@ -64,11 +57,8 @@
 	countCounterUp = enableCounterUp(countCounterUp);
 	
 	$(window).on('scroll', function(){
-		
 		countCounterUp = enableCounterUp(countCounterUp);
-	
 	});
-	
 	
 })(jQuery);
 
@@ -78,9 +68,7 @@ function panelAccordian(){
 	panelTitle.on('click', function(){
 		$('.panel-title').removeClass('active');
 		$(this).toggleClass('active');
-		
 	});
-	
 }
 
 function enableRadialProgress(){
@@ -96,7 +84,6 @@ function enableRadialProgress(){
 			easing: 'easeInOut',
 			duration: 1400,
 			text: {
-				
 			},
 			from: { color: '#003d5f', width: 1 },
 			to: { color: '#1483bd', width: 3 },
@@ -118,7 +105,6 @@ function enableRadialProgress(){
 		$(this).waypoint(function(){
 		   bar.animate(progPercent);  
 		},{offset: "90%"})
-		
 	});
 }
 
@@ -138,7 +124,6 @@ function enableLineProgress(){
 			svgStyle: {width: '100%', height: '100%'},
 			text: {
 				style: {
-					
 				},
 			},
 			from: {color: '#FFEA82'},
@@ -151,12 +136,11 @@ function enableLineProgress(){
 		$(this).waypoint(function(){
 		   bar.animate(progPercent);  
 		},{offset: "90%"})
-		
 	});
 }
 
 function enableCounterUp(a){
-	
+
 	var counterElement;
 	
 	if(isExists('#counter')){ counterElement = $('#counter'); }
@@ -172,22 +156,20 @@ function enableCounterUp(a){
 				countNum: $this.text()
 			}).animate({
 				countNum: countTo
-			},{
-
+			},
+			{
 				duration: countDuration,
 				easing: 'swing',
 				step: function() {
 					$this.text(Math.floor(this.countNum));
 				},
-				complete: function() {
+					complete: function() {
 					$this.text(this.countNum);
 				}
-
 			});
 		});
 		a = 1;
 	}
-
 	return a;
 }
 
