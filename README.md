@@ -15,9 +15,7 @@ My design portfolio to showcase a few projects.
 :leaves: Valid HTML5 & CSS3\
 :leaves: Optimized
 
-<img src="https://github.com/jaiimeriios/Portfolio/tree/master/images/rm-index.png" alt="Portfolio" width="600px" />
-
-<img src="https://github.com/jaiimeriios/Portfolio/blob/master/images/rm-index.png" alt="Portfolio" width="600px" />
+<img src="https://github.com/jaiimeriios/Portfolio/blob/master/images/rm-index.png" alt="Portfolio" width="800px" />
 
 ### Resources
 
@@ -42,7 +40,7 @@ My design portfolio to showcase a few projects.
 
 **[View Resume](https://jaiimeriios.com/resume)**
 
-<img src="https://github.com/jaiimeriios/Portfolio/tree/master/images/rm-resume.png" alt="Resume" width="600px" />
+<img src="https://github.com/jaiimeriios/Portfolio/blob/master/images/rm-resume.png" alt="Resume" width="800px" />
 
 ## License
 
