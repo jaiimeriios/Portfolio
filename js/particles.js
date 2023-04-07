@@ -80,7 +80,7 @@
 				init();
 			}
 			_this.pos.y -= _this.velocity;
-			_this.alpha -= 0.0005;
+			_this.alpha -= 0.00005;
 			ctx.beginPath();
 			ctx.arc(
 				_this.pos.x,
