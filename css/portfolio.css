@@ -87,10 +87,11 @@ h1.project-title {
     background-size: 100%;
     background-repeat: repeat;
     user-select: none;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-clip: text;
     -moz-background-clip: text;
+    -webkit-background-clip: text;
     -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 h1.project-title .lineas {
@@ -104,9 +105,6 @@ h1.project-title .lineas {
     background-color: rgba(0, 0, 0, 0.85);
 }
 @media only screen and (max-width: 900px) {
-    .portfolio-project {
-        /* margin-bottom: -75vh; */
-    }
     .home-content__main {
         padding-top: 12rem;
     }
@@ -153,18 +151,6 @@ h1.project-title .lineas {
     align-items: center;
     justify-content: center;
 }
-/*
-.p-about .section-header {
-	position: relative;
-	margin: -15rem auto 0 auto;
-	width: 94%;
-	max-width: 1200px;
-	padding: 6rem 0;
-	background-color: #fff;
-	border-radius: 2px;
-	box-shadow: 2px 25px 45px 5px rgba(0,0,0,0.2);
-}
-*/
 .p-about .section-header.has-bottom-sep::before {
     background-color: rgba(0, 0, 0, 0.08);
 }
@@ -293,7 +279,7 @@ h3.project-desc {
     color: #d4e0ef;
     max-width: 860px;
     margin: 5rem auto 0 auto;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
 }
 p.project-desc {
     font-family: 'montserrat-light', sans-serif;
@@ -441,7 +427,7 @@ a.zoomIn img {
 }
 a.zoomIn:hover img {
     -webkit-transform: scale(1.05);
-    transform: scale(1.10);
+    transform: scale(1.1);
 }
 @media only screen and (max-width: 400px) {
     .other-projects {

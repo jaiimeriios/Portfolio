@@ -376,6 +376,19 @@ b.max-bold {
     color: #fff;
 }
 
+.experience .list > li a {
+    color: #48c891;
+    display: inline;
+}
+
+.experience .list > li a:hover {
+    color: #4dc848;
+}
+
+.experience .list > li a i {
+    font-size: .65rem;
+}
+
 .experience .list > li {
     display: block;
     position: relative;
@@ -401,7 +414,7 @@ b.max-bold {
         content: '';
         position: absolute;
         top: 8px;
-        left: -58px;
+        left: -43px;
         width: 16px;
         height: 16px;
         border-radius: 10px;
@@ -486,7 +499,7 @@ b.max-bold {
     position: absolute;
     top: 8px;
     bottom: 0;
-    left: -51px;
+    left: -35px;
     width: 2px;
     background: #1b2128;
 }
@@ -497,7 +510,7 @@ b.max-bold {
     content: '';
     position: absolute;
     top: 8px;
-    left: -58px;
+    left: -41px;
     width: 16px;
     height: 16px;
     border-radius: 10px;
